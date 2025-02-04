@@ -3,7 +3,6 @@
   "description": "Find local events and corresponding weather!",
   "version": "0.0.1",
   "type": "module",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npm i && npm run seed && npm run build && npm run start:dev",
