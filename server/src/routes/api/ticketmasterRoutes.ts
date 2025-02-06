@@ -4,7 +4,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const router = Router();
-
+//TODO: move to controller
 router.get('/', async (req: Request, res:Response) => {
     try{
         const { city, stateCode } = req.body;
@@ -17,20 +17,31 @@ router.get('/', async (req: Request, res:Response) => {
         if(!response.ok){
             throw new Error(`unable to find events for "${city}, ${stateCode}".`);
         }
+    
 
         const data = await response.json();
+        console.log(`event name = ${data._embedded.events[0].name}`);
+        console.log(`event longitude = ${JSON.stringify(data._embedded.events[0]._embedded.venues[0].location.longitude)}`);
+        console.log(`event lattitude = ${JSON.stringify(data._embedded.events[0]._embedded.venues[0].location.latitude)}`);
+        console.log(`event name = ${data._embedded.events[18].name}`);
+        
+
         res.status(200).json(data);
 
     }catch(error){
-        if(error instanceof Error){
+        if(error instanceof Error && !(error instanceof TypeError)){
             console.error(`\n Error caught in / router.get method catch block: ${error.stack}`);
           }
           else{
             console.error(`\n Error caught in / router.get method catch block: ${error}`);
           }
-          res.status(500).json("An unexpected error occured");
+          if(error instanceof TypeError){
+            console.log(`another TypeError.....great....`);
+          }
+          res.status(500).json(`An unexpected error occured: ${error}`);
     }
     
 } );
+
 
 export default router;
