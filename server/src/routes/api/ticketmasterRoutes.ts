@@ -6,16 +6,19 @@ import { getEvents } from '../../service/eventService.js';
 dotenv.config();
 
 const router = Router();
-//TODO: move to controller
+
 router.get('/', async (req: Request, res:Response) => {
     try{
         const { city, stateCode } = req.body;
-        const eventData = getEvents(city as string, stateCode as string)
+        const eventData = await getEvents(city as string, stateCode as string)
         //if event data is null: API fetch failed more than 3 times.
         if(!eventData){
           throw new Error(`unable to fetch events matching your query.`);
         }
-        console.log(`EVENT DATA RETURNED SUCCESSFULLY!!!!`)
+        console.log(`EVENT DATA RETURNED SUCCESSFULLY!!!!`);
+        //  eventData.forEach(element => {
+        //     console.log(element.name);
+        //  });
         res.status(200).json(eventData);
 
     }catch(error){
@@ -25,9 +28,7 @@ router.get('/', async (req: Request, res:Response) => {
           else{
             console.error(`\n Error caught in / router.get method catch block: ${error}`);
           }
-          if(error instanceof TypeError){
-            console.log(`another TypeError.....great....`);
-          }
+
           res.status(500).json(`An unexpected error occured: ${error}`);
     }
     
