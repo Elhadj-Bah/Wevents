@@ -16,29 +16,31 @@ router.get('/', async (req: Request, res:Response) => {
         //if event data is null: API fetch failed more than 3 times.
         if(!eventData){
           throw new Error(`unable to fetch events matching your query.`);
-        }
-        console.log(`EVENT DATA RETURNED SUCCESSFULLY!!!!`);
-     
-         const forecastArr = [];
-
-         eventData.forEach(async element => {
-            //const localTimestamp: string = element.localStartDate + " " + element.localStartTime;
-            const weatherData = await ForecastService.getWeatherLocation(element.latitude, element.longitude, element.localTimestamp);
-            console.log(weatherData);
-            // let nearestDate = "";
-            // let nearestTime = "";
-            // let weather = {};
-            // weatherData.list.forEach(weatherObj => {
-            //   const [date, time] = weatherObj.dt_txt.split(" ");
-              
-            // })
-            console.log(`forecastArr.length = ${forecastArr.length}`);
-            //console.log(element);
-         });
+        }else{
+            console.log(`EVENT DATA RETURNED SUCCESSFULLY!!!!`);
+  
+                       // Create an array of promises to fetch weather data
+                       const forecastPromises = eventData.map(async (event) => {
+                        const weatherData = await ForecastService.getWeatherLocation(
+                            event.latitude, 
+                            event.longitude, 
+                            event.localTimestamp,
+                            event.eventId
+                        );
         
-
-
-        res.status(200).json(eventData);
+                        return weatherData ? { eventId: event.id, forecast: weatherData } : null;
+                    });
+        
+                    // Wait for all weather data to be fetched
+                    const resolvedForecasts = await Promise.all(forecastPromises);
+        
+                    // Filter out null values (if any weather data couldn't be retrieved)
+                    const forecastData = resolvedForecasts.filter(data => data !== null);
+        
+                    // Send separate eventData and forecastData while keeping them linked
+                    res.status(200).json({ eventData, forecastData });
+         
+        }
 
     }catch(error){
         if(error instanceof Error){

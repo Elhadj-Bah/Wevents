@@ -3,19 +3,19 @@ import dayjs from 'dayjs';
 import dotenv from 'dotenv';
 dotenv.config();
 
-class Weather {
-    public date: string;
-    public temp: number;
-    public icon: string;
-    public iconDescription: string;
+// class Weather {
+//     public date: string;
+//     public temp: number;
+//     public icon: string;
+//     public iconDescription: string;
 
-    constructor(date: string, temp: number, icon: string, iconDescription: string)  {
-        this.date = date;
-        this.temp = temp;
-        this.icon = icon;
-        this.iconDescription = iconDescription;
-    }
-} 
+//     constructor(date: string, temp: number, icon: string, iconDescription: string)  {
+//         this.date = date;
+//         this.temp = temp;
+//         this.icon = icon;
+//         this.iconDescription = iconDescription;
+//     }
+// } 
 
 class ForecastService {
     private baseURL: string;
@@ -39,12 +39,10 @@ class ForecastService {
 
     }
 
-    async getWeatherLocation(latitude: string, longitude: string, localTimestamp: string){
+    async getWeatherLocation(latitude: string, longitude: string, localTimestamp: string, eventId: string){
         try{
             this.latitude = latitude;
             this.longitude = longitude;
-
-            console.log(`localTimestamp = ${localTimestamp}`);
 
             const response = await fetch(`${this.baseURL}?lat=${this.latitude}&lon=${this.longitude}&appid=${this.apiKey}&units=imperial`);
             console.log(`API CALL = ${`${this.baseURL}?lat=${this.latitude}&lon=${this.longitude}&appid=${this.apiKey}&units=imperial`}`);
@@ -80,6 +78,7 @@ class ForecastService {
                     if(minTimeDiff > difference){
                         minTimeDiff = difference;
                         weatherObj = forecast;
+                        
                         //console.log(`UPDATE minTimeDiff = ${minTimeDiff}`);
                     }
 
@@ -88,9 +87,14 @@ class ForecastService {
                     throw new Error('Error in minimum time difference between event and forecast');
                 }
 
-                
-                //date: string, temp: number, icon: string, iconDescription: string
-                return new Weather(weatherObj.dt_txt, weatherObj.main.temp, weatherObj.weather[0].icon, weatherObj.weather[0].description);
+                const dateTimeString = weatherObj.dt_txt;
+                const temp = weatherObj.main.temp;
+                const icon =  weatherObj.weather[0].icon;
+                const iconDescription = weatherObj.weather[0].description;
+
+
+                const finalForecast = {eventId, dateTimeString, temp, icon, iconDescription};
+                return finalForecast;
             }
         }catch(error){
             console.error(`getWeatherLocation encountered an error: ${error}`);
