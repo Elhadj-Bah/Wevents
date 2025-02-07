@@ -73,13 +73,15 @@ const packageData = (data: any, eventsCount: number) => {
 
         let longitude = eventPrefix._embedded.venues[0].location.longitude;
 
+        let standardDateTime = eventPrefix.dates.start.dateTime;
         let localStartDate = eventPrefix.dates.start.localDate;
         let localStartTime  = eventPrefix.dates.start.localTime;
+
 
         let firstImgData = eventPrefix.images[0];//[0] meaning the data for the first image
 
         
-        dataArr.push({eventId, name, url, latitude, longitude, localStartDate, localStartTime, firstImgData});
+        dataArr.push({eventId, name, url, latitude, longitude, standardDateTime, localStartDate, localStartTime, firstImgData});
     }
 
     return dataArr;
