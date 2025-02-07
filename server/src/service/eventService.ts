@@ -30,8 +30,10 @@ const getEvents = async (city: string, stateCode: string) =>{
             const eventsCount: number = events.length;
 
 
-           const packData = packageData(data, eventsCount);
-            return packData;
+           
+           const finalData = filterData(packageData(data, eventsCount));
+      
+            return finalData;
     
     
         }catch(error){
@@ -53,11 +55,15 @@ const getEvents = async (city: string, stateCode: string) =>{
     return null;
     
 }
+
+//thish packages up all the relevant data into an array
 const packageData = (data: any, eventsCount: number) => {
     const dataArr = [];
   
     for(let i = 0; i < eventsCount; i++){
         let eventPrefix = data._embedded.events[i];
+
+        let eventId = eventPrefix.id;
 
         let name = eventPrefix.name;
 
@@ -69,12 +75,13 @@ const packageData = (data: any, eventsCount: number) => {
         let firstImgData = eventPrefix.images[0];//[0] meaning the data for the first image
 
         
-        dataArr.push({name, url, localStartDate, localStartTime, firstImgData});
+        dataArr.push({eventId, name, url, localStartDate, localStartTime, firstImgData});
     }
 
     return dataArr;
 }
 
+//this gets the date range and formats it in a way that the API fetch can understand.
 const setDateRange = (): string[] => {
     const dateArr: string[] = [];
 
@@ -89,5 +96,29 @@ const setDateRange = (): string[] => {
     return dateArr;
     
 }
+//used to select a certain number of events at random indices to pass back to the front end
+const filterData  = (dataArr: any[]): any[] => {
+    //generate 4 random numbers based on the number of events in the array
+    const randomIndices = getUniqueRandomIndicies(dataArr.length, 4);
+    const selectedEvents = randomIndices.map(index => dataArr[index]);
+    //console.log(`"Random Indices:" ${randomIndices}`);
+    //console.log("Selected Events:", selectedEvents);
+    return selectedEvents;
+}
+
+const getUniqueRandomIndicies = (arrayLength: number, numToGenerate: number) =>{
+    if(numToGenerate > arrayLength ){
+        throw new Error("Error getting random indexes. The number of indices to generate does not yet exceed the array length");
+    }
+
+    const uniqueIndices = new Set<number>(); //makes sure every value is unique
+
+    while(uniqueIndices.size < numToGenerate){
+        uniqueIndices.add(Math.floor(Math.random() * arrayLength))
+    }
+
+    return Array.from(uniqueIndices);
+}
+    
 
 export  { getEvents };
