@@ -1,0 +1,7039 @@
+{
+	"_embedded": {
+		"events": [
+			{
+				"name": "Hamilton (Touring)",
+				"type": "event",
+				"id": "Z7r9jZ1A7apjA",
+				"test": false,
+				"url": "https://www.ticketmaster.com/event/Z7r9jZ1A7apjA",
+				"locale": "en-us",
+				"images": [
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_3_2.jpg",
+						"width": 640,
+						"height": 427,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_16_9.jpg",
+						"width": 640,
+						"height": 360,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_16_9.jpg",
+						"width": 1024,
+						"height": 576,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_EVENT_DETAIL_PAGE_16_9.jpg",
+						"width": 205,
+						"height": 115,
+						"fallback": false
+					},
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_ARTIST_PAGE_3_2.jpg",
+						"width": 305,
+						"height": 203,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_SOURCE",
+						"width": 2426,
+						"height": 1365,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_LANDSCAPE_16_9.jpg",
+						"width": 1136,
+						"height": 639,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RECOMENDATION_16_9.jpg",
+						"width": 100,
+						"height": 56,
+						"fallback": false
+					},
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_3_2.jpg",
+						"width": 1024,
+						"height": 683,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+						"width": 2048,
+						"height": 1152,
+						"fallback": false
+					},
+					{
+						"ratio": "4_3",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_CUSTOM.jpg",
+						"width": 305,
+						"height": 225,
+						"fallback": false
+					}
+				],
+				"sales": {
+					"public": {
+						"startDateTime": "1900-01-01T18:00:00Z",
+						"startTBD": false,
+						"startTBA": false,
+						"endDateTime": "2025-03-26T02:30:00Z"
+					}
+				},
+				"dates": {
+					"start": {
+						"localDate": "2025-03-25",
+						"localTime": "19:30:00",
+						"dateTime": "2025-03-26T02:30:00Z",
+						"dateTBD": false,
+						"dateTBA": false,
+						"timeTBA": false,
+						"noSpecificTime": false
+					},
+					"status": {
+						"code": "onsale"
+					},
+					"spanMultipleDays": false
+				},
+				"classifications": [
+					{
+						"primary": true,
+						"segment": {
+							"id": "KZFzniwnSyZfZ7v7na",
+							"name": "Arts & Theatre",
+							"levelType": "segment"
+						},
+						"genre": {
+							"id": "KnvZfZ7v7l1",
+							"name": "Theatre",
+							"levelType": "Level"
+						},
+						"subGenre": {
+							"id": "KZazBEonSMnZfZ7vAve",
+							"name": "Musical",
+							"levelType": "Level"
+						},
+						"family": false
+					}
+				],
+				"outlets": [
+					{
+						"url": "http://hultcenter.org/",
+						"type": "venueBoxOffice"
+					},
+					{
+						"url": "https://www.ticketmaster.com/hamilton-touring-eugene-oregon-03-25-2025/event/Z7r9jZ1A7apjA",
+						"type": "tmMarketPlace"
+					}
+				],
+				"seatmap": {
+					"staticUrl": "https://content.resale.ticketmaster.com/graphics/TMResale/2/VenueMaps/1549-0-0-1-SilvaConcertHallBookofMormon.png",
+					"id": "seatmap"
+				},
+				"ticketing": {
+					"allInclusivePricing": {
+						"enabled": false
+					},
+					"id": "ticketing"
+				},
+				"_links": {
+					"self": {
+						"href": "/discovery/v2/events/Z7r9jZ1A7apjA?locale=en-us"
+					},
+					"attractions": [
+						{
+							"href": "/discovery/v2/attractions/K8vZ9174wRf?locale=en-us"
+						}
+					],
+					"venues": [
+						{
+							"href": "/discovery/v2/venues/ZFr9jZekA1?locale=en-us"
+						}
+					]
+				},
+				"_embedded": {
+					"venues": [
+						{
+							"name": "Silva Concert Hall",
+							"type": "venue",
+							"id": "ZFr9jZekA1",
+							"test": false,
+							"locale": "en-us",
+							"postalCode": "97401",
+							"timezone": "America/Los_Angeles",
+							"city": {
+								"name": "Eugene"
+							},
+							"state": {
+								"name": "Oregon",
+								"stateCode": "OR"
+							},
+							"country": {
+								"name": "United States Of America",
+								"countryCode": "US"
+							},
+							"address": {
+								"line1": "One Eugene Center"
+							},
+							"location": {
+								"longitude": "-123.082001000",
+								"latitude": "44.068501000"
+							},
+							"dmas": [
+								{
+									"id": 272
+								}
+							],
+							"upcomingEvents": {
+								"tmr": 48,
+								"_total": 48,
+								"_filtered": 0
+							},
+							"_links": {
+								"self": {
+									"href": "/discovery/v2/venues/ZFr9jZekA1?locale=en-us"
+								}
+							}
+						}
+					],
+					"attractions": [
+						{
+							"name": "Hamilton (Touring)",
+							"type": "attraction",
+							"id": "K8vZ9174wRf",
+							"test": false,
+							"url": "https://www.ticketmaster.com/hamilton-touring-tickets/artist/2336213",
+							"locale": "en-us",
+							"images": [
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_3_2.jpg",
+									"width": 640,
+									"height": 427,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_16_9.jpg",
+									"width": 640,
+									"height": 360,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_16_9.jpg",
+									"width": 1024,
+									"height": 576,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_EVENT_DETAIL_PAGE_16_9.jpg",
+									"width": 205,
+									"height": 115,
+									"fallback": false
+								},
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_ARTIST_PAGE_3_2.jpg",
+									"width": 305,
+									"height": 203,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_SOURCE",
+									"width": 2426,
+									"height": 1365,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_LANDSCAPE_16_9.jpg",
+									"width": 1136,
+									"height": 639,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RECOMENDATION_16_9.jpg",
+									"width": 100,
+									"height": 56,
+									"fallback": false
+								},
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_3_2.jpg",
+									"width": 1024,
+									"height": 683,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+									"width": 2048,
+									"height": 1152,
+									"fallback": false
+								},
+								{
+									"ratio": "4_3",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_CUSTOM.jpg",
+									"width": 305,
+									"height": 225,
+									"fallback": false
+								}
+							],
+							"classifications": [
+								{
+									"primary": true,
+									"segment": {
+										"id": "KZFzniwnSyZfZ7v7na",
+										"name": "Arts & Theatre",
+										"levelType": "segment"
+									},
+									"genre": {
+										"id": "KnvZfZ7v7l1",
+										"name": "Theatre",
+										"levelType": "Level"
+									},
+									"subGenre": {
+										"id": "KZazBEonSMnZfZ7vAve",
+										"name": "Musical",
+										"levelType": "Level"
+									},
+									"type": {
+										"id": "KZAyXgnZfZ7v7lt",
+										"name": "Event Style",
+										"levelType": "type"
+									},
+									"subType": {
+										"id": "KZFzBErXgnZfZ7vAAt",
+										"name": "Touring Show/Production",
+										"levelType": "Level"
+									},
+									"family": false
+								}
+							],
+							"upcomingEvents": {
+								"tmr": 407,
+								"ticketmaster": 164,
+								"_total": 571,
+								"_filtered": 0
+							},
+							"_links": {
+								"self": {
+									"href": "/discovery/v2/attractions/K8vZ9174wRf?locale=en-us"
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"name": "Hamilton (Touring)",
+				"type": "event",
+				"id": "Z7r9jZ1A7ap_0",
+				"test": false,
+				"url": "https://www.ticketmaster.com/event/Z7r9jZ1A7ap_0",
+				"locale": "en-us",
+				"images": [
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_3_2.jpg",
+						"width": 640,
+						"height": 427,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_16_9.jpg",
+						"width": 640,
+						"height": 360,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_16_9.jpg",
+						"width": 1024,
+						"height": 576,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_EVENT_DETAIL_PAGE_16_9.jpg",
+						"width": 205,
+						"height": 115,
+						"fallback": false
+					},
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_ARTIST_PAGE_3_2.jpg",
+						"width": 305,
+						"height": 203,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_SOURCE",
+						"width": 2426,
+						"height": 1365,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_LANDSCAPE_16_9.jpg",
+						"width": 1136,
+						"height": 639,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RECOMENDATION_16_9.jpg",
+						"width": 100,
+						"height": 56,
+						"fallback": false
+					},
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_3_2.jpg",
+						"width": 1024,
+						"height": 683,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+						"width": 2048,
+						"height": 1152,
+						"fallback": false
+					},
+					{
+						"ratio": "4_3",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_CUSTOM.jpg",
+						"width": 305,
+						"height": 225,
+						"fallback": false
+					}
+				],
+				"sales": {
+					"public": {
+						"startDateTime": "1900-01-01T18:00:00Z",
+						"startTBD": false,
+						"startTBA": false,
+						"endDateTime": "2025-03-27T02:30:00Z"
+					}
+				},
+				"dates": {
+					"start": {
+						"localDate": "2025-03-26",
+						"localTime": "19:30:00",
+						"dateTime": "2025-03-27T02:30:00Z",
+						"dateTBD": false,
+						"dateTBA": false,
+						"timeTBA": false,
+						"noSpecificTime": false
+					},
+					"status": {
+						"code": "onsale"
+					},
+					"spanMultipleDays": false
+				},
+				"classifications": [
+					{
+						"primary": true,
+						"segment": {
+							"id": "KZFzniwnSyZfZ7v7na",
+							"name": "Arts & Theatre",
+							"levelType": "segment"
+						},
+						"genre": {
+							"id": "KnvZfZ7v7l1",
+							"name": "Theatre",
+							"levelType": "Level"
+						},
+						"subGenre": {
+							"id": "KZazBEonSMnZfZ7vAve",
+							"name": "Musical",
+							"levelType": "Level"
+						},
+						"family": false
+					}
+				],
+				"outlets": [
+					{
+						"url": "http://hultcenter.org/",
+						"type": "venueBoxOffice"
+					},
+					{
+						"url": "https://www.ticketmaster.com/hamilton-touring-eugene-oregon-03-26-2025/event/Z7r9jZ1A7ap_0",
+						"type": "tmMarketPlace"
+					}
+				],
+				"seatmap": {
+					"staticUrl": "https://content.resale.ticketmaster.com/graphics/TMResale/2/VenueMaps/1549-0-0-1-SilvaConcertHallBookofMormon.png",
+					"id": "seatmap"
+				},
+				"ticketing": {
+					"allInclusivePricing": {
+						"enabled": false
+					},
+					"id": "ticketing"
+				},
+				"_links": {
+					"self": {
+						"href": "/discovery/v2/events/Z7r9jZ1A7ap_0?locale=en-us"
+					},
+					"attractions": [
+						{
+							"href": "/discovery/v2/attractions/K8vZ9174wRf?locale=en-us"
+						}
+					],
+					"venues": [
+						{
+							"href": "/discovery/v2/venues/ZFr9jZekA1?locale=en-us"
+						}
+					]
+				},
+				"_embedded": {
+					"venues": [
+						{
+							"name": "Silva Concert Hall",
+							"type": "venue",
+							"id": "ZFr9jZekA1",
+							"test": false,
+							"locale": "en-us",
+							"postalCode": "97401",
+							"timezone": "America/Los_Angeles",
+							"city": {
+								"name": "Eugene"
+							},
+							"state": {
+								"name": "Oregon",
+								"stateCode": "OR"
+							},
+							"country": {
+								"name": "United States Of America",
+								"countryCode": "US"
+							},
+							"address": {
+								"line1": "One Eugene Center"
+							},
+							"location": {
+								"longitude": "-123.082001000",
+								"latitude": "44.068501000"
+							},
+							"dmas": [
+								{
+									"id": 272
+								}
+							],
+							"upcomingEvents": {
+								"tmr": 48,
+								"_total": 48,
+								"_filtered": 0
+							},
+							"_links": {
+								"self": {
+									"href": "/discovery/v2/venues/ZFr9jZekA1?locale=en-us"
+								}
+							}
+						}
+					],
+					"attractions": [
+						{
+							"name": "Hamilton (Touring)",
+							"type": "attraction",
+							"id": "K8vZ9174wRf",
+							"test": false,
+							"url": "https://www.ticketmaster.com/hamilton-touring-tickets/artist/2336213",
+							"locale": "en-us",
+							"images": [
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_3_2.jpg",
+									"width": 640,
+									"height": 427,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_16_9.jpg",
+									"width": 640,
+									"height": 360,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_16_9.jpg",
+									"width": 1024,
+									"height": 576,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_EVENT_DETAIL_PAGE_16_9.jpg",
+									"width": 205,
+									"height": 115,
+									"fallback": false
+								},
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_ARTIST_PAGE_3_2.jpg",
+									"width": 305,
+									"height": 203,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_SOURCE",
+									"width": 2426,
+									"height": 1365,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_LANDSCAPE_16_9.jpg",
+									"width": 1136,
+									"height": 639,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RECOMENDATION_16_9.jpg",
+									"width": 100,
+									"height": 56,
+									"fallback": false
+								},
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_3_2.jpg",
+									"width": 1024,
+									"height": 683,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+									"width": 2048,
+									"height": 1152,
+									"fallback": false
+								},
+								{
+									"ratio": "4_3",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_CUSTOM.jpg",
+									"width": 305,
+									"height": 225,
+									"fallback": false
+								}
+							],
+							"classifications": [
+								{
+									"primary": true,
+									"segment": {
+										"id": "KZFzniwnSyZfZ7v7na",
+										"name": "Arts & Theatre",
+										"levelType": "segment"
+									},
+									"genre": {
+										"id": "KnvZfZ7v7l1",
+										"name": "Theatre",
+										"levelType": "Level"
+									},
+									"subGenre": {
+										"id": "KZazBEonSMnZfZ7vAve",
+										"name": "Musical",
+										"levelType": "Level"
+									},
+									"type": {
+										"id": "KZAyXgnZfZ7v7lt",
+										"name": "Event Style",
+										"levelType": "type"
+									},
+									"subType": {
+										"id": "KZFzBErXgnZfZ7vAAt",
+										"name": "Touring Show/Production",
+										"levelType": "Level"
+									},
+									"family": false
+								}
+							],
+							"upcomingEvents": {
+								"tmr": 407,
+								"ticketmaster": 164,
+								"_total": 571,
+								"_filtered": 0
+							},
+							"_links": {
+								"self": {
+									"href": "/discovery/v2/attractions/K8vZ9174wRf?locale=en-us"
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"name": "Hamilton (Touring)",
+				"type": "event",
+				"id": "Z7r9jZ1A7apQ_",
+				"test": false,
+				"url": "https://www.ticketmaster.com/event/Z7r9jZ1A7apQ_",
+				"locale": "en-us",
+				"images": [
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_3_2.jpg",
+						"width": 640,
+						"height": 427,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_16_9.jpg",
+						"width": 640,
+						"height": 360,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_16_9.jpg",
+						"width": 1024,
+						"height": 576,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_EVENT_DETAIL_PAGE_16_9.jpg",
+						"width": 205,
+						"height": 115,
+						"fallback": false
+					},
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_ARTIST_PAGE_3_2.jpg",
+						"width": 305,
+						"height": 203,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_SOURCE",
+						"width": 2426,
+						"height": 1365,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_LANDSCAPE_16_9.jpg",
+						"width": 1136,
+						"height": 639,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RECOMENDATION_16_9.jpg",
+						"width": 100,
+						"height": 56,
+						"fallback": false
+					},
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_3_2.jpg",
+						"width": 1024,
+						"height": 683,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+						"width": 2048,
+						"height": 1152,
+						"fallback": false
+					},
+					{
+						"ratio": "4_3",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_CUSTOM.jpg",
+						"width": 305,
+						"height": 225,
+						"fallback": false
+					}
+				],
+				"sales": {
+					"public": {
+						"startDateTime": "1900-01-01T18:00:00Z",
+						"startTBD": false,
+						"startTBA": false,
+						"endDateTime": "2025-03-28T02:30:00Z"
+					}
+				},
+				"dates": {
+					"start": {
+						"localDate": "2025-03-27",
+						"localTime": "19:30:00",
+						"dateTime": "2025-03-28T02:30:00Z",
+						"dateTBD": false,
+						"dateTBA": false,
+						"timeTBA": false,
+						"noSpecificTime": false
+					},
+					"status": {
+						"code": "onsale"
+					},
+					"spanMultipleDays": false
+				},
+				"classifications": [
+					{
+						"primary": true,
+						"segment": {
+							"id": "KZFzniwnSyZfZ7v7na",
+							"name": "Arts & Theatre",
+							"levelType": "segment"
+						},
+						"genre": {
+							"id": "KnvZfZ7v7l1",
+							"name": "Theatre",
+							"levelType": "Level"
+						},
+						"subGenre": {
+							"id": "KZazBEonSMnZfZ7vAve",
+							"name": "Musical",
+							"levelType": "Level"
+						},
+						"family": false
+					}
+				],
+				"outlets": [
+					{
+						"url": "http://hultcenter.org/",
+						"type": "venueBoxOffice"
+					},
+					{
+						"url": "https://www.ticketmaster.com/hamilton-touring-eugene-oregon-03-27-2025/event/Z7r9jZ1A7apQ_",
+						"type": "tmMarketPlace"
+					}
+				],
+				"seatmap": {
+					"staticUrl": "https://content.resale.ticketmaster.com/graphics/TMResale/2/VenueMaps/1549-0-0-1-SilvaConcertHallBookofMormon.png",
+					"id": "seatmap"
+				},
+				"ticketing": {
+					"allInclusivePricing": {
+						"enabled": false
+					},
+					"id": "ticketing"
+				},
+				"_links": {
+					"self": {
+						"href": "/discovery/v2/events/Z7r9jZ1A7apQ_?locale=en-us"
+					},
+					"attractions": [
+						{
+							"href": "/discovery/v2/attractions/K8vZ9174wRf?locale=en-us"
+						}
+					],
+					"venues": [
+						{
+							"href": "/discovery/v2/venues/ZFr9jZekA1?locale=en-us"
+						}
+					]
+				},
+				"_embedded": {
+					"venues": [
+						{
+							"name": "Silva Concert Hall",
+							"type": "venue",
+							"id": "ZFr9jZekA1",
+							"test": false,
+							"locale": "en-us",
+							"postalCode": "97401",
+							"timezone": "America/Los_Angeles",
+							"city": {
+								"name": "Eugene"
+							},
+							"state": {
+								"name": "Oregon",
+								"stateCode": "OR"
+							},
+							"country": {
+								"name": "United States Of America",
+								"countryCode": "US"
+							},
+							"address": {
+								"line1": "One Eugene Center"
+							},
+							"location": {
+								"longitude": "-123.082001000",
+								"latitude": "44.068501000"
+							},
+							"dmas": [
+								{
+									"id": 272
+								}
+							],
+							"upcomingEvents": {
+								"tmr": 48,
+								"_total": 48,
+								"_filtered": 0
+							},
+							"_links": {
+								"self": {
+									"href": "/discovery/v2/venues/ZFr9jZekA1?locale=en-us"
+								}
+							}
+						}
+					],
+					"attractions": [
+						{
+							"name": "Hamilton (Touring)",
+							"type": "attraction",
+							"id": "K8vZ9174wRf",
+							"test": false,
+							"url": "https://www.ticketmaster.com/hamilton-touring-tickets/artist/2336213",
+							"locale": "en-us",
+							"images": [
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_3_2.jpg",
+									"width": 640,
+									"height": 427,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_16_9.jpg",
+									"width": 640,
+									"height": 360,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_16_9.jpg",
+									"width": 1024,
+									"height": 576,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_EVENT_DETAIL_PAGE_16_9.jpg",
+									"width": 205,
+									"height": 115,
+									"fallback": false
+								},
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_ARTIST_PAGE_3_2.jpg",
+									"width": 305,
+									"height": 203,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_SOURCE",
+									"width": 2426,
+									"height": 1365,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_LANDSCAPE_16_9.jpg",
+									"width": 1136,
+									"height": 639,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RECOMENDATION_16_9.jpg",
+									"width": 100,
+									"height": 56,
+									"fallback": false
+								},
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_3_2.jpg",
+									"width": 1024,
+									"height": 683,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+									"width": 2048,
+									"height": 1152,
+									"fallback": false
+								},
+								{
+									"ratio": "4_3",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_CUSTOM.jpg",
+									"width": 305,
+									"height": 225,
+									"fallback": false
+								}
+							],
+							"classifications": [
+								{
+									"primary": true,
+									"segment": {
+										"id": "KZFzniwnSyZfZ7v7na",
+										"name": "Arts & Theatre",
+										"levelType": "segment"
+									},
+									"genre": {
+										"id": "KnvZfZ7v7l1",
+										"name": "Theatre",
+										"levelType": "Level"
+									},
+									"subGenre": {
+										"id": "KZazBEonSMnZfZ7vAve",
+										"name": "Musical",
+										"levelType": "Level"
+									},
+									"type": {
+										"id": "KZAyXgnZfZ7v7lt",
+										"name": "Event Style",
+										"levelType": "type"
+									},
+									"subType": {
+										"id": "KZFzBErXgnZfZ7vAAt",
+										"name": "Touring Show/Production",
+										"levelType": "Level"
+									},
+									"family": false
+								}
+							],
+							"upcomingEvents": {
+								"tmr": 407,
+								"ticketmaster": 164,
+								"_total": 571,
+								"_filtered": 0
+							},
+							"_links": {
+								"self": {
+									"href": "/discovery/v2/attractions/K8vZ9174wRf?locale=en-us"
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"name": "Hamilton (Touring)",
+				"type": "event",
+				"id": "Z7r9jZ1A7apj7",
+				"test": false,
+				"url": "https://www.ticketmaster.com/event/Z7r9jZ1A7apj7",
+				"locale": "en-us",
+				"images": [
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_3_2.jpg",
+						"width": 640,
+						"height": 427,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_16_9.jpg",
+						"width": 640,
+						"height": 360,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_16_9.jpg",
+						"width": 1024,
+						"height": 576,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_EVENT_DETAIL_PAGE_16_9.jpg",
+						"width": 205,
+						"height": 115,
+						"fallback": false
+					},
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_ARTIST_PAGE_3_2.jpg",
+						"width": 305,
+						"height": 203,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_SOURCE",
+						"width": 2426,
+						"height": 1365,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_LANDSCAPE_16_9.jpg",
+						"width": 1136,
+						"height": 639,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RECOMENDATION_16_9.jpg",
+						"width": 100,
+						"height": 56,
+						"fallback": false
+					},
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_3_2.jpg",
+						"width": 1024,
+						"height": 683,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+						"width": 2048,
+						"height": 1152,
+						"fallback": false
+					},
+					{
+						"ratio": "4_3",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_CUSTOM.jpg",
+						"width": 305,
+						"height": 225,
+						"fallback": false
+					}
+				],
+				"sales": {
+					"public": {
+						"startDateTime": "1900-01-01T18:00:00Z",
+						"startTBD": false,
+						"startTBA": false,
+						"endDateTime": "2025-03-29T03:00:00Z"
+					}
+				},
+				"dates": {
+					"start": {
+						"localDate": "2025-03-28",
+						"localTime": "20:00:00",
+						"dateTime": "2025-03-29T03:00:00Z",
+						"dateTBD": false,
+						"dateTBA": false,
+						"timeTBA": false,
+						"noSpecificTime": false
+					},
+					"status": {
+						"code": "onsale"
+					},
+					"spanMultipleDays": false
+				},
+				"classifications": [
+					{
+						"primary": true,
+						"segment": {
+							"id": "KZFzniwnSyZfZ7v7na",
+							"name": "Arts & Theatre",
+							"levelType": "segment"
+						},
+						"genre": {
+							"id": "KnvZfZ7v7l1",
+							"name": "Theatre",
+							"levelType": "Level"
+						},
+						"subGenre": {
+							"id": "KZazBEonSMnZfZ7vAve",
+							"name": "Musical",
+							"levelType": "Level"
+						},
+						"family": false
+					}
+				],
+				"outlets": [
+					{
+						"url": "http://hultcenter.org/",
+						"type": "venueBoxOffice"
+					},
+					{
+						"url": "https://www.ticketmaster.com/hamilton-touring-eugene-oregon-03-28-2025/event/Z7r9jZ1A7apj7",
+						"type": "tmMarketPlace"
+					}
+				],
+				"seatmap": {
+					"staticUrl": "https://content.resale.ticketmaster.com/graphics/TMResale/2/VenueMaps/1549-0-0-1-SilvaConcertHallBookofMormon.png",
+					"id": "seatmap"
+				},
+				"ticketing": {
+					"allInclusivePricing": {
+						"enabled": false
+					},
+					"id": "ticketing"
+				},
+				"_links": {
+					"self": {
+						"href": "/discovery/v2/events/Z7r9jZ1A7apj7?locale=en-us"
+					},
+					"attractions": [
+						{
+							"href": "/discovery/v2/attractions/K8vZ9174wRf?locale=en-us"
+						}
+					],
+					"venues": [
+						{
+							"href": "/discovery/v2/venues/ZFr9jZekA1?locale=en-us"
+						}
+					]
+				},
+				"_embedded": {
+					"venues": [
+						{
+							"name": "Silva Concert Hall",
+							"type": "venue",
+							"id": "ZFr9jZekA1",
+							"test": false,
+							"locale": "en-us",
+							"postalCode": "97401",
+							"timezone": "America/Los_Angeles",
+							"city": {
+								"name": "Eugene"
+							},
+							"state": {
+								"name": "Oregon",
+								"stateCode": "OR"
+							},
+							"country": {
+								"name": "United States Of America",
+								"countryCode": "US"
+							},
+							"address": {
+								"line1": "One Eugene Center"
+							},
+							"location": {
+								"longitude": "-123.082001000",
+								"latitude": "44.068501000"
+							},
+							"dmas": [
+								{
+									"id": 272
+								}
+							],
+							"upcomingEvents": {
+								"tmr": 48,
+								"_total": 48,
+								"_filtered": 0
+							},
+							"_links": {
+								"self": {
+									"href": "/discovery/v2/venues/ZFr9jZekA1?locale=en-us"
+								}
+							}
+						}
+					],
+					"attractions": [
+						{
+							"name": "Hamilton (Touring)",
+							"type": "attraction",
+							"id": "K8vZ9174wRf",
+							"test": false,
+							"url": "https://www.ticketmaster.com/hamilton-touring-tickets/artist/2336213",
+							"locale": "en-us",
+							"images": [
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_3_2.jpg",
+									"width": 640,
+									"height": 427,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_16_9.jpg",
+									"width": 640,
+									"height": 360,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_16_9.jpg",
+									"width": 1024,
+									"height": 576,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_EVENT_DETAIL_PAGE_16_9.jpg",
+									"width": 205,
+									"height": 115,
+									"fallback": false
+								},
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_ARTIST_PAGE_3_2.jpg",
+									"width": 305,
+									"height": 203,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_SOURCE",
+									"width": 2426,
+									"height": 1365,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_LANDSCAPE_16_9.jpg",
+									"width": 1136,
+									"height": 639,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RECOMENDATION_16_9.jpg",
+									"width": 100,
+									"height": 56,
+									"fallback": false
+								},
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_3_2.jpg",
+									"width": 1024,
+									"height": 683,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+									"width": 2048,
+									"height": 1152,
+									"fallback": false
+								},
+								{
+									"ratio": "4_3",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_CUSTOM.jpg",
+									"width": 305,
+									"height": 225,
+									"fallback": false
+								}
+							],
+							"classifications": [
+								{
+									"primary": true,
+									"segment": {
+										"id": "KZFzniwnSyZfZ7v7na",
+										"name": "Arts & Theatre",
+										"levelType": "segment"
+									},
+									"genre": {
+										"id": "KnvZfZ7v7l1",
+										"name": "Theatre",
+										"levelType": "Level"
+									},
+									"subGenre": {
+										"id": "KZazBEonSMnZfZ7vAve",
+										"name": "Musical",
+										"levelType": "Level"
+									},
+									"type": {
+										"id": "KZAyXgnZfZ7v7lt",
+										"name": "Event Style",
+										"levelType": "type"
+									},
+									"subType": {
+										"id": "KZFzBErXgnZfZ7vAAt",
+										"name": "Touring Show/Production",
+										"levelType": "Level"
+									},
+									"family": false
+								}
+							],
+							"upcomingEvents": {
+								"tmr": 407,
+								"ticketmaster": 164,
+								"_total": 571,
+								"_filtered": 0
+							},
+							"_links": {
+								"self": {
+									"href": "/discovery/v2/attractions/K8vZ9174wRf?locale=en-us"
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"name": "Hamilton (Touring)",
+				"type": "event",
+				"id": "Z7r9jZ1A7apQk",
+				"test": false,
+				"url": "https://www.ticketmaster.com/event/Z7r9jZ1A7apQk",
+				"locale": "en-us",
+				"images": [
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_3_2.jpg",
+						"width": 640,
+						"height": 427,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_16_9.jpg",
+						"width": 640,
+						"height": 360,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_16_9.jpg",
+						"width": 1024,
+						"height": 576,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_EVENT_DETAIL_PAGE_16_9.jpg",
+						"width": 205,
+						"height": 115,
+						"fallback": false
+					},
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_ARTIST_PAGE_3_2.jpg",
+						"width": 305,
+						"height": 203,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_SOURCE",
+						"width": 2426,
+						"height": 1365,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_LANDSCAPE_16_9.jpg",
+						"width": 1136,
+						"height": 639,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RECOMENDATION_16_9.jpg",
+						"width": 100,
+						"height": 56,
+						"fallback": false
+					},
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_3_2.jpg",
+						"width": 1024,
+						"height": 683,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+						"width": 2048,
+						"height": 1152,
+						"fallback": false
+					},
+					{
+						"ratio": "4_3",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_CUSTOM.jpg",
+						"width": 305,
+						"height": 225,
+						"fallback": false
+					}
+				],
+				"sales": {
+					"public": {
+						"startDateTime": "1900-01-01T18:00:00Z",
+						"startTBD": false,
+						"startTBA": false,
+						"endDateTime": "2025-03-30T03:00:00Z"
+					}
+				},
+				"dates": {
+					"start": {
+						"localDate": "2025-03-29",
+						"localTime": "20:00:00",
+						"dateTime": "2025-03-30T03:00:00Z",
+						"dateTBD": false,
+						"dateTBA": false,
+						"timeTBA": false,
+						"noSpecificTime": false
+					},
+					"status": {
+						"code": "onsale"
+					},
+					"spanMultipleDays": false
+				},
+				"classifications": [
+					{
+						"primary": true,
+						"segment": {
+							"id": "KZFzniwnSyZfZ7v7na",
+							"name": "Arts & Theatre",
+							"levelType": "segment"
+						},
+						"genre": {
+							"id": "KnvZfZ7v7l1",
+							"name": "Theatre",
+							"levelType": "Level"
+						},
+						"subGenre": {
+							"id": "KZazBEonSMnZfZ7vAve",
+							"name": "Musical",
+							"levelType": "Level"
+						},
+						"family": false
+					}
+				],
+				"outlets": [
+					{
+						"url": "http://hultcenter.org/",
+						"type": "venueBoxOffice"
+					},
+					{
+						"url": "https://www.ticketmaster.com/hamilton-touring-eugene-oregon-03-29-2025/event/Z7r9jZ1A7apQk",
+						"type": "tmMarketPlace"
+					}
+				],
+				"seatmap": {
+					"staticUrl": "https://content.resale.ticketmaster.com/graphics/TMResale/2/VenueMaps/1549-0-0-1-SilvaConcertHallBookofMormon.png",
+					"id": "seatmap"
+				},
+				"ticketing": {
+					"allInclusivePricing": {
+						"enabled": false
+					},
+					"id": "ticketing"
+				},
+				"_links": {
+					"self": {
+						"href": "/discovery/v2/events/Z7r9jZ1A7apQk?locale=en-us"
+					},
+					"attractions": [
+						{
+							"href": "/discovery/v2/attractions/K8vZ9174wRf?locale=en-us"
+						}
+					],
+					"venues": [
+						{
+							"href": "/discovery/v2/venues/ZFr9jZekA1?locale=en-us"
+						}
+					]
+				},
+				"_embedded": {
+					"venues": [
+						{
+							"name": "Silva Concert Hall",
+							"type": "venue",
+							"id": "ZFr9jZekA1",
+							"test": false,
+							"locale": "en-us",
+							"postalCode": "97401",
+							"timezone": "America/Los_Angeles",
+							"city": {
+								"name": "Eugene"
+							},
+							"state": {
+								"name": "Oregon",
+								"stateCode": "OR"
+							},
+							"country": {
+								"name": "United States Of America",
+								"countryCode": "US"
+							},
+							"address": {
+								"line1": "One Eugene Center"
+							},
+							"location": {
+								"longitude": "-123.082001000",
+								"latitude": "44.068501000"
+							},
+							"dmas": [
+								{
+									"id": 272
+								}
+							],
+							"upcomingEvents": {
+								"tmr": 48,
+								"_total": 48,
+								"_filtered": 0
+							},
+							"_links": {
+								"self": {
+									"href": "/discovery/v2/venues/ZFr9jZekA1?locale=en-us"
+								}
+							}
+						}
+					],
+					"attractions": [
+						{
+							"name": "Hamilton (Touring)",
+							"type": "attraction",
+							"id": "K8vZ9174wRf",
+							"test": false,
+							"url": "https://www.ticketmaster.com/hamilton-touring-tickets/artist/2336213",
+							"locale": "en-us",
+							"images": [
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_3_2.jpg",
+									"width": 640,
+									"height": 427,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_16_9.jpg",
+									"width": 640,
+									"height": 360,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_16_9.jpg",
+									"width": 1024,
+									"height": 576,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_EVENT_DETAIL_PAGE_16_9.jpg",
+									"width": 205,
+									"height": 115,
+									"fallback": false
+								},
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_ARTIST_PAGE_3_2.jpg",
+									"width": 305,
+									"height": 203,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_SOURCE",
+									"width": 2426,
+									"height": 1365,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_LANDSCAPE_16_9.jpg",
+									"width": 1136,
+									"height": 639,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RECOMENDATION_16_9.jpg",
+									"width": 100,
+									"height": 56,
+									"fallback": false
+								},
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_3_2.jpg",
+									"width": 1024,
+									"height": 683,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+									"width": 2048,
+									"height": 1152,
+									"fallback": false
+								},
+								{
+									"ratio": "4_3",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_CUSTOM.jpg",
+									"width": 305,
+									"height": 225,
+									"fallback": false
+								}
+							],
+							"classifications": [
+								{
+									"primary": true,
+									"segment": {
+										"id": "KZFzniwnSyZfZ7v7na",
+										"name": "Arts & Theatre",
+										"levelType": "segment"
+									},
+									"genre": {
+										"id": "KnvZfZ7v7l1",
+										"name": "Theatre",
+										"levelType": "Level"
+									},
+									"subGenre": {
+										"id": "KZazBEonSMnZfZ7vAve",
+										"name": "Musical",
+										"levelType": "Level"
+									},
+									"type": {
+										"id": "KZAyXgnZfZ7v7lt",
+										"name": "Event Style",
+										"levelType": "type"
+									},
+									"subType": {
+										"id": "KZFzBErXgnZfZ7vAAt",
+										"name": "Touring Show/Production",
+										"levelType": "Level"
+									},
+									"family": false
+								}
+							],
+							"upcomingEvents": {
+								"tmr": 407,
+								"ticketmaster": 164,
+								"_total": 571,
+								"_filtered": 0
+							},
+							"_links": {
+								"self": {
+									"href": "/discovery/v2/attractions/K8vZ9174wRf?locale=en-us"
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"name": "Hamilton (Touring)",
+				"type": "event",
+				"id": "Z7r9jZ1A7apjo",
+				"test": false,
+				"url": "https://www.ticketmaster.com/event/Z7r9jZ1A7apjo",
+				"locale": "en-us",
+				"images": [
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_3_2.jpg",
+						"width": 640,
+						"height": 427,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_16_9.jpg",
+						"width": 640,
+						"height": 360,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_16_9.jpg",
+						"width": 1024,
+						"height": 576,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_EVENT_DETAIL_PAGE_16_9.jpg",
+						"width": 205,
+						"height": 115,
+						"fallback": false
+					},
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_ARTIST_PAGE_3_2.jpg",
+						"width": 305,
+						"height": 203,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_SOURCE",
+						"width": 2426,
+						"height": 1365,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_LANDSCAPE_16_9.jpg",
+						"width": 1136,
+						"height": 639,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RECOMENDATION_16_9.jpg",
+						"width": 100,
+						"height": 56,
+						"fallback": false
+					},
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_3_2.jpg",
+						"width": 1024,
+						"height": 683,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+						"width": 2048,
+						"height": 1152,
+						"fallback": false
+					},
+					{
+						"ratio": "4_3",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_CUSTOM.jpg",
+						"width": 305,
+						"height": 225,
+						"fallback": false
+					}
+				],
+				"sales": {
+					"public": {
+						"startDateTime": "1900-01-01T18:00:00Z",
+						"startTBD": false,
+						"startTBA": false,
+						"endDateTime": "2025-03-29T21:00:00Z"
+					}
+				},
+				"dates": {
+					"start": {
+						"localDate": "2025-03-29",
+						"localTime": "14:00:00",
+						"dateTime": "2025-03-29T21:00:00Z",
+						"dateTBD": false,
+						"dateTBA": false,
+						"timeTBA": false,
+						"noSpecificTime": false
+					},
+					"status": {
+						"code": "onsale"
+					},
+					"spanMultipleDays": false
+				},
+				"classifications": [
+					{
+						"primary": true,
+						"segment": {
+							"id": "KZFzniwnSyZfZ7v7na",
+							"name": "Arts & Theatre",
+							"levelType": "segment"
+						},
+						"genre": {
+							"id": "KnvZfZ7v7l1",
+							"name": "Theatre",
+							"levelType": "Level"
+						},
+						"subGenre": {
+							"id": "KZazBEonSMnZfZ7vAve",
+							"name": "Musical",
+							"levelType": "Level"
+						},
+						"family": false
+					}
+				],
+				"outlets": [
+					{
+						"url": "http://hultcenter.org/",
+						"type": "venueBoxOffice"
+					},
+					{
+						"url": "https://www.ticketmaster.com/hamilton-touring-eugene-oregon-03-29-2025/event/Z7r9jZ1A7apjo",
+						"type": "tmMarketPlace"
+					}
+				],
+				"seatmap": {
+					"staticUrl": "https://content.resale.ticketmaster.com/graphics/TMResale/2/VenueMaps/1549-0-0-1-SilvaConcertHallBookofMormon.png",
+					"id": "seatmap"
+				},
+				"ticketing": {
+					"allInclusivePricing": {
+						"enabled": false
+					},
+					"id": "ticketing"
+				},
+				"_links": {
+					"self": {
+						"href": "/discovery/v2/events/Z7r9jZ1A7apjo?locale=en-us"
+					},
+					"attractions": [
+						{
+							"href": "/discovery/v2/attractions/K8vZ9174wRf?locale=en-us"
+						}
+					],
+					"venues": [
+						{
+							"href": "/discovery/v2/venues/ZFr9jZekA1?locale=en-us"
+						}
+					]
+				},
+				"_embedded": {
+					"venues": [
+						{
+							"name": "Silva Concert Hall",
+							"type": "venue",
+							"id": "ZFr9jZekA1",
+							"test": false,
+							"locale": "en-us",
+							"postalCode": "97401",
+							"timezone": "America/Los_Angeles",
+							"city": {
+								"name": "Eugene"
+							},
+							"state": {
+								"name": "Oregon",
+								"stateCode": "OR"
+							},
+							"country": {
+								"name": "United States Of America",
+								"countryCode": "US"
+							},
+							"address": {
+								"line1": "One Eugene Center"
+							},
+							"location": {
+								"longitude": "-123.082001000",
+								"latitude": "44.068501000"
+							},
+							"dmas": [
+								{
+									"id": 272
+								}
+							],
+							"upcomingEvents": {
+								"tmr": 48,
+								"_total": 48,
+								"_filtered": 0
+							},
+							"_links": {
+								"self": {
+									"href": "/discovery/v2/venues/ZFr9jZekA1?locale=en-us"
+								}
+							}
+						}
+					],
+					"attractions": [
+						{
+							"name": "Hamilton (Touring)",
+							"type": "attraction",
+							"id": "K8vZ9174wRf",
+							"test": false,
+							"url": "https://www.ticketmaster.com/hamilton-touring-tickets/artist/2336213",
+							"locale": "en-us",
+							"images": [
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_3_2.jpg",
+									"width": 640,
+									"height": 427,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_16_9.jpg",
+									"width": 640,
+									"height": 360,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_16_9.jpg",
+									"width": 1024,
+									"height": 576,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_EVENT_DETAIL_PAGE_16_9.jpg",
+									"width": 205,
+									"height": 115,
+									"fallback": false
+								},
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_ARTIST_PAGE_3_2.jpg",
+									"width": 305,
+									"height": 203,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_SOURCE",
+									"width": 2426,
+									"height": 1365,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_LANDSCAPE_16_9.jpg",
+									"width": 1136,
+									"height": 639,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RECOMENDATION_16_9.jpg",
+									"width": 100,
+									"height": 56,
+									"fallback": false
+								},
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_3_2.jpg",
+									"width": 1024,
+									"height": 683,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+									"width": 2048,
+									"height": 1152,
+									"fallback": false
+								},
+								{
+									"ratio": "4_3",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_CUSTOM.jpg",
+									"width": 305,
+									"height": 225,
+									"fallback": false
+								}
+							],
+							"classifications": [
+								{
+									"primary": true,
+									"segment": {
+										"id": "KZFzniwnSyZfZ7v7na",
+										"name": "Arts & Theatre",
+										"levelType": "segment"
+									},
+									"genre": {
+										"id": "KnvZfZ7v7l1",
+										"name": "Theatre",
+										"levelType": "Level"
+									},
+									"subGenre": {
+										"id": "KZazBEonSMnZfZ7vAve",
+										"name": "Musical",
+										"levelType": "Level"
+									},
+									"type": {
+										"id": "KZAyXgnZfZ7v7lt",
+										"name": "Event Style",
+										"levelType": "type"
+									},
+									"subType": {
+										"id": "KZFzBErXgnZfZ7vAAt",
+										"name": "Touring Show/Production",
+										"levelType": "Level"
+									},
+									"family": false
+								}
+							],
+							"upcomingEvents": {
+								"tmr": 407,
+								"ticketmaster": 164,
+								"_total": 571,
+								"_filtered": 0
+							},
+							"_links": {
+								"self": {
+									"href": "/discovery/v2/attractions/K8vZ9174wRf?locale=en-us"
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"name": "Hamilton (Touring)",
+				"type": "event",
+				"id": "Z7r9jZ1A7apjF",
+				"test": false,
+				"url": "https://www.ticketmaster.com/event/Z7r9jZ1A7apjF",
+				"locale": "en-us",
+				"images": [
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_3_2.jpg",
+						"width": 640,
+						"height": 427,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_16_9.jpg",
+						"width": 640,
+						"height": 360,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_16_9.jpg",
+						"width": 1024,
+						"height": 576,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_EVENT_DETAIL_PAGE_16_9.jpg",
+						"width": 205,
+						"height": 115,
+						"fallback": false
+					},
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_ARTIST_PAGE_3_2.jpg",
+						"width": 305,
+						"height": 203,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_SOURCE",
+						"width": 2426,
+						"height": 1365,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_LANDSCAPE_16_9.jpg",
+						"width": 1136,
+						"height": 639,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RECOMENDATION_16_9.jpg",
+						"width": 100,
+						"height": 56,
+						"fallback": false
+					},
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_3_2.jpg",
+						"width": 1024,
+						"height": 683,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+						"width": 2048,
+						"height": 1152,
+						"fallback": false
+					},
+					{
+						"ratio": "4_3",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_CUSTOM.jpg",
+						"width": 305,
+						"height": 225,
+						"fallback": false
+					}
+				],
+				"sales": {
+					"public": {
+						"startDateTime": "1900-01-01T18:00:00Z",
+						"startTBD": false,
+						"startTBA": false,
+						"endDateTime": "2025-03-31T02:00:00Z"
+					}
+				},
+				"dates": {
+					"start": {
+						"localDate": "2025-03-30",
+						"localTime": "19:00:00",
+						"dateTime": "2025-03-31T02:00:00Z",
+						"dateTBD": false,
+						"dateTBA": false,
+						"timeTBA": false,
+						"noSpecificTime": false
+					},
+					"status": {
+						"code": "onsale"
+					},
+					"spanMultipleDays": false
+				},
+				"classifications": [
+					{
+						"primary": true,
+						"segment": {
+							"id": "KZFzniwnSyZfZ7v7na",
+							"name": "Arts & Theatre",
+							"levelType": "segment"
+						},
+						"genre": {
+							"id": "KnvZfZ7v7l1",
+							"name": "Theatre",
+							"levelType": "Level"
+						},
+						"subGenre": {
+							"id": "KZazBEonSMnZfZ7vAve",
+							"name": "Musical",
+							"levelType": "Level"
+						},
+						"family": false
+					}
+				],
+				"outlets": [
+					{
+						"url": "http://hultcenter.org/",
+						"type": "venueBoxOffice"
+					},
+					{
+						"url": "https://www.ticketmaster.com/hamilton-touring-eugene-oregon-03-30-2025/event/Z7r9jZ1A7apjF",
+						"type": "tmMarketPlace"
+					}
+				],
+				"seatmap": {
+					"staticUrl": "https://content.resale.ticketmaster.com/graphics/TMResale/2/VenueMaps/1549-0-0-1-SilvaConcertHallBookofMormon.png",
+					"id": "seatmap"
+				},
+				"ticketing": {
+					"allInclusivePricing": {
+						"enabled": false
+					},
+					"id": "ticketing"
+				},
+				"_links": {
+					"self": {
+						"href": "/discovery/v2/events/Z7r9jZ1A7apjF?locale=en-us"
+					},
+					"attractions": [
+						{
+							"href": "/discovery/v2/attractions/K8vZ9174wRf?locale=en-us"
+						}
+					],
+					"venues": [
+						{
+							"href": "/discovery/v2/venues/ZFr9jZekA1?locale=en-us"
+						}
+					]
+				},
+				"_embedded": {
+					"venues": [
+						{
+							"name": "Silva Concert Hall",
+							"type": "venue",
+							"id": "ZFr9jZekA1",
+							"test": false,
+							"locale": "en-us",
+							"postalCode": "97401",
+							"timezone": "America/Los_Angeles",
+							"city": {
+								"name": "Eugene"
+							},
+							"state": {
+								"name": "Oregon",
+								"stateCode": "OR"
+							},
+							"country": {
+								"name": "United States Of America",
+								"countryCode": "US"
+							},
+							"address": {
+								"line1": "One Eugene Center"
+							},
+							"location": {
+								"longitude": "-123.082001000",
+								"latitude": "44.068501000"
+							},
+							"dmas": [
+								{
+									"id": 272
+								}
+							],
+							"upcomingEvents": {
+								"tmr": 48,
+								"_total": 48,
+								"_filtered": 0
+							},
+							"_links": {
+								"self": {
+									"href": "/discovery/v2/venues/ZFr9jZekA1?locale=en-us"
+								}
+							}
+						}
+					],
+					"attractions": [
+						{
+							"name": "Hamilton (Touring)",
+							"type": "attraction",
+							"id": "K8vZ9174wRf",
+							"test": false,
+							"url": "https://www.ticketmaster.com/hamilton-touring-tickets/artist/2336213",
+							"locale": "en-us",
+							"images": [
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_3_2.jpg",
+									"width": 640,
+									"height": 427,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_16_9.jpg",
+									"width": 640,
+									"height": 360,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_16_9.jpg",
+									"width": 1024,
+									"height": 576,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_EVENT_DETAIL_PAGE_16_9.jpg",
+									"width": 205,
+									"height": 115,
+									"fallback": false
+								},
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_ARTIST_PAGE_3_2.jpg",
+									"width": 305,
+									"height": 203,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_SOURCE",
+									"width": 2426,
+									"height": 1365,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_LANDSCAPE_16_9.jpg",
+									"width": 1136,
+									"height": 639,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RECOMENDATION_16_9.jpg",
+									"width": 100,
+									"height": 56,
+									"fallback": false
+								},
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_3_2.jpg",
+									"width": 1024,
+									"height": 683,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+									"width": 2048,
+									"height": 1152,
+									"fallback": false
+								},
+								{
+									"ratio": "4_3",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_CUSTOM.jpg",
+									"width": 305,
+									"height": 225,
+									"fallback": false
+								}
+							],
+							"classifications": [
+								{
+									"primary": true,
+									"segment": {
+										"id": "KZFzniwnSyZfZ7v7na",
+										"name": "Arts & Theatre",
+										"levelType": "segment"
+									},
+									"genre": {
+										"id": "KnvZfZ7v7l1",
+										"name": "Theatre",
+										"levelType": "Level"
+									},
+									"subGenre": {
+										"id": "KZazBEonSMnZfZ7vAve",
+										"name": "Musical",
+										"levelType": "Level"
+									},
+									"type": {
+										"id": "KZAyXgnZfZ7v7lt",
+										"name": "Event Style",
+										"levelType": "type"
+									},
+									"subType": {
+										"id": "KZFzBErXgnZfZ7vAAt",
+										"name": "Touring Show/Production",
+										"levelType": "Level"
+									},
+									"family": false
+								}
+							],
+							"upcomingEvents": {
+								"tmr": 407,
+								"ticketmaster": 164,
+								"_total": 571,
+								"_filtered": 0
+							},
+							"_links": {
+								"self": {
+									"href": "/discovery/v2/attractions/K8vZ9174wRf?locale=en-us"
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"name": "Hamilton (Touring)",
+				"type": "event",
+				"id": "Z7r9jZ1A7apjZ",
+				"test": false,
+				"url": "https://www.ticketmaster.com/event/Z7r9jZ1A7apjZ",
+				"locale": "en-us",
+				"images": [
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_3_2.jpg",
+						"width": 640,
+						"height": 427,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_16_9.jpg",
+						"width": 640,
+						"height": 360,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_16_9.jpg",
+						"width": 1024,
+						"height": 576,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_EVENT_DETAIL_PAGE_16_9.jpg",
+						"width": 205,
+						"height": 115,
+						"fallback": false
+					},
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_ARTIST_PAGE_3_2.jpg",
+						"width": 305,
+						"height": 203,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_SOURCE",
+						"width": 2426,
+						"height": 1365,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_LANDSCAPE_16_9.jpg",
+						"width": 1136,
+						"height": 639,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RECOMENDATION_16_9.jpg",
+						"width": 100,
+						"height": 56,
+						"fallback": false
+					},
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_3_2.jpg",
+						"width": 1024,
+						"height": 683,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+						"width": 2048,
+						"height": 1152,
+						"fallback": false
+					},
+					{
+						"ratio": "4_3",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_CUSTOM.jpg",
+						"width": 305,
+						"height": 225,
+						"fallback": false
+					}
+				],
+				"sales": {
+					"public": {
+						"startDateTime": "1900-01-01T18:00:00Z",
+						"startTBD": false,
+						"startTBA": false,
+						"endDateTime": "2025-03-30T20:00:00Z"
+					}
+				},
+				"dates": {
+					"start": {
+						"localDate": "2025-03-30",
+						"localTime": "13:00:00",
+						"dateTime": "2025-03-30T20:00:00Z",
+						"dateTBD": false,
+						"dateTBA": false,
+						"timeTBA": false,
+						"noSpecificTime": false
+					},
+					"status": {
+						"code": "onsale"
+					},
+					"spanMultipleDays": false
+				},
+				"classifications": [
+					{
+						"primary": true,
+						"segment": {
+							"id": "KZFzniwnSyZfZ7v7na",
+							"name": "Arts & Theatre",
+							"levelType": "segment"
+						},
+						"genre": {
+							"id": "KnvZfZ7v7l1",
+							"name": "Theatre",
+							"levelType": "Level"
+						},
+						"subGenre": {
+							"id": "KZazBEonSMnZfZ7vAve",
+							"name": "Musical",
+							"levelType": "Level"
+						},
+						"family": false
+					}
+				],
+				"outlets": [
+					{
+						"url": "http://hultcenter.org/",
+						"type": "venueBoxOffice"
+					},
+					{
+						"url": "https://www.ticketmaster.com/hamilton-touring-eugene-oregon-03-30-2025/event/Z7r9jZ1A7apjZ",
+						"type": "tmMarketPlace"
+					}
+				],
+				"seatmap": {
+					"staticUrl": "https://content.resale.ticketmaster.com/graphics/TMResale/2/VenueMaps/1549-0-0-1-SilvaConcertHallBookofMormon.png",
+					"id": "seatmap"
+				},
+				"ticketing": {
+					"allInclusivePricing": {
+						"enabled": false
+					},
+					"id": "ticketing"
+				},
+				"_links": {
+					"self": {
+						"href": "/discovery/v2/events/Z7r9jZ1A7apjZ?locale=en-us"
+					},
+					"attractions": [
+						{
+							"href": "/discovery/v2/attractions/K8vZ9174wRf?locale=en-us"
+						}
+					],
+					"venues": [
+						{
+							"href": "/discovery/v2/venues/ZFr9jZekA1?locale=en-us"
+						}
+					]
+				},
+				"_embedded": {
+					"venues": [
+						{
+							"name": "Silva Concert Hall",
+							"type": "venue",
+							"id": "ZFr9jZekA1",
+							"test": false,
+							"locale": "en-us",
+							"postalCode": "97401",
+							"timezone": "America/Los_Angeles",
+							"city": {
+								"name": "Eugene"
+							},
+							"state": {
+								"name": "Oregon",
+								"stateCode": "OR"
+							},
+							"country": {
+								"name": "United States Of America",
+								"countryCode": "US"
+							},
+							"address": {
+								"line1": "One Eugene Center"
+							},
+							"location": {
+								"longitude": "-123.082001000",
+								"latitude": "44.068501000"
+							},
+							"dmas": [
+								{
+									"id": 272
+								}
+							],
+							"upcomingEvents": {
+								"tmr": 48,
+								"_total": 48,
+								"_filtered": 0
+							},
+							"_links": {
+								"self": {
+									"href": "/discovery/v2/venues/ZFr9jZekA1?locale=en-us"
+								}
+							}
+						}
+					],
+					"attractions": [
+						{
+							"name": "Hamilton (Touring)",
+							"type": "attraction",
+							"id": "K8vZ9174wRf",
+							"test": false,
+							"url": "https://www.ticketmaster.com/hamilton-touring-tickets/artist/2336213",
+							"locale": "en-us",
+							"images": [
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_3_2.jpg",
+									"width": 640,
+									"height": 427,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_16_9.jpg",
+									"width": 640,
+									"height": 360,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_16_9.jpg",
+									"width": 1024,
+									"height": 576,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_EVENT_DETAIL_PAGE_16_9.jpg",
+									"width": 205,
+									"height": 115,
+									"fallback": false
+								},
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_ARTIST_PAGE_3_2.jpg",
+									"width": 305,
+									"height": 203,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_SOURCE",
+									"width": 2426,
+									"height": 1365,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_LANDSCAPE_16_9.jpg",
+									"width": 1136,
+									"height": 639,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RECOMENDATION_16_9.jpg",
+									"width": 100,
+									"height": 56,
+									"fallback": false
+								},
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_3_2.jpg",
+									"width": 1024,
+									"height": 683,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+									"width": 2048,
+									"height": 1152,
+									"fallback": false
+								},
+								{
+									"ratio": "4_3",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_CUSTOM.jpg",
+									"width": 305,
+									"height": 225,
+									"fallback": false
+								}
+							],
+							"classifications": [
+								{
+									"primary": true,
+									"segment": {
+										"id": "KZFzniwnSyZfZ7v7na",
+										"name": "Arts & Theatre",
+										"levelType": "segment"
+									},
+									"genre": {
+										"id": "KnvZfZ7v7l1",
+										"name": "Theatre",
+										"levelType": "Level"
+									},
+									"subGenre": {
+										"id": "KZazBEonSMnZfZ7vAve",
+										"name": "Musical",
+										"levelType": "Level"
+									},
+									"type": {
+										"id": "KZAyXgnZfZ7v7lt",
+										"name": "Event Style",
+										"levelType": "type"
+									},
+									"subType": {
+										"id": "KZFzBErXgnZfZ7vAAt",
+										"name": "Touring Show/Production",
+										"levelType": "Level"
+									},
+									"family": false
+								}
+							],
+							"upcomingEvents": {
+								"tmr": 407,
+								"ticketmaster": 164,
+								"_total": 571,
+								"_filtered": 0
+							},
+							"_links": {
+								"self": {
+									"href": "/discovery/v2/attractions/K8vZ9174wRf?locale=en-us"
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"name": "Hamilton (Touring)",
+				"type": "event",
+				"id": "Z7r9jZ1A7ap_w",
+				"test": false,
+				"url": "https://www.ticketmaster.com/event/Z7r9jZ1A7ap_w",
+				"locale": "en-us",
+				"images": [
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_3_2.jpg",
+						"width": 640,
+						"height": 427,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_16_9.jpg",
+						"width": 640,
+						"height": 360,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_16_9.jpg",
+						"width": 1024,
+						"height": 576,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_EVENT_DETAIL_PAGE_16_9.jpg",
+						"width": 205,
+						"height": 115,
+						"fallback": false
+					},
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_ARTIST_PAGE_3_2.jpg",
+						"width": 305,
+						"height": 203,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_SOURCE",
+						"width": 2426,
+						"height": 1365,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_LANDSCAPE_16_9.jpg",
+						"width": 1136,
+						"height": 639,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RECOMENDATION_16_9.jpg",
+						"width": 100,
+						"height": 56,
+						"fallback": false
+					},
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_3_2.jpg",
+						"width": 1024,
+						"height": 683,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+						"width": 2048,
+						"height": 1152,
+						"fallback": false
+					},
+					{
+						"ratio": "4_3",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_CUSTOM.jpg",
+						"width": 305,
+						"height": 225,
+						"fallback": false
+					}
+				],
+				"sales": {
+					"public": {
+						"startDateTime": "1900-01-01T18:00:00Z",
+						"startTBD": false,
+						"startTBA": false,
+						"endDateTime": "2025-04-02T02:30:00Z"
+					}
+				},
+				"dates": {
+					"start": {
+						"localDate": "2025-04-01",
+						"localTime": "19:30:00",
+						"dateTime": "2025-04-02T02:30:00Z",
+						"dateTBD": false,
+						"dateTBA": false,
+						"timeTBA": false,
+						"noSpecificTime": false
+					},
+					"status": {
+						"code": "onsale"
+					},
+					"spanMultipleDays": false
+				},
+				"classifications": [
+					{
+						"primary": true,
+						"segment": {
+							"id": "KZFzniwnSyZfZ7v7na",
+							"name": "Arts & Theatre",
+							"levelType": "segment"
+						},
+						"genre": {
+							"id": "KnvZfZ7v7l1",
+							"name": "Theatre",
+							"levelType": "Level"
+						},
+						"subGenre": {
+							"id": "KZazBEonSMnZfZ7vAve",
+							"name": "Musical",
+							"levelType": "Level"
+						},
+						"family": false
+					}
+				],
+				"outlets": [
+					{
+						"url": "http://hultcenter.org/",
+						"type": "venueBoxOffice"
+					},
+					{
+						"url": "https://www.ticketmaster.com/hamilton-touring-eugene-oregon-04-01-2025/event/Z7r9jZ1A7ap_w",
+						"type": "tmMarketPlace"
+					}
+				],
+				"seatmap": {
+					"staticUrl": "https://content.resale.ticketmaster.com/graphics/TMResale/2/VenueMaps/1549-0-0-1-SilvaConcertHallBookofMormon.png",
+					"id": "seatmap"
+				},
+				"ticketing": {
+					"allInclusivePricing": {
+						"enabled": false
+					},
+					"id": "ticketing"
+				},
+				"_links": {
+					"self": {
+						"href": "/discovery/v2/events/Z7r9jZ1A7ap_w?locale=en-us"
+					},
+					"attractions": [
+						{
+							"href": "/discovery/v2/attractions/K8vZ9174wRf?locale=en-us"
+						}
+					],
+					"venues": [
+						{
+							"href": "/discovery/v2/venues/ZFr9jZekA1?locale=en-us"
+						}
+					]
+				},
+				"_embedded": {
+					"venues": [
+						{
+							"name": "Silva Concert Hall",
+							"type": "venue",
+							"id": "ZFr9jZekA1",
+							"test": false,
+							"locale": "en-us",
+							"postalCode": "97401",
+							"timezone": "America/Los_Angeles",
+							"city": {
+								"name": "Eugene"
+							},
+							"state": {
+								"name": "Oregon",
+								"stateCode": "OR"
+							},
+							"country": {
+								"name": "United States Of America",
+								"countryCode": "US"
+							},
+							"address": {
+								"line1": "One Eugene Center"
+							},
+							"location": {
+								"longitude": "-123.082001000",
+								"latitude": "44.068501000"
+							},
+							"dmas": [
+								{
+									"id": 272
+								}
+							],
+							"upcomingEvents": {
+								"tmr": 48,
+								"_total": 48,
+								"_filtered": 0
+							},
+							"_links": {
+								"self": {
+									"href": "/discovery/v2/venues/ZFr9jZekA1?locale=en-us"
+								}
+							}
+						}
+					],
+					"attractions": [
+						{
+							"name": "Hamilton (Touring)",
+							"type": "attraction",
+							"id": "K8vZ9174wRf",
+							"test": false,
+							"url": "https://www.ticketmaster.com/hamilton-touring-tickets/artist/2336213",
+							"locale": "en-us",
+							"images": [
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_3_2.jpg",
+									"width": 640,
+									"height": 427,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_16_9.jpg",
+									"width": 640,
+									"height": 360,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_16_9.jpg",
+									"width": 1024,
+									"height": 576,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_EVENT_DETAIL_PAGE_16_9.jpg",
+									"width": 205,
+									"height": 115,
+									"fallback": false
+								},
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_ARTIST_PAGE_3_2.jpg",
+									"width": 305,
+									"height": 203,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_SOURCE",
+									"width": 2426,
+									"height": 1365,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_LANDSCAPE_16_9.jpg",
+									"width": 1136,
+									"height": 639,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RECOMENDATION_16_9.jpg",
+									"width": 100,
+									"height": 56,
+									"fallback": false
+								},
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_3_2.jpg",
+									"width": 1024,
+									"height": 683,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+									"width": 2048,
+									"height": 1152,
+									"fallback": false
+								},
+								{
+									"ratio": "4_3",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_CUSTOM.jpg",
+									"width": 305,
+									"height": 225,
+									"fallback": false
+								}
+							],
+							"classifications": [
+								{
+									"primary": true,
+									"segment": {
+										"id": "KZFzniwnSyZfZ7v7na",
+										"name": "Arts & Theatre",
+										"levelType": "segment"
+									},
+									"genre": {
+										"id": "KnvZfZ7v7l1",
+										"name": "Theatre",
+										"levelType": "Level"
+									},
+									"subGenre": {
+										"id": "KZazBEonSMnZfZ7vAve",
+										"name": "Musical",
+										"levelType": "Level"
+									},
+									"type": {
+										"id": "KZAyXgnZfZ7v7lt",
+										"name": "Event Style",
+										"levelType": "type"
+									},
+									"subType": {
+										"id": "KZFzBErXgnZfZ7vAAt",
+										"name": "Touring Show/Production",
+										"levelType": "Level"
+									},
+									"family": false
+								}
+							],
+							"upcomingEvents": {
+								"tmr": 407,
+								"ticketmaster": 164,
+								"_total": 571,
+								"_filtered": 0
+							},
+							"_links": {
+								"self": {
+									"href": "/discovery/v2/attractions/K8vZ9174wRf?locale=en-us"
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"name": "Hamilton (Touring)",
+				"type": "event",
+				"id": "Z7r9jZ1A7ap_V",
+				"test": false,
+				"url": "https://www.ticketmaster.com/event/Z7r9jZ1A7ap_V",
+				"locale": "en-us",
+				"images": [
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_3_2.jpg",
+						"width": 640,
+						"height": 427,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_16_9.jpg",
+						"width": 640,
+						"height": 360,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_16_9.jpg",
+						"width": 1024,
+						"height": 576,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_EVENT_DETAIL_PAGE_16_9.jpg",
+						"width": 205,
+						"height": 115,
+						"fallback": false
+					},
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_ARTIST_PAGE_3_2.jpg",
+						"width": 305,
+						"height": 203,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_SOURCE",
+						"width": 2426,
+						"height": 1365,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_LANDSCAPE_16_9.jpg",
+						"width": 1136,
+						"height": 639,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RECOMENDATION_16_9.jpg",
+						"width": 100,
+						"height": 56,
+						"fallback": false
+					},
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_3_2.jpg",
+						"width": 1024,
+						"height": 683,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+						"width": 2048,
+						"height": 1152,
+						"fallback": false
+					},
+					{
+						"ratio": "4_3",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_CUSTOM.jpg",
+						"width": 305,
+						"height": 225,
+						"fallback": false
+					}
+				],
+				"sales": {
+					"public": {
+						"startDateTime": "1900-01-01T18:00:00Z",
+						"startTBD": false,
+						"startTBA": false,
+						"endDateTime": "2025-04-03T02:30:00Z"
+					}
+				},
+				"dates": {
+					"start": {
+						"localDate": "2025-04-02",
+						"localTime": "19:30:00",
+						"dateTime": "2025-04-03T02:30:00Z",
+						"dateTBD": false,
+						"dateTBA": false,
+						"timeTBA": false,
+						"noSpecificTime": false
+					},
+					"status": {
+						"code": "onsale"
+					},
+					"spanMultipleDays": false
+				},
+				"classifications": [
+					{
+						"primary": true,
+						"segment": {
+							"id": "KZFzniwnSyZfZ7v7na",
+							"name": "Arts & Theatre",
+							"levelType": "segment"
+						},
+						"genre": {
+							"id": "KnvZfZ7v7l1",
+							"name": "Theatre",
+							"levelType": "Level"
+						},
+						"subGenre": {
+							"id": "KZazBEonSMnZfZ7vAve",
+							"name": "Musical",
+							"levelType": "Level"
+						},
+						"family": false
+					}
+				],
+				"outlets": [
+					{
+						"url": "http://hultcenter.org/",
+						"type": "venueBoxOffice"
+					},
+					{
+						"url": "https://www.ticketmaster.com/hamilton-touring-eugene-oregon-04-02-2025/event/Z7r9jZ1A7ap_V",
+						"type": "tmMarketPlace"
+					}
+				],
+				"seatmap": {
+					"staticUrl": "https://content.resale.ticketmaster.com/graphics/TMResale/2/VenueMaps/1549-0-0-1-SilvaConcertHallBookofMormon.png",
+					"id": "seatmap"
+				},
+				"ticketing": {
+					"allInclusivePricing": {
+						"enabled": false
+					},
+					"id": "ticketing"
+				},
+				"_links": {
+					"self": {
+						"href": "/discovery/v2/events/Z7r9jZ1A7ap_V?locale=en-us"
+					},
+					"attractions": [
+						{
+							"href": "/discovery/v2/attractions/K8vZ9174wRf?locale=en-us"
+						}
+					],
+					"venues": [
+						{
+							"href": "/discovery/v2/venues/ZFr9jZekA1?locale=en-us"
+						}
+					]
+				},
+				"_embedded": {
+					"venues": [
+						{
+							"name": "Silva Concert Hall",
+							"type": "venue",
+							"id": "ZFr9jZekA1",
+							"test": false,
+							"locale": "en-us",
+							"postalCode": "97401",
+							"timezone": "America/Los_Angeles",
+							"city": {
+								"name": "Eugene"
+							},
+							"state": {
+								"name": "Oregon",
+								"stateCode": "OR"
+							},
+							"country": {
+								"name": "United States Of America",
+								"countryCode": "US"
+							},
+							"address": {
+								"line1": "One Eugene Center"
+							},
+							"location": {
+								"longitude": "-123.082001000",
+								"latitude": "44.068501000"
+							},
+							"dmas": [
+								{
+									"id": 272
+								}
+							],
+							"upcomingEvents": {
+								"tmr": 48,
+								"_total": 48,
+								"_filtered": 0
+							},
+							"_links": {
+								"self": {
+									"href": "/discovery/v2/venues/ZFr9jZekA1?locale=en-us"
+								}
+							}
+						}
+					],
+					"attractions": [
+						{
+							"name": "Hamilton (Touring)",
+							"type": "attraction",
+							"id": "K8vZ9174wRf",
+							"test": false,
+							"url": "https://www.ticketmaster.com/hamilton-touring-tickets/artist/2336213",
+							"locale": "en-us",
+							"images": [
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_3_2.jpg",
+									"width": 640,
+									"height": 427,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_16_9.jpg",
+									"width": 640,
+									"height": 360,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_16_9.jpg",
+									"width": 1024,
+									"height": 576,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_EVENT_DETAIL_PAGE_16_9.jpg",
+									"width": 205,
+									"height": 115,
+									"fallback": false
+								},
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_ARTIST_PAGE_3_2.jpg",
+									"width": 305,
+									"height": 203,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_SOURCE",
+									"width": 2426,
+									"height": 1365,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_LANDSCAPE_16_9.jpg",
+									"width": 1136,
+									"height": 639,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RECOMENDATION_16_9.jpg",
+									"width": 100,
+									"height": 56,
+									"fallback": false
+								},
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_3_2.jpg",
+									"width": 1024,
+									"height": 683,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+									"width": 2048,
+									"height": 1152,
+									"fallback": false
+								},
+								{
+									"ratio": "4_3",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_CUSTOM.jpg",
+									"width": 305,
+									"height": 225,
+									"fallback": false
+								}
+							],
+							"classifications": [
+								{
+									"primary": true,
+									"segment": {
+										"id": "KZFzniwnSyZfZ7v7na",
+										"name": "Arts & Theatre",
+										"levelType": "segment"
+									},
+									"genre": {
+										"id": "KnvZfZ7v7l1",
+										"name": "Theatre",
+										"levelType": "Level"
+									},
+									"subGenre": {
+										"id": "KZazBEonSMnZfZ7vAve",
+										"name": "Musical",
+										"levelType": "Level"
+									},
+									"type": {
+										"id": "KZAyXgnZfZ7v7lt",
+										"name": "Event Style",
+										"levelType": "type"
+									},
+									"subType": {
+										"id": "KZFzBErXgnZfZ7vAAt",
+										"name": "Touring Show/Production",
+										"levelType": "Level"
+									},
+									"family": false
+								}
+							],
+							"upcomingEvents": {
+								"tmr": 407,
+								"ticketmaster": 164,
+								"_total": 571,
+								"_filtered": 0
+							},
+							"_links": {
+								"self": {
+									"href": "/discovery/v2/attractions/K8vZ9174wRf?locale=en-us"
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"name": "Hamilton (Touring)",
+				"type": "event",
+				"id": "Z7r9jZ1A7apQo",
+				"test": false,
+				"url": "https://www.ticketmaster.com/event/Z7r9jZ1A7apQo",
+				"locale": "en-us",
+				"images": [
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_3_2.jpg",
+						"width": 640,
+						"height": 427,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_16_9.jpg",
+						"width": 640,
+						"height": 360,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_16_9.jpg",
+						"width": 1024,
+						"height": 576,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_EVENT_DETAIL_PAGE_16_9.jpg",
+						"width": 205,
+						"height": 115,
+						"fallback": false
+					},
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_ARTIST_PAGE_3_2.jpg",
+						"width": 305,
+						"height": 203,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_SOURCE",
+						"width": 2426,
+						"height": 1365,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_LANDSCAPE_16_9.jpg",
+						"width": 1136,
+						"height": 639,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RECOMENDATION_16_9.jpg",
+						"width": 100,
+						"height": 56,
+						"fallback": false
+					},
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_3_2.jpg",
+						"width": 1024,
+						"height": 683,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+						"width": 2048,
+						"height": 1152,
+						"fallback": false
+					},
+					{
+						"ratio": "4_3",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_CUSTOM.jpg",
+						"width": 305,
+						"height": 225,
+						"fallback": false
+					}
+				],
+				"sales": {
+					"public": {
+						"startDateTime": "1900-01-01T18:00:00Z",
+						"startTBD": false,
+						"startTBA": false,
+						"endDateTime": "2025-04-04T02:30:00Z"
+					}
+				},
+				"dates": {
+					"start": {
+						"localDate": "2025-04-03",
+						"localTime": "19:30:00",
+						"dateTime": "2025-04-04T02:30:00Z",
+						"dateTBD": false,
+						"dateTBA": false,
+						"timeTBA": false,
+						"noSpecificTime": false
+					},
+					"status": {
+						"code": "onsale"
+					},
+					"spanMultipleDays": false
+				},
+				"classifications": [
+					{
+						"primary": true,
+						"segment": {
+							"id": "KZFzniwnSyZfZ7v7na",
+							"name": "Arts & Theatre",
+							"levelType": "segment"
+						},
+						"genre": {
+							"id": "KnvZfZ7v7l1",
+							"name": "Theatre",
+							"levelType": "Level"
+						},
+						"subGenre": {
+							"id": "KZazBEonSMnZfZ7vAve",
+							"name": "Musical",
+							"levelType": "Level"
+						},
+						"family": false
+					}
+				],
+				"outlets": [
+					{
+						"url": "http://hultcenter.org/",
+						"type": "venueBoxOffice"
+					},
+					{
+						"url": "https://www.ticketmaster.com/hamilton-touring-eugene-oregon-04-03-2025/event/Z7r9jZ1A7apQo",
+						"type": "tmMarketPlace"
+					}
+				],
+				"seatmap": {
+					"staticUrl": "https://content.resale.ticketmaster.com/graphics/TMResale/2/VenueMaps/1549-0-0-1-SilvaConcertHallBookofMormon.png",
+					"id": "seatmap"
+				},
+				"ticketing": {
+					"allInclusivePricing": {
+						"enabled": false
+					},
+					"id": "ticketing"
+				},
+				"_links": {
+					"self": {
+						"href": "/discovery/v2/events/Z7r9jZ1A7apQo?locale=en-us"
+					},
+					"attractions": [
+						{
+							"href": "/discovery/v2/attractions/K8vZ9174wRf?locale=en-us"
+						}
+					],
+					"venues": [
+						{
+							"href": "/discovery/v2/venues/ZFr9jZekA1?locale=en-us"
+						}
+					]
+				},
+				"_embedded": {
+					"venues": [
+						{
+							"name": "Silva Concert Hall",
+							"type": "venue",
+							"id": "ZFr9jZekA1",
+							"test": false,
+							"locale": "en-us",
+							"postalCode": "97401",
+							"timezone": "America/Los_Angeles",
+							"city": {
+								"name": "Eugene"
+							},
+							"state": {
+								"name": "Oregon",
+								"stateCode": "OR"
+							},
+							"country": {
+								"name": "United States Of America",
+								"countryCode": "US"
+							},
+							"address": {
+								"line1": "One Eugene Center"
+							},
+							"location": {
+								"longitude": "-123.082001000",
+								"latitude": "44.068501000"
+							},
+							"dmas": [
+								{
+									"id": 272
+								}
+							],
+							"upcomingEvents": {
+								"tmr": 48,
+								"_total": 48,
+								"_filtered": 0
+							},
+							"_links": {
+								"self": {
+									"href": "/discovery/v2/venues/ZFr9jZekA1?locale=en-us"
+								}
+							}
+						}
+					],
+					"attractions": [
+						{
+							"name": "Hamilton (Touring)",
+							"type": "attraction",
+							"id": "K8vZ9174wRf",
+							"test": false,
+							"url": "https://www.ticketmaster.com/hamilton-touring-tickets/artist/2336213",
+							"locale": "en-us",
+							"images": [
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_3_2.jpg",
+									"width": 640,
+									"height": 427,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_16_9.jpg",
+									"width": 640,
+									"height": 360,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_16_9.jpg",
+									"width": 1024,
+									"height": 576,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_EVENT_DETAIL_PAGE_16_9.jpg",
+									"width": 205,
+									"height": 115,
+									"fallback": false
+								},
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_ARTIST_PAGE_3_2.jpg",
+									"width": 305,
+									"height": 203,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_SOURCE",
+									"width": 2426,
+									"height": 1365,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_LANDSCAPE_16_9.jpg",
+									"width": 1136,
+									"height": 639,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RECOMENDATION_16_9.jpg",
+									"width": 100,
+									"height": 56,
+									"fallback": false
+								},
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_3_2.jpg",
+									"width": 1024,
+									"height": 683,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+									"width": 2048,
+									"height": 1152,
+									"fallback": false
+								},
+								{
+									"ratio": "4_3",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_CUSTOM.jpg",
+									"width": 305,
+									"height": 225,
+									"fallback": false
+								}
+							],
+							"classifications": [
+								{
+									"primary": true,
+									"segment": {
+										"id": "KZFzniwnSyZfZ7v7na",
+										"name": "Arts & Theatre",
+										"levelType": "segment"
+									},
+									"genre": {
+										"id": "KnvZfZ7v7l1",
+										"name": "Theatre",
+										"levelType": "Level"
+									},
+									"subGenre": {
+										"id": "KZazBEonSMnZfZ7vAve",
+										"name": "Musical",
+										"levelType": "Level"
+									},
+									"type": {
+										"id": "KZAyXgnZfZ7v7lt",
+										"name": "Event Style",
+										"levelType": "type"
+									},
+									"subType": {
+										"id": "KZFzBErXgnZfZ7vAAt",
+										"name": "Touring Show/Production",
+										"levelType": "Level"
+									},
+									"family": false
+								}
+							],
+							"upcomingEvents": {
+								"tmr": 407,
+								"ticketmaster": 164,
+								"_total": 571,
+								"_filtered": 0
+							},
+							"_links": {
+								"self": {
+									"href": "/discovery/v2/attractions/K8vZ9174wRf?locale=en-us"
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"name": "Hamilton (Touring)",
+				"type": "event",
+				"id": "Z7r9jZ1A7apQa",
+				"test": false,
+				"url": "https://www.ticketmaster.com/event/Z7r9jZ1A7apQa",
+				"locale": "en-us",
+				"images": [
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_3_2.jpg",
+						"width": 640,
+						"height": 427,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_16_9.jpg",
+						"width": 640,
+						"height": 360,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_16_9.jpg",
+						"width": 1024,
+						"height": 576,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_EVENT_DETAIL_PAGE_16_9.jpg",
+						"width": 205,
+						"height": 115,
+						"fallback": false
+					},
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_ARTIST_PAGE_3_2.jpg",
+						"width": 305,
+						"height": 203,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_SOURCE",
+						"width": 2426,
+						"height": 1365,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_LANDSCAPE_16_9.jpg",
+						"width": 1136,
+						"height": 639,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RECOMENDATION_16_9.jpg",
+						"width": 100,
+						"height": 56,
+						"fallback": false
+					},
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_3_2.jpg",
+						"width": 1024,
+						"height": 683,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+						"width": 2048,
+						"height": 1152,
+						"fallback": false
+					},
+					{
+						"ratio": "4_3",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_CUSTOM.jpg",
+						"width": 305,
+						"height": 225,
+						"fallback": false
+					}
+				],
+				"sales": {
+					"public": {
+						"startDateTime": "1900-01-01T18:00:00Z",
+						"startTBD": false,
+						"startTBA": false,
+						"endDateTime": "2025-04-05T03:00:00Z"
+					}
+				},
+				"dates": {
+					"start": {
+						"localDate": "2025-04-04",
+						"localTime": "20:00:00",
+						"dateTime": "2025-04-05T03:00:00Z",
+						"dateTBD": false,
+						"dateTBA": false,
+						"timeTBA": false,
+						"noSpecificTime": false
+					},
+					"status": {
+						"code": "onsale"
+					},
+					"spanMultipleDays": false
+				},
+				"classifications": [
+					{
+						"primary": true,
+						"segment": {
+							"id": "KZFzniwnSyZfZ7v7na",
+							"name": "Arts & Theatre",
+							"levelType": "segment"
+						},
+						"genre": {
+							"id": "KnvZfZ7v7l1",
+							"name": "Theatre",
+							"levelType": "Level"
+						},
+						"subGenre": {
+							"id": "KZazBEonSMnZfZ7vAve",
+							"name": "Musical",
+							"levelType": "Level"
+						},
+						"family": false
+					}
+				],
+				"outlets": [
+					{
+						"url": "http://hultcenter.org/",
+						"type": "venueBoxOffice"
+					},
+					{
+						"url": "https://www.ticketmaster.com/hamilton-touring-eugene-oregon-04-04-2025/event/Z7r9jZ1A7apQa",
+						"type": "tmMarketPlace"
+					}
+				],
+				"seatmap": {
+					"staticUrl": "https://content.resale.ticketmaster.com/graphics/TMResale/2/VenueMaps/1549-0-0-1-SilvaConcertHallBookofMormon.png",
+					"id": "seatmap"
+				},
+				"ticketing": {
+					"allInclusivePricing": {
+						"enabled": false
+					},
+					"id": "ticketing"
+				},
+				"_links": {
+					"self": {
+						"href": "/discovery/v2/events/Z7r9jZ1A7apQa?locale=en-us"
+					},
+					"attractions": [
+						{
+							"href": "/discovery/v2/attractions/K8vZ9174wRf?locale=en-us"
+						}
+					],
+					"venues": [
+						{
+							"href": "/discovery/v2/venues/ZFr9jZekA1?locale=en-us"
+						}
+					]
+				},
+				"_embedded": {
+					"venues": [
+						{
+							"name": "Silva Concert Hall",
+							"type": "venue",
+							"id": "ZFr9jZekA1",
+							"test": false,
+							"locale": "en-us",
+							"postalCode": "97401",
+							"timezone": "America/Los_Angeles",
+							"city": {
+								"name": "Eugene"
+							},
+							"state": {
+								"name": "Oregon",
+								"stateCode": "OR"
+							},
+							"country": {
+								"name": "United States Of America",
+								"countryCode": "US"
+							},
+							"address": {
+								"line1": "One Eugene Center"
+							},
+							"location": {
+								"longitude": "-123.082001000",
+								"latitude": "44.068501000"
+							},
+							"dmas": [
+								{
+									"id": 272
+								}
+							],
+							"upcomingEvents": {
+								"tmr": 48,
+								"_total": 48,
+								"_filtered": 0
+							},
+							"_links": {
+								"self": {
+									"href": "/discovery/v2/venues/ZFr9jZekA1?locale=en-us"
+								}
+							}
+						}
+					],
+					"attractions": [
+						{
+							"name": "Hamilton (Touring)",
+							"type": "attraction",
+							"id": "K8vZ9174wRf",
+							"test": false,
+							"url": "https://www.ticketmaster.com/hamilton-touring-tickets/artist/2336213",
+							"locale": "en-us",
+							"images": [
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_3_2.jpg",
+									"width": 640,
+									"height": 427,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_16_9.jpg",
+									"width": 640,
+									"height": 360,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_16_9.jpg",
+									"width": 1024,
+									"height": 576,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_EVENT_DETAIL_PAGE_16_9.jpg",
+									"width": 205,
+									"height": 115,
+									"fallback": false
+								},
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_ARTIST_PAGE_3_2.jpg",
+									"width": 305,
+									"height": 203,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_SOURCE",
+									"width": 2426,
+									"height": 1365,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_LANDSCAPE_16_9.jpg",
+									"width": 1136,
+									"height": 639,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RECOMENDATION_16_9.jpg",
+									"width": 100,
+									"height": 56,
+									"fallback": false
+								},
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_3_2.jpg",
+									"width": 1024,
+									"height": 683,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+									"width": 2048,
+									"height": 1152,
+									"fallback": false
+								},
+								{
+									"ratio": "4_3",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_CUSTOM.jpg",
+									"width": 305,
+									"height": 225,
+									"fallback": false
+								}
+							],
+							"classifications": [
+								{
+									"primary": true,
+									"segment": {
+										"id": "KZFzniwnSyZfZ7v7na",
+										"name": "Arts & Theatre",
+										"levelType": "segment"
+									},
+									"genre": {
+										"id": "KnvZfZ7v7l1",
+										"name": "Theatre",
+										"levelType": "Level"
+									},
+									"subGenre": {
+										"id": "KZazBEonSMnZfZ7vAve",
+										"name": "Musical",
+										"levelType": "Level"
+									},
+									"type": {
+										"id": "KZAyXgnZfZ7v7lt",
+										"name": "Event Style",
+										"levelType": "type"
+									},
+									"subType": {
+										"id": "KZFzBErXgnZfZ7vAAt",
+										"name": "Touring Show/Production",
+										"levelType": "Level"
+									},
+									"family": false
+								}
+							],
+							"upcomingEvents": {
+								"tmr": 407,
+								"ticketmaster": 164,
+								"_total": 571,
+								"_filtered": 0
+							},
+							"_links": {
+								"self": {
+									"href": "/discovery/v2/attractions/K8vZ9174wRf?locale=en-us"
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"name": "Hamilton (Touring)",
+				"type": "event",
+				"id": "Z7r9jZ1A7apQp",
+				"test": false,
+				"url": "https://www.ticketmaster.com/event/Z7r9jZ1A7apQp",
+				"locale": "en-us",
+				"images": [
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_3_2.jpg",
+						"width": 640,
+						"height": 427,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_16_9.jpg",
+						"width": 640,
+						"height": 360,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_16_9.jpg",
+						"width": 1024,
+						"height": 576,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_EVENT_DETAIL_PAGE_16_9.jpg",
+						"width": 205,
+						"height": 115,
+						"fallback": false
+					},
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_ARTIST_PAGE_3_2.jpg",
+						"width": 305,
+						"height": 203,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_SOURCE",
+						"width": 2426,
+						"height": 1365,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_LANDSCAPE_16_9.jpg",
+						"width": 1136,
+						"height": 639,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RECOMENDATION_16_9.jpg",
+						"width": 100,
+						"height": 56,
+						"fallback": false
+					},
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_3_2.jpg",
+						"width": 1024,
+						"height": 683,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+						"width": 2048,
+						"height": 1152,
+						"fallback": false
+					},
+					{
+						"ratio": "4_3",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_CUSTOM.jpg",
+						"width": 305,
+						"height": 225,
+						"fallback": false
+					}
+				],
+				"sales": {
+					"public": {
+						"startDateTime": "1900-01-01T18:00:00Z",
+						"startTBD": false,
+						"startTBA": false,
+						"endDateTime": "2025-04-06T03:00:00Z"
+					}
+				},
+				"dates": {
+					"start": {
+						"localDate": "2025-04-05",
+						"localTime": "20:00:00",
+						"dateTime": "2025-04-06T03:00:00Z",
+						"dateTBD": false,
+						"dateTBA": false,
+						"timeTBA": false,
+						"noSpecificTime": false
+					},
+					"status": {
+						"code": "onsale"
+					},
+					"spanMultipleDays": false
+				},
+				"classifications": [
+					{
+						"primary": true,
+						"segment": {
+							"id": "KZFzniwnSyZfZ7v7na",
+							"name": "Arts & Theatre",
+							"levelType": "segment"
+						},
+						"genre": {
+							"id": "KnvZfZ7v7l1",
+							"name": "Theatre",
+							"levelType": "Level"
+						},
+						"subGenre": {
+							"id": "KZazBEonSMnZfZ7vAve",
+							"name": "Musical",
+							"levelType": "Level"
+						},
+						"family": false
+					}
+				],
+				"outlets": [
+					{
+						"url": "http://hultcenter.org/",
+						"type": "venueBoxOffice"
+					},
+					{
+						"url": "https://www.ticketmaster.com/hamilton-touring-eugene-oregon-04-05-2025/event/Z7r9jZ1A7apQp",
+						"type": "tmMarketPlace"
+					}
+				],
+				"seatmap": {
+					"staticUrl": "https://content.resale.ticketmaster.com/graphics/TMResale/2/VenueMaps/1549-0-0-1-SilvaConcertHallBookofMormon.png",
+					"id": "seatmap"
+				},
+				"ticketing": {
+					"allInclusivePricing": {
+						"enabled": false
+					},
+					"id": "ticketing"
+				},
+				"_links": {
+					"self": {
+						"href": "/discovery/v2/events/Z7r9jZ1A7apQp?locale=en-us"
+					},
+					"attractions": [
+						{
+							"href": "/discovery/v2/attractions/K8vZ9174wRf?locale=en-us"
+						}
+					],
+					"venues": [
+						{
+							"href": "/discovery/v2/venues/ZFr9jZekA1?locale=en-us"
+						}
+					]
+				},
+				"_embedded": {
+					"venues": [
+						{
+							"name": "Silva Concert Hall",
+							"type": "venue",
+							"id": "ZFr9jZekA1",
+							"test": false,
+							"locale": "en-us",
+							"postalCode": "97401",
+							"timezone": "America/Los_Angeles",
+							"city": {
+								"name": "Eugene"
+							},
+							"state": {
+								"name": "Oregon",
+								"stateCode": "OR"
+							},
+							"country": {
+								"name": "United States Of America",
+								"countryCode": "US"
+							},
+							"address": {
+								"line1": "One Eugene Center"
+							},
+							"location": {
+								"longitude": "-123.082001000",
+								"latitude": "44.068501000"
+							},
+							"dmas": [
+								{
+									"id": 272
+								}
+							],
+							"upcomingEvents": {
+								"tmr": 48,
+								"_total": 48,
+								"_filtered": 0
+							},
+							"_links": {
+								"self": {
+									"href": "/discovery/v2/venues/ZFr9jZekA1?locale=en-us"
+								}
+							}
+						}
+					],
+					"attractions": [
+						{
+							"name": "Hamilton (Touring)",
+							"type": "attraction",
+							"id": "K8vZ9174wRf",
+							"test": false,
+							"url": "https://www.ticketmaster.com/hamilton-touring-tickets/artist/2336213",
+							"locale": "en-us",
+							"images": [
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_3_2.jpg",
+									"width": 640,
+									"height": 427,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_16_9.jpg",
+									"width": 640,
+									"height": 360,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_16_9.jpg",
+									"width": 1024,
+									"height": 576,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_EVENT_DETAIL_PAGE_16_9.jpg",
+									"width": 205,
+									"height": 115,
+									"fallback": false
+								},
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_ARTIST_PAGE_3_2.jpg",
+									"width": 305,
+									"height": 203,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_SOURCE",
+									"width": 2426,
+									"height": 1365,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_LANDSCAPE_16_9.jpg",
+									"width": 1136,
+									"height": 639,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RECOMENDATION_16_9.jpg",
+									"width": 100,
+									"height": 56,
+									"fallback": false
+								},
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_3_2.jpg",
+									"width": 1024,
+									"height": 683,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+									"width": 2048,
+									"height": 1152,
+									"fallback": false
+								},
+								{
+									"ratio": "4_3",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_CUSTOM.jpg",
+									"width": 305,
+									"height": 225,
+									"fallback": false
+								}
+							],
+							"classifications": [
+								{
+									"primary": true,
+									"segment": {
+										"id": "KZFzniwnSyZfZ7v7na",
+										"name": "Arts & Theatre",
+										"levelType": "segment"
+									},
+									"genre": {
+										"id": "KnvZfZ7v7l1",
+										"name": "Theatre",
+										"levelType": "Level"
+									},
+									"subGenre": {
+										"id": "KZazBEonSMnZfZ7vAve",
+										"name": "Musical",
+										"levelType": "Level"
+									},
+									"type": {
+										"id": "KZAyXgnZfZ7v7lt",
+										"name": "Event Style",
+										"levelType": "type"
+									},
+									"subType": {
+										"id": "KZFzBErXgnZfZ7vAAt",
+										"name": "Touring Show/Production",
+										"levelType": "Level"
+									},
+									"family": false
+								}
+							],
+							"upcomingEvents": {
+								"tmr": 407,
+								"ticketmaster": 164,
+								"_total": 571,
+								"_filtered": 0
+							},
+							"_links": {
+								"self": {
+									"href": "/discovery/v2/attractions/K8vZ9174wRf?locale=en-us"
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"name": "Hamilton (Touring)",
+				"type": "event",
+				"id": "Z7r9jZ1A7ap_z",
+				"test": false,
+				"url": "https://www.ticketmaster.com/event/Z7r9jZ1A7ap_z",
+				"locale": "en-us",
+				"images": [
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_3_2.jpg",
+						"width": 640,
+						"height": 427,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_16_9.jpg",
+						"width": 640,
+						"height": 360,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_16_9.jpg",
+						"width": 1024,
+						"height": 576,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_EVENT_DETAIL_PAGE_16_9.jpg",
+						"width": 205,
+						"height": 115,
+						"fallback": false
+					},
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_ARTIST_PAGE_3_2.jpg",
+						"width": 305,
+						"height": 203,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_SOURCE",
+						"width": 2426,
+						"height": 1365,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_LANDSCAPE_16_9.jpg",
+						"width": 1136,
+						"height": 639,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RECOMENDATION_16_9.jpg",
+						"width": 100,
+						"height": 56,
+						"fallback": false
+					},
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_3_2.jpg",
+						"width": 1024,
+						"height": 683,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+						"width": 2048,
+						"height": 1152,
+						"fallback": false
+					},
+					{
+						"ratio": "4_3",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_CUSTOM.jpg",
+						"width": 305,
+						"height": 225,
+						"fallback": false
+					}
+				],
+				"sales": {
+					"public": {
+						"startDateTime": "1900-01-01T18:00:00Z",
+						"startTBD": false,
+						"startTBA": false,
+						"endDateTime": "2025-04-05T21:00:00Z"
+					}
+				},
+				"dates": {
+					"start": {
+						"localDate": "2025-04-05",
+						"localTime": "14:00:00",
+						"dateTime": "2025-04-05T21:00:00Z",
+						"dateTBD": false,
+						"dateTBA": false,
+						"timeTBA": false,
+						"noSpecificTime": false
+					},
+					"status": {
+						"code": "onsale"
+					},
+					"spanMultipleDays": false
+				},
+				"classifications": [
+					{
+						"primary": true,
+						"segment": {
+							"id": "KZFzniwnSyZfZ7v7na",
+							"name": "Arts & Theatre",
+							"levelType": "segment"
+						},
+						"genre": {
+							"id": "KnvZfZ7v7l1",
+							"name": "Theatre",
+							"levelType": "Level"
+						},
+						"subGenre": {
+							"id": "KZazBEonSMnZfZ7vAve",
+							"name": "Musical",
+							"levelType": "Level"
+						},
+						"family": false
+					}
+				],
+				"outlets": [
+					{
+						"url": "http://hultcenter.org/",
+						"type": "venueBoxOffice"
+					},
+					{
+						"url": "https://www.ticketmaster.com/hamilton-touring-eugene-oregon-04-05-2025/event/Z7r9jZ1A7ap_z",
+						"type": "tmMarketPlace"
+					}
+				],
+				"seatmap": {
+					"staticUrl": "https://content.resale.ticketmaster.com/graphics/TMResale/2/VenueMaps/1549-0-0-1-SilvaConcertHallBookofMormon.png",
+					"id": "seatmap"
+				},
+				"ticketing": {
+					"allInclusivePricing": {
+						"enabled": false
+					},
+					"id": "ticketing"
+				},
+				"_links": {
+					"self": {
+						"href": "/discovery/v2/events/Z7r9jZ1A7ap_z?locale=en-us"
+					},
+					"attractions": [
+						{
+							"href": "/discovery/v2/attractions/K8vZ9174wRf?locale=en-us"
+						}
+					],
+					"venues": [
+						{
+							"href": "/discovery/v2/venues/ZFr9jZekA1?locale=en-us"
+						}
+					]
+				},
+				"_embedded": {
+					"venues": [
+						{
+							"name": "Silva Concert Hall",
+							"type": "venue",
+							"id": "ZFr9jZekA1",
+							"test": false,
+							"locale": "en-us",
+							"postalCode": "97401",
+							"timezone": "America/Los_Angeles",
+							"city": {
+								"name": "Eugene"
+							},
+							"state": {
+								"name": "Oregon",
+								"stateCode": "OR"
+							},
+							"country": {
+								"name": "United States Of America",
+								"countryCode": "US"
+							},
+							"address": {
+								"line1": "One Eugene Center"
+							},
+							"location": {
+								"longitude": "-123.082001000",
+								"latitude": "44.068501000"
+							},
+							"dmas": [
+								{
+									"id": 272
+								}
+							],
+							"upcomingEvents": {
+								"tmr": 48,
+								"_total": 48,
+								"_filtered": 0
+							},
+							"_links": {
+								"self": {
+									"href": "/discovery/v2/venues/ZFr9jZekA1?locale=en-us"
+								}
+							}
+						}
+					],
+					"attractions": [
+						{
+							"name": "Hamilton (Touring)",
+							"type": "attraction",
+							"id": "K8vZ9174wRf",
+							"test": false,
+							"url": "https://www.ticketmaster.com/hamilton-touring-tickets/artist/2336213",
+							"locale": "en-us",
+							"images": [
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_3_2.jpg",
+									"width": 640,
+									"height": 427,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_16_9.jpg",
+									"width": 640,
+									"height": 360,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_16_9.jpg",
+									"width": 1024,
+									"height": 576,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_EVENT_DETAIL_PAGE_16_9.jpg",
+									"width": 205,
+									"height": 115,
+									"fallback": false
+								},
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_ARTIST_PAGE_3_2.jpg",
+									"width": 305,
+									"height": 203,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_SOURCE",
+									"width": 2426,
+									"height": 1365,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_LANDSCAPE_16_9.jpg",
+									"width": 1136,
+									"height": 639,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RECOMENDATION_16_9.jpg",
+									"width": 100,
+									"height": 56,
+									"fallback": false
+								},
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_3_2.jpg",
+									"width": 1024,
+									"height": 683,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+									"width": 2048,
+									"height": 1152,
+									"fallback": false
+								},
+								{
+									"ratio": "4_3",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_CUSTOM.jpg",
+									"width": 305,
+									"height": 225,
+									"fallback": false
+								}
+							],
+							"classifications": [
+								{
+									"primary": true,
+									"segment": {
+										"id": "KZFzniwnSyZfZ7v7na",
+										"name": "Arts & Theatre",
+										"levelType": "segment"
+									},
+									"genre": {
+										"id": "KnvZfZ7v7l1",
+										"name": "Theatre",
+										"levelType": "Level"
+									},
+									"subGenre": {
+										"id": "KZazBEonSMnZfZ7vAve",
+										"name": "Musical",
+										"levelType": "Level"
+									},
+									"type": {
+										"id": "KZAyXgnZfZ7v7lt",
+										"name": "Event Style",
+										"levelType": "type"
+									},
+									"subType": {
+										"id": "KZFzBErXgnZfZ7vAAt",
+										"name": "Touring Show/Production",
+										"levelType": "Level"
+									},
+									"family": false
+								}
+							],
+							"upcomingEvents": {
+								"tmr": 407,
+								"ticketmaster": 164,
+								"_total": 571,
+								"_filtered": 0
+							},
+							"_links": {
+								"self": {
+									"href": "/discovery/v2/attractions/K8vZ9174wRf?locale=en-us"
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"name": "Hamilton (Touring)",
+				"type": "event",
+				"id": "Z7r9jZ1A7apQb",
+				"test": false,
+				"url": "https://www.ticketmaster.com/event/Z7r9jZ1A7apQb",
+				"locale": "en-us",
+				"images": [
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_3_2.jpg",
+						"width": 640,
+						"height": 427,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_16_9.jpg",
+						"width": 640,
+						"height": 360,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_16_9.jpg",
+						"width": 1024,
+						"height": 576,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_EVENT_DETAIL_PAGE_16_9.jpg",
+						"width": 205,
+						"height": 115,
+						"fallback": false
+					},
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_ARTIST_PAGE_3_2.jpg",
+						"width": 305,
+						"height": 203,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_SOURCE",
+						"width": 2426,
+						"height": 1365,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_LANDSCAPE_16_9.jpg",
+						"width": 1136,
+						"height": 639,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RECOMENDATION_16_9.jpg",
+						"width": 100,
+						"height": 56,
+						"fallback": false
+					},
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_3_2.jpg",
+						"width": 1024,
+						"height": 683,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+						"width": 2048,
+						"height": 1152,
+						"fallback": false
+					},
+					{
+						"ratio": "4_3",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_CUSTOM.jpg",
+						"width": 305,
+						"height": 225,
+						"fallback": false
+					}
+				],
+				"sales": {
+					"public": {
+						"startDateTime": "1900-01-01T18:00:00Z",
+						"startTBD": false,
+						"startTBA": false,
+						"endDateTime": "2025-04-06T20:00:00Z"
+					}
+				},
+				"dates": {
+					"start": {
+						"localDate": "2025-04-06",
+						"localTime": "13:00:00",
+						"dateTime": "2025-04-06T20:00:00Z",
+						"dateTBD": false,
+						"dateTBA": false,
+						"timeTBA": false,
+						"noSpecificTime": false
+					},
+					"status": {
+						"code": "onsale"
+					},
+					"spanMultipleDays": false
+				},
+				"classifications": [
+					{
+						"primary": true,
+						"segment": {
+							"id": "KZFzniwnSyZfZ7v7na",
+							"name": "Arts & Theatre",
+							"levelType": "segment"
+						},
+						"genre": {
+							"id": "KnvZfZ7v7l1",
+							"name": "Theatre",
+							"levelType": "Level"
+						},
+						"subGenre": {
+							"id": "KZazBEonSMnZfZ7vAve",
+							"name": "Musical",
+							"levelType": "Level"
+						},
+						"family": false
+					}
+				],
+				"outlets": [
+					{
+						"url": "http://hultcenter.org/",
+						"type": "venueBoxOffice"
+					},
+					{
+						"url": "https://www.ticketmaster.com/hamilton-touring-eugene-oregon-04-06-2025/event/Z7r9jZ1A7apQb",
+						"type": "tmMarketPlace"
+					}
+				],
+				"seatmap": {
+					"staticUrl": "https://content.resale.ticketmaster.com/graphics/TMResale/2/VenueMaps/1549-0-0-1-SilvaConcertHallBookofMormon.png",
+					"id": "seatmap"
+				},
+				"ticketing": {
+					"allInclusivePricing": {
+						"enabled": false
+					},
+					"id": "ticketing"
+				},
+				"_links": {
+					"self": {
+						"href": "/discovery/v2/events/Z7r9jZ1A7apQb?locale=en-us"
+					},
+					"attractions": [
+						{
+							"href": "/discovery/v2/attractions/K8vZ9174wRf?locale=en-us"
+						}
+					],
+					"venues": [
+						{
+							"href": "/discovery/v2/venues/ZFr9jZekA1?locale=en-us"
+						}
+					]
+				},
+				"_embedded": {
+					"venues": [
+						{
+							"name": "Silva Concert Hall",
+							"type": "venue",
+							"id": "ZFr9jZekA1",
+							"test": false,
+							"locale": "en-us",
+							"postalCode": "97401",
+							"timezone": "America/Los_Angeles",
+							"city": {
+								"name": "Eugene"
+							},
+							"state": {
+								"name": "Oregon",
+								"stateCode": "OR"
+							},
+							"country": {
+								"name": "United States Of America",
+								"countryCode": "US"
+							},
+							"address": {
+								"line1": "One Eugene Center"
+							},
+							"location": {
+								"longitude": "-123.082001000",
+								"latitude": "44.068501000"
+							},
+							"dmas": [
+								{
+									"id": 272
+								}
+							],
+							"upcomingEvents": {
+								"tmr": 48,
+								"_total": 48,
+								"_filtered": 0
+							},
+							"_links": {
+								"self": {
+									"href": "/discovery/v2/venues/ZFr9jZekA1?locale=en-us"
+								}
+							}
+						}
+					],
+					"attractions": [
+						{
+							"name": "Hamilton (Touring)",
+							"type": "attraction",
+							"id": "K8vZ9174wRf",
+							"test": false,
+							"url": "https://www.ticketmaster.com/hamilton-touring-tickets/artist/2336213",
+							"locale": "en-us",
+							"images": [
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_3_2.jpg",
+									"width": 640,
+									"height": 427,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_16_9.jpg",
+									"width": 640,
+									"height": 360,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_16_9.jpg",
+									"width": 1024,
+									"height": 576,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_EVENT_DETAIL_PAGE_16_9.jpg",
+									"width": 205,
+									"height": 115,
+									"fallback": false
+								},
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_ARTIST_PAGE_3_2.jpg",
+									"width": 305,
+									"height": 203,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_SOURCE",
+									"width": 2426,
+									"height": 1365,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_LANDSCAPE_16_9.jpg",
+									"width": 1136,
+									"height": 639,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RECOMENDATION_16_9.jpg",
+									"width": 100,
+									"height": 56,
+									"fallback": false
+								},
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_3_2.jpg",
+									"width": 1024,
+									"height": 683,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+									"width": 2048,
+									"height": 1152,
+									"fallback": false
+								},
+								{
+									"ratio": "4_3",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_CUSTOM.jpg",
+									"width": 305,
+									"height": 225,
+									"fallback": false
+								}
+							],
+							"classifications": [
+								{
+									"primary": true,
+									"segment": {
+										"id": "KZFzniwnSyZfZ7v7na",
+										"name": "Arts & Theatre",
+										"levelType": "segment"
+									},
+									"genre": {
+										"id": "KnvZfZ7v7l1",
+										"name": "Theatre",
+										"levelType": "Level"
+									},
+									"subGenre": {
+										"id": "KZazBEonSMnZfZ7vAve",
+										"name": "Musical",
+										"levelType": "Level"
+									},
+									"type": {
+										"id": "KZAyXgnZfZ7v7lt",
+										"name": "Event Style",
+										"levelType": "type"
+									},
+									"subType": {
+										"id": "KZFzBErXgnZfZ7vAAt",
+										"name": "Touring Show/Production",
+										"levelType": "Level"
+									},
+									"family": false
+								}
+							],
+							"upcomingEvents": {
+								"tmr": 407,
+								"ticketmaster": 164,
+								"_total": 571,
+								"_filtered": 0
+							},
+							"_links": {
+								"self": {
+									"href": "/discovery/v2/attractions/K8vZ9174wRf?locale=en-us"
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"name": "Hamilton (Touring)",
+				"type": "event",
+				"id": "Z7r9jZ1A7apj6",
+				"test": false,
+				"url": "https://www.ticketmaster.com/event/Z7r9jZ1A7apj6",
+				"locale": "en-us",
+				"images": [
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_3_2.jpg",
+						"width": 640,
+						"height": 427,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_16_9.jpg",
+						"width": 640,
+						"height": 360,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_16_9.jpg",
+						"width": 1024,
+						"height": 576,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_EVENT_DETAIL_PAGE_16_9.jpg",
+						"width": 205,
+						"height": 115,
+						"fallback": false
+					},
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_ARTIST_PAGE_3_2.jpg",
+						"width": 305,
+						"height": 203,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_SOURCE",
+						"width": 2426,
+						"height": 1365,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_LANDSCAPE_16_9.jpg",
+						"width": 1136,
+						"height": 639,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RECOMENDATION_16_9.jpg",
+						"width": 100,
+						"height": 56,
+						"fallback": false
+					},
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_3_2.jpg",
+						"width": 1024,
+						"height": 683,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+						"width": 2048,
+						"height": 1152,
+						"fallback": false
+					},
+					{
+						"ratio": "4_3",
+						"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_CUSTOM.jpg",
+						"width": 305,
+						"height": 225,
+						"fallback": false
+					}
+				],
+				"sales": {
+					"public": {
+						"startDateTime": "1900-01-01T18:00:00Z",
+						"startTBD": false,
+						"startTBA": false,
+						"endDateTime": "2025-04-07T02:00:00Z"
+					}
+				},
+				"dates": {
+					"start": {
+						"localDate": "2025-04-06",
+						"localTime": "19:00:00",
+						"dateTime": "2025-04-07T02:00:00Z",
+						"dateTBD": false,
+						"dateTBA": false,
+						"timeTBA": false,
+						"noSpecificTime": false
+					},
+					"status": {
+						"code": "onsale"
+					},
+					"spanMultipleDays": false
+				},
+				"classifications": [
+					{
+						"primary": true,
+						"segment": {
+							"id": "KZFzniwnSyZfZ7v7na",
+							"name": "Arts & Theatre",
+							"levelType": "segment"
+						},
+						"genre": {
+							"id": "KnvZfZ7v7l1",
+							"name": "Theatre",
+							"levelType": "Level"
+						},
+						"subGenre": {
+							"id": "KZazBEonSMnZfZ7vAve",
+							"name": "Musical",
+							"levelType": "Level"
+						},
+						"family": false
+					}
+				],
+				"outlets": [
+					{
+						"url": "http://hultcenter.org/",
+						"type": "venueBoxOffice"
+					},
+					{
+						"url": "https://www.ticketmaster.com/hamilton-touring-eugene-oregon-04-06-2025/event/Z7r9jZ1A7apj6",
+						"type": "tmMarketPlace"
+					}
+				],
+				"seatmap": {
+					"staticUrl": "https://content.resale.ticketmaster.com/graphics/TMResale/2/VenueMaps/1549-0-0-1-SilvaConcertHallBookofMormon.png",
+					"id": "seatmap"
+				},
+				"ticketing": {
+					"allInclusivePricing": {
+						"enabled": false
+					},
+					"id": "ticketing"
+				},
+				"_links": {
+					"self": {
+						"href": "/discovery/v2/events/Z7r9jZ1A7apj6?locale=en-us"
+					},
+					"attractions": [
+						{
+							"href": "/discovery/v2/attractions/K8vZ9174wRf?locale=en-us"
+						}
+					],
+					"venues": [
+						{
+							"href": "/discovery/v2/venues/ZFr9jZekA1?locale=en-us"
+						}
+					]
+				},
+				"_embedded": {
+					"venues": [
+						{
+							"name": "Silva Concert Hall",
+							"type": "venue",
+							"id": "ZFr9jZekA1",
+							"test": false,
+							"locale": "en-us",
+							"postalCode": "97401",
+							"timezone": "America/Los_Angeles",
+							"city": {
+								"name": "Eugene"
+							},
+							"state": {
+								"name": "Oregon",
+								"stateCode": "OR"
+							},
+							"country": {
+								"name": "United States Of America",
+								"countryCode": "US"
+							},
+							"address": {
+								"line1": "One Eugene Center"
+							},
+							"location": {
+								"longitude": "-123.082001000",
+								"latitude": "44.068501000"
+							},
+							"dmas": [
+								{
+									"id": 272
+								}
+							],
+							"upcomingEvents": {
+								"tmr": 48,
+								"_total": 48,
+								"_filtered": 0
+							},
+							"_links": {
+								"self": {
+									"href": "/discovery/v2/venues/ZFr9jZekA1?locale=en-us"
+								}
+							}
+						}
+					],
+					"attractions": [
+						{
+							"name": "Hamilton (Touring)",
+							"type": "attraction",
+							"id": "K8vZ9174wRf",
+							"test": false,
+							"url": "https://www.ticketmaster.com/hamilton-touring-tickets/artist/2336213",
+							"locale": "en-us",
+							"images": [
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_3_2.jpg",
+									"width": 640,
+									"height": 427,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_PORTRAIT_16_9.jpg",
+									"width": 640,
+									"height": 360,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_16_9.jpg",
+									"width": 1024,
+									"height": 576,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_EVENT_DETAIL_PAGE_16_9.jpg",
+									"width": 205,
+									"height": 115,
+									"fallback": false
+								},
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_ARTIST_PAGE_3_2.jpg",
+									"width": 305,
+									"height": 203,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_SOURCE",
+									"width": 2426,
+									"height": 1365,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RETINA_LANDSCAPE_16_9.jpg",
+									"width": 1136,
+									"height": 639,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_RECOMENDATION_16_9.jpg",
+									"width": 100,
+									"height": 56,
+									"fallback": false
+								},
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_3_2.jpg",
+									"width": 1024,
+									"height": 683,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+									"width": 2048,
+									"height": 1152,
+									"fallback": false
+								},
+								{
+									"ratio": "4_3",
+									"url": "https://s1.ticketm.net/dam/a/82f/7c700586-3fde-4675-bcd5-1804d691d82f_CUSTOM.jpg",
+									"width": 305,
+									"height": 225,
+									"fallback": false
+								}
+							],
+							"classifications": [
+								{
+									"primary": true,
+									"segment": {
+										"id": "KZFzniwnSyZfZ7v7na",
+										"name": "Arts & Theatre",
+										"levelType": "segment"
+									},
+									"genre": {
+										"id": "KnvZfZ7v7l1",
+										"name": "Theatre",
+										"levelType": "Level"
+									},
+									"subGenre": {
+										"id": "KZazBEonSMnZfZ7vAve",
+										"name": "Musical",
+										"levelType": "Level"
+									},
+									"type": {
+										"id": "KZAyXgnZfZ7v7lt",
+										"name": "Event Style",
+										"levelType": "type"
+									},
+									"subType": {
+										"id": "KZFzBErXgnZfZ7vAAt",
+										"name": "Touring Show/Production",
+										"levelType": "Level"
+									},
+									"family": false
+								}
+							],
+							"upcomingEvents": {
+								"tmr": 407,
+								"ticketmaster": 164,
+								"_total": 571,
+								"_filtered": 0
+							},
+							"_links": {
+								"self": {
+									"href": "/discovery/v2/attractions/K8vZ9174wRf?locale=en-us"
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"name": "Jeff Dunham Artificial Intelligence",
+				"type": "event",
+				"id": "vvG1HZbK11woI8",
+				"test": false,
+				"url": "https://www.ticketmaster.com/jeff-dunham-artificial-intelligence-eugene-oregon-04-23-2025/event/0F0061328AC91A10",
+				"locale": "en-us",
+				"images": [
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/5c3/c6fec237-09d1-42cb-8e67-774facb455c3_RETINA_PORTRAIT_3_2.jpg",
+						"width": 640,
+						"height": 427,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/5c3/c6fec237-09d1-42cb-8e67-774facb455c3_TABLET_LANDSCAPE_16_9.jpg",
+						"width": 1024,
+						"height": 576,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/5c3/c6fec237-09d1-42cb-8e67-774facb455c3_RETINA_LANDSCAPE_16_9.jpg",
+						"width": 1136,
+						"height": 639,
+						"fallback": false
+					},
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/5c3/c6fec237-09d1-42cb-8e67-774facb455c3_ARTIST_PAGE_3_2.jpg",
+						"width": 305,
+						"height": 203,
+						"fallback": false
+					},
+					{
+						"ratio": "4_3",
+						"url": "https://s1.ticketm.net/dam/a/5c3/c6fec237-09d1-42cb-8e67-774facb455c3_CUSTOM.jpg",
+						"width": 305,
+						"height": 225,
+						"fallback": false
+					},
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/5c3/c6fec237-09d1-42cb-8e67-774facb455c3_TABLET_LANDSCAPE_3_2.jpg",
+						"width": 1024,
+						"height": 683,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/5c3/c6fec237-09d1-42cb-8e67-774facb455c3_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+						"width": 2048,
+						"height": 1152,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/5c3/c6fec237-09d1-42cb-8e67-774facb455c3_RETINA_PORTRAIT_16_9.jpg",
+						"width": 640,
+						"height": 360,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/5c3/c6fec237-09d1-42cb-8e67-774facb455c3_RECOMENDATION_16_9.jpg",
+						"width": 100,
+						"height": 56,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/5c3/c6fec237-09d1-42cb-8e67-774facb455c3_EVENT_DETAIL_PAGE_16_9.jpg",
+						"width": 205,
+						"height": 115,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/5c3/c6fec237-09d1-42cb-8e67-774facb455c3_SOURCE",
+						"width": 2426,
+						"height": 1365,
+						"fallback": false
+					}
+				],
+				"sales": {
+					"public": {
+						"startDateTime": "2024-10-07T17:00:00Z",
+						"startTBD": false,
+						"startTBA": false,
+						"endDateTime": "2025-04-24T03:00:00Z"
+					},
+					"presales": [
+						{
+							"startDateTime": "2024-10-03T17:00:00Z",
+							"endDateTime": "2024-10-07T06:45:00Z",
+							"name": "Jeff Dunham Pre-Sale"
+						},
+						{
+							"startDateTime": "2024-10-04T17:00:00Z",
+							"endDateTime": "2024-10-07T06:45:00Z",
+							"name": "Public Pre-Sale"
+						},
+						{
+							"startDateTime": "2024-10-03T17:00:00Z",
+							"endDateTime": "2024-10-07T06:45:00Z",
+							"name": "Official Platinum Presale"
+						},
+						{
+							"startDateTime": "2024-10-07T17:00:00Z",
+							"endDateTime": "2025-04-24T03:00:00Z",
+							"name": "Official Platinum Onsale"
+						}
+					]
+				},
+				"dates": {
+					"start": {
+						"localDate": "2025-04-23",
+						"localTime": "19:00:00",
+						"dateTime": "2025-04-24T02:00:00Z",
+						"dateTBD": false,
+						"dateTBA": false,
+						"timeTBA": false,
+						"noSpecificTime": false
+					},
+					"timezone": "America/Los_Angeles",
+					"status": {
+						"code": "onsale"
+					},
+					"spanMultipleDays": false
+				},
+				"classifications": [
+					{
+						"primary": true,
+						"segment": {
+							"id": "KZFzniwnSyZfZ7v7na",
+							"name": "Arts & Theatre",
+							"levelType": "segment"
+						},
+						"genre": {
+							"id": "KnvZfZ7vAe1",
+							"name": "Comedy",
+							"levelType": "Level"
+						},
+						"subGenre": {
+							"id": "KZazBEonSMnZfZ7vF17",
+							"name": "Comedy",
+							"levelType": "Level"
+						},
+						"type": {
+							"id": "KZAyXgnZfZ7v7nI",
+							"name": "Undefined",
+							"levelType": "type"
+						},
+						"subType": {
+							"id": "KZFzBErXgnZfZ7v7lJ",
+							"name": "Undefined",
+							"levelType": "Level"
+						},
+						"family": false
+					}
+				],
+				"promoter": {
+					"id": "494",
+					"name": "PROMOTED BY VENUE",
+					"description": "PROMOTED BY VENUE / NTL / USA"
+				},
+				"promoters": [
+					{
+						"id": "494",
+						"name": "PROMOTED BY VENUE",
+						"description": "PROMOTED BY VENUE / NTL / USA"
+					}
+				],
+				"info": "Doors Open 6:00 PM",
+				"priceRanges": [
+					{
+						"type": "standard",
+						"currency": "USD",
+						"min": 61.0,
+						"max": 161.0
+					}
+				],
+				"products": [
+					{
+						"name": "PARKWHIZ MATTHEW KNIGHT ARENA",
+						"id": "vvG1HZbKuSE-7p",
+						"url": "https://www.ticketmaster.com/parkwhiz-matthew-knight-arena-eugene-oregon-04-23-2025/event/0F006133739E1116",
+						"type": "Upsell",
+						"classifications": [
+							{
+								"primary": true,
+								"segment": {
+									"id": "KZFzniwnSyZfZ7v7n1",
+									"name": "Miscellaneous",
+									"levelType": "segment"
+								},
+								"genre": {
+									"id": "KnvZfZ7v7ll",
+									"name": "Undefined",
+									"levelType": "Level"
+								},
+								"subGenre": {
+									"id": "KZazBEonSMnZfZ7vAv1",
+									"name": "Undefined",
+									"levelType": "Level"
+								},
+								"type": {
+									"id": "KZAyXgnZfZ7vAva",
+									"name": "Parking",
+									"levelType": "type"
+								},
+								"subType": {
+									"id": "KZFzBErXgnZfZ7vAFe",
+									"name": "Regular",
+									"levelType": "Level"
+								},
+								"family": false
+							}
+						]
+					}
+				],
+				"seatmap": {
+					"staticUrl": "https://mapsapi.tmol.io/maps/geometry/3/event/0F0061328AC91A10/staticImage?type=png&systemId=HOST",
+					"id": "seatmap"
+				},
+				"accessibility": {
+					"ticketLimit": 4,
+					"id": "accessibility"
+				},
+				"ageRestrictions": {
+					"legalAgeEnforced": false,
+					"id": "ageRestrictions"
+				},
+				"ticketing": {
+					"safeTix": {
+						"enabled": true,
+						"inAppOnlyEnabled": false
+					},
+					"allInclusivePricing": {
+						"enabled": false
+					},
+					"id": "ticketing"
+				},
+				"_links": {
+					"self": {
+						"href": "/discovery/v2/events/vvG1HZbK11woI8?locale=en-us"
+					},
+					"attractions": [
+						{
+							"href": "/discovery/v2/attractions/K8vZ91714jV?locale=en-us"
+						}
+					],
+					"venues": [
+						{
+							"href": "/discovery/v2/venues/KovZpZAEe1eA?locale=en-us"
+						}
+					]
+				},
+				"_embedded": {
+					"venues": [
+						{
+							"name": "Matthew Knight Arena",
+							"type": "venue",
+							"id": "KovZpZAEe1eA",
+							"test": false,
+							"url": "https://www.ticketmaster.com/matthew-knight-arena-tickets-eugene/venue/123791",
+							"locale": "en-us",
+							"images": [
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dbimages/21273v.jpg",
+									"width": 205,
+									"height": 115,
+									"fallback": false
+								}
+							],
+							"postalCode": "97403",
+							"timezone": "America/Los_Angeles",
+							"city": {
+								"name": "Eugene"
+							},
+							"state": {
+								"name": "Oregon",
+								"stateCode": "OR"
+							},
+							"country": {
+								"name": "United States Of America",
+								"countryCode": "US"
+							},
+							"address": {
+								"line1": "1776 E. 13th Ave"
+							},
+							"location": {
+								"longitude": "-123.06682400",
+								"latitude": "44.04497200"
+							},
+							"markets": [
+								{
+									"name": "Portland and More",
+									"id": "37"
+								}
+							],
+							"dmas": [
+								{
+									"id": 228
+								},
+								{
+									"id": 272
+								},
+								{
+									"id": 331
+								},
+								{
+									"id": 362
+								}
+							],
+							"upcomingEvents": {
+								"archtics": 28,
+								"ticketmaster": 19,
+								"_total": 47,
+								"_filtered": 0
+							},
+							"_links": {
+								"self": {
+									"href": "/discovery/v2/venues/KovZpZAEe1eA?locale=en-us"
+								}
+							}
+						}
+					],
+					"attractions": [
+						{
+							"name": "Jeff Dunham",
+							"type": "attraction",
+							"id": "K8vZ91714jV",
+							"test": false,
+							"url": "https://www.ticketmaster.com/jeff-dunham-tickets/artist/806157",
+							"locale": "en-us",
+							"images": [
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/5c3/c6fec237-09d1-42cb-8e67-774facb455c3_RETINA_PORTRAIT_3_2.jpg",
+									"width": 640,
+									"height": 427,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/5c3/c6fec237-09d1-42cb-8e67-774facb455c3_TABLET_LANDSCAPE_16_9.jpg",
+									"width": 1024,
+									"height": 576,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/5c3/c6fec237-09d1-42cb-8e67-774facb455c3_RETINA_LANDSCAPE_16_9.jpg",
+									"width": 1136,
+									"height": 639,
+									"fallback": false
+								},
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/5c3/c6fec237-09d1-42cb-8e67-774facb455c3_ARTIST_PAGE_3_2.jpg",
+									"width": 305,
+									"height": 203,
+									"fallback": false
+								},
+								{
+									"ratio": "4_3",
+									"url": "https://s1.ticketm.net/dam/a/5c3/c6fec237-09d1-42cb-8e67-774facb455c3_CUSTOM.jpg",
+									"width": 305,
+									"height": 225,
+									"fallback": false
+								},
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/5c3/c6fec237-09d1-42cb-8e67-774facb455c3_TABLET_LANDSCAPE_3_2.jpg",
+									"width": 1024,
+									"height": 683,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/5c3/c6fec237-09d1-42cb-8e67-774facb455c3_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+									"width": 2048,
+									"height": 1152,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/5c3/c6fec237-09d1-42cb-8e67-774facb455c3_RETINA_PORTRAIT_16_9.jpg",
+									"width": 640,
+									"height": 360,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/5c3/c6fec237-09d1-42cb-8e67-774facb455c3_RECOMENDATION_16_9.jpg",
+									"width": 100,
+									"height": 56,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/5c3/c6fec237-09d1-42cb-8e67-774facb455c3_EVENT_DETAIL_PAGE_16_9.jpg",
+									"width": 205,
+									"height": 115,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/5c3/c6fec237-09d1-42cb-8e67-774facb455c3_SOURCE",
+									"width": 2426,
+									"height": 1365,
+									"fallback": false
+								}
+							],
+							"classifications": [
+								{
+									"primary": true,
+									"segment": {
+										"id": "KZFzniwnSyZfZ7v7na",
+										"name": "Arts & Theatre",
+										"levelType": "segment"
+									},
+									"genre": {
+										"id": "KnvZfZ7vAe1",
+										"name": "Comedy",
+										"levelType": "Level"
+									},
+									"subGenre": {
+										"id": "KZazBEonSMnZfZ7vF17",
+										"name": "Comedy",
+										"levelType": "Level"
+									},
+									"type": {
+										"id": "KZAyXgnZfZ7v7nI",
+										"name": "Undefined",
+										"levelType": "type"
+									},
+									"subType": {
+										"id": "KZFzBErXgnZfZ7v7lJ",
+										"name": "Undefined",
+										"levelType": "Level"
+									},
+									"family": false
+								}
+							],
+							"upcomingEvents": {
+								"mfx-dk": 1,
+								"mfx-se": 1,
+								"mfx-be": 1,
+								"tmr": 9,
+								"mfx-nl": 1,
+								"ticketmaster": 30,
+								"_total": 43,
+								"_filtered": 0
+							},
+							"_links": {
+								"self": {
+									"href": "/discovery/v2/attractions/K8vZ91714jV?locale=en-us"
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"name": "Oregon Women's Basketball vs. Maryland",
+				"type": "event",
+				"id": "Za5ju3rKuqZB_xc-q__cuWznpsp9yWwth",
+				"test": false,
+				"locale": "en-us",
+				"images": [
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4f67-8067-1f95f4d158cf_124761_RETINA_LANDSCAPE_16_9.jpg",
+						"width": 1136,
+						"height": 639,
+						"fallback": true
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4f67-8067-1f95f4d158cf_124761_RETINA_PORTRAIT_16_9.jpg",
+						"width": 640,
+						"height": 360,
+						"fallback": true
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4f67-8067-1f95f4d158cf_124761_RECOMENDATION_16_9.jpg",
+						"width": 100,
+						"height": 56,
+						"fallback": true
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4f67-8067-1f95f4d158cf_124761_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+						"width": 2048,
+						"height": 1152,
+						"fallback": true
+					},
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4f67-8067-1f95f4d158cf_124761_ARTIST_PAGE_3_2.jpg",
+						"width": 305,
+						"height": 203,
+						"fallback": true
+					},
+					{
+						"ratio": "4_3",
+						"url": "https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4f67-8067-1f95f4d158cf_124761_CUSTOM.jpg",
+						"width": 305,
+						"height": 225,
+						"fallback": true
+					},
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4f67-8067-1f95f4d158cf_124761_TABLET_LANDSCAPE_3_2.jpg",
+						"width": 1024,
+						"height": 683,
+						"fallback": true
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4f67-8067-1f95f4d158cf_124761_TABLET_LANDSCAPE_16_9.jpg",
+						"width": 1024,
+						"height": 576,
+						"fallback": true
+					},
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4f67-8067-1f95f4d158cf_124761_RETINA_PORTRAIT_3_2.jpg",
+						"width": 640,
+						"height": 427,
+						"fallback": true
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/c/8cf/a6653880-7899-4f67-8067-1f95f4d158cf_124761_EVENT_DETAIL_PAGE_16_9.jpg",
+						"width": 205,
+						"height": 115,
+						"fallback": true
+					}
+				],
+				"dates": {
+					"start": {
+						"localDate": "2025-02-06",
+						"localTime": "18:00:00",
+						"dateTime": "2025-02-07T02:00:00Z",
+						"dateTBD": false,
+						"dateTBA": false,
+						"timeTBA": false,
+						"noSpecificTime": false
+					},
+					"end": {
+						"localDate": "2025-02-06",
+						"localTime": "22:00:00",
+						"dateTime": "2025-02-07T06:00:00Z",
+						"approximate": false,
+						"noSpecificTime": false
+					},
+					"timezone": "America/Los_Angeles",
+					"status": {
+						"code": "offsale"
+					},
+					"spanMultipleDays": false
+				},
+				"ticketing": {
+					"safeTix": {
+						"enabled": true,
+						"inAppOnlyEnabled": false
+					},
+					"id": "ticketing"
+				},
+				"_links": {
+					"self": {
+						"href": "/discovery/v2/events/Za5ju3rKuqZB_xc-q__cuWznpsp9yWwth?locale=en-us"
+					},
+					"venues": [
+						{
+							"href": "/discovery/v2/venues/Za5ju3rKuqZBUaOxiIcaaf_iSEVwP6v__?locale=en-us"
+						}
+					]
+				},
+				"_embedded": {
+					"venues": [
+						{
+							"name": "Matthew Knight Arena",
+							"type": "venue",
+							"id": "Za5ju3rKuqZBUaOxiIcaaf_iSEVwP6v__",
+							"test": false,
+							"locale": "en-us",
+							"postalCode": "97403",
+							"timezone": "America/Los_Angeles",
+							"city": {
+								"name": "Eugene"
+							},
+							"state": {
+								"name": "Oregon",
+								"stateCode": "OR"
+							},
+							"country": {
+								"name": "United States Of America",
+								"countryCode": "US"
+							},
+							"address": {
+								"line1": "1776 E. 13th Ave"
+							},
+							"location": {
+								"longitude": "-123.066824",
+								"latitude": "44.044971999999994"
+							},
+							"upcomingEvents": {
+								"archtics": 25,
+								"ticketmaster": 19,
+								"_total": 44,
+								"_filtered": 0
+							},
+							"_links": {
+								"self": {
+									"href": "/discovery/v2/venues/Za5ju3rKuqZBUaOxiIcaaf_iSEVwP6v__?locale=en-us"
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"name": "Oregon Ducks Women's Basketball vs. Univ of Maryland Terrapins Womens Basketball",
+				"type": "event",
+				"id": "vvG1HZb4JdJYTX",
+				"test": false,
+				"url": "https://www.ticketmaster.com/oregon-ducks-womens-basketball-vs-univ-eugene-oregon-02-06-2025/event/0F006159839B0FFE",
+				"locale": "en-us",
+				"images": [
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/205/57b1c1d6-40ce-4b54-8d50-325d6d9b6205_448881_RECOMENDATION_16_9.jpg",
+						"width": 100,
+						"height": 56,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/205/57b1c1d6-40ce-4b54-8d50-325d6d9b6205_448881_EVENT_DETAIL_PAGE_16_9.jpg",
+						"width": 205,
+						"height": 115,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/205/57b1c1d6-40ce-4b54-8d50-325d6d9b6205_448881_RETINA_PORTRAIT_16_9.jpg",
+						"width": 640,
+						"height": 360,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/205/57b1c1d6-40ce-4b54-8d50-325d6d9b6205_SOURCE",
+						"width": 2426,
+						"height": 1365,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/205/57b1c1d6-40ce-4b54-8d50-325d6d9b6205_448881_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+						"width": 2048,
+						"height": 1152,
+						"fallback": false
+					},
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/205/57b1c1d6-40ce-4b54-8d50-325d6d9b6205_448881_ARTIST_PAGE_3_2.jpg",
+						"width": 305,
+						"height": 203,
+						"fallback": false
+					},
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/205/57b1c1d6-40ce-4b54-8d50-325d6d9b6205_448881_TABLET_LANDSCAPE_3_2.jpg",
+						"width": 1024,
+						"height": 683,
+						"fallback": false
+					},
+					{
+						"ratio": "4_3",
+						"url": "https://s1.ticketm.net/dam/a/205/57b1c1d6-40ce-4b54-8d50-325d6d9b6205_448881_CUSTOM.jpg",
+						"width": 305,
+						"height": 225,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/205/57b1c1d6-40ce-4b54-8d50-325d6d9b6205_448881_RETINA_LANDSCAPE_16_9.jpg",
+						"width": 1136,
+						"height": 639,
+						"fallback": false
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/a/205/57b1c1d6-40ce-4b54-8d50-325d6d9b6205_448881_TABLET_LANDSCAPE_16_9.jpg",
+						"width": 1024,
+						"height": 576,
+						"fallback": false
+					},
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/a/205/57b1c1d6-40ce-4b54-8d50-325d6d9b6205_448881_RETINA_PORTRAIT_3_2.jpg",
+						"width": 640,
+						"height": 427,
+						"fallback": false
+					}
+				],
+				"sales": {
+					"public": {
+						"startDateTime": "2024-10-28T16:00:00Z",
+						"startTBD": false,
+						"startTBA": false,
+						"endDateTime": "2025-02-07T03:00:00Z"
+					}
+				},
+				"dates": {
+					"start": {
+						"localDate": "2025-02-06",
+						"localTime": "18:00:00",
+						"dateTime": "2025-02-07T02:00:00Z",
+						"dateTBD": false,
+						"dateTBA": false,
+						"timeTBA": false,
+						"noSpecificTime": false
+					},
+					"timezone": "America/Los_Angeles",
+					"status": {
+						"code": "onsale"
+					},
+					"spanMultipleDays": false
+				},
+				"classifications": [
+					{
+						"primary": true,
+						"segment": {
+							"id": "KZFzniwnSyZfZ7v7nE",
+							"name": "Sports",
+							"levelType": "segment"
+						},
+						"genre": {
+							"id": "KnvZfZ7vAde",
+							"name": "Basketball",
+							"levelType": "Level"
+						},
+						"subGenre": {
+							"id": "KZazBEonSMnZfZ7vFJv",
+							"name": "College",
+							"levelType": "Level"
+						},
+						"type": {
+							"id": "KZAyXgnZfZ7v7l1",
+							"name": "Group",
+							"levelType": "type"
+						},
+						"subType": {
+							"id": "KZFzBErXgnZfZ7vA7d",
+							"name": "Team",
+							"levelType": "Level"
+						},
+						"family": false
+					}
+				],
+				"promoter": {
+					"id": "494",
+					"name": "PROMOTED BY VENUE",
+					"description": "PROMOTED BY VENUE / NTL / USA"
+				},
+				"promoters": [
+					{
+						"id": "494",
+						"name": "PROMOTED BY VENUE",
+						"description": "PROMOTED BY VENUE / NTL / USA"
+					}
+				],
+				"pleaseNote": "NO-REENTRY No Refunds or Exchanges Children under 2 are admitted FREE as a lap child ONLY This venue has a strict clear bag policy. Click here for more information: https://goducks.com/sports/2018/7/2/clear-bag-policy.aspx General Game Day Information: https://goducks.com/sports/2011/6/21/205174790.aspx",
+				"priceRanges": [
+					{
+						"type": "standard",
+						"currency": "USD",
+						"min": 5.0,
+						"max": 36.0
+					}
+				],
+				"products": [
+					{
+						"name": "PARKWHIZ MATTHEW KNIGHT ARENA",
+						"id": "vvG1HZb4wvQOS2",
+						"url": "https://www.ticketmaster.com/parkwhiz-matthew-knight-arena-eugene-oregon-02-06-2025/event/0F00615C816A0CCF",
+						"type": "Upsell",
+						"classifications": [
+							{
+								"primary": true,
+								"segment": {
+									"id": "KZFzniwnSyZfZ7v7n1",
+									"name": "Miscellaneous",
+									"levelType": "segment"
+								},
+								"genre": {
+									"id": "KnvZfZ7v7ll",
+									"name": "Undefined",
+									"levelType": "Level"
+								},
+								"subGenre": {
+									"id": "KZazBEonSMnZfZ7vAv1",
+									"name": "Undefined",
+									"levelType": "Level"
+								},
+								"type": {
+									"id": "KZAyXgnZfZ7vAva",
+									"name": "Parking",
+									"levelType": "type"
+								},
+								"subType": {
+									"id": "KZFzBErXgnZfZ7vAFe",
+									"name": "Regular",
+									"levelType": "Level"
+								},
+								"family": false
+							}
+						]
+					}
+				],
+				"seatmap": {
+					"staticUrl": "https://mapsapi.tmol.io/maps/geometry/3/event/0F006159839B0FFE/staticImage?type=png&systemId=HOST",
+					"id": "seatmap"
+				},
+				"accessibility": {
+					"ticketLimit": 4,
+					"id": "accessibility"
+				},
+				"ageRestrictions": {
+					"legalAgeEnforced": false,
+					"id": "ageRestrictions"
+				},
+				"ticketing": {
+					"safeTix": {
+						"enabled": true,
+						"inAppOnlyEnabled": false
+					},
+					"allInclusivePricing": {
+						"enabled": false
+					},
+					"id": "ticketing"
+				},
+				"_links": {
+					"self": {
+						"href": "/discovery/v2/events/vvG1HZb4JdJYTX?locale=en-us"
+					},
+					"attractions": [
+						{
+							"href": "/discovery/v2/attractions/K8vZ91722vV?locale=en-us"
+						},
+						{
+							"href": "/discovery/v2/attractions/K8vZ9175380?locale=en-us"
+						}
+					],
+					"venues": [
+						{
+							"href": "/discovery/v2/venues/KovZpZAEe1eA?locale=en-us"
+						}
+					]
+				},
+				"_embedded": {
+					"venues": [
+						{
+							"name": "Matthew Knight Arena",
+							"type": "venue",
+							"id": "KovZpZAEe1eA",
+							"test": false,
+							"url": "https://www.ticketmaster.com/matthew-knight-arena-tickets-eugene/venue/123791",
+							"locale": "en-us",
+							"images": [
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dbimages/21273v.jpg",
+									"width": 205,
+									"height": 115,
+									"fallback": false
+								}
+							],
+							"postalCode": "97403",
+							"timezone": "America/Los_Angeles",
+							"city": {
+								"name": "Eugene"
+							},
+							"state": {
+								"name": "Oregon",
+								"stateCode": "OR"
+							},
+							"country": {
+								"name": "United States Of America",
+								"countryCode": "US"
+							},
+							"address": {
+								"line1": "1776 E. 13th Ave"
+							},
+							"location": {
+								"longitude": "-123.06682400",
+								"latitude": "44.04497200"
+							},
+							"markets": [
+								{
+									"name": "Portland and More",
+									"id": "37"
+								}
+							],
+							"dmas": [
+								{
+									"id": 228
+								},
+								{
+									"id": 272
+								},
+								{
+									"id": 331
+								},
+								{
+									"id": 362
+								}
+							],
+							"upcomingEvents": {
+								"archtics": 28,
+								"ticketmaster": 19,
+								"_total": 47,
+								"_filtered": 0
+							},
+							"_links": {
+								"self": {
+									"href": "/discovery/v2/venues/KovZpZAEe1eA?locale=en-us"
+								}
+							}
+						}
+					],
+					"attractions": [
+						{
+							"name": "Oregon Ducks Women's Basketball",
+							"type": "attraction",
+							"id": "K8vZ91722vV",
+							"test": false,
+							"url": "https://www.ticketmaster.com/oregon-ducks-womens-basketball-tickets/artist/1668818",
+							"locale": "en-us",
+							"images": [
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/205/57b1c1d6-40ce-4b54-8d50-325d6d9b6205_448881_RECOMENDATION_16_9.jpg",
+									"width": 100,
+									"height": 56,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/205/57b1c1d6-40ce-4b54-8d50-325d6d9b6205_448881_EVENT_DETAIL_PAGE_16_9.jpg",
+									"width": 205,
+									"height": 115,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/205/57b1c1d6-40ce-4b54-8d50-325d6d9b6205_448881_RETINA_PORTRAIT_16_9.jpg",
+									"width": 640,
+									"height": 360,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/205/57b1c1d6-40ce-4b54-8d50-325d6d9b6205_SOURCE",
+									"width": 2426,
+									"height": 1365,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/205/57b1c1d6-40ce-4b54-8d50-325d6d9b6205_448881_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+									"width": 2048,
+									"height": 1152,
+									"fallback": false
+								},
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/205/57b1c1d6-40ce-4b54-8d50-325d6d9b6205_448881_ARTIST_PAGE_3_2.jpg",
+									"width": 305,
+									"height": 203,
+									"fallback": false
+								},
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/205/57b1c1d6-40ce-4b54-8d50-325d6d9b6205_448881_TABLET_LANDSCAPE_3_2.jpg",
+									"width": 1024,
+									"height": 683,
+									"fallback": false
+								},
+								{
+									"ratio": "4_3",
+									"url": "https://s1.ticketm.net/dam/a/205/57b1c1d6-40ce-4b54-8d50-325d6d9b6205_448881_CUSTOM.jpg",
+									"width": 305,
+									"height": 225,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/205/57b1c1d6-40ce-4b54-8d50-325d6d9b6205_448881_RETINA_LANDSCAPE_16_9.jpg",
+									"width": 1136,
+									"height": 639,
+									"fallback": false
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/205/57b1c1d6-40ce-4b54-8d50-325d6d9b6205_448881_TABLET_LANDSCAPE_16_9.jpg",
+									"width": 1024,
+									"height": 576,
+									"fallback": false
+								},
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/205/57b1c1d6-40ce-4b54-8d50-325d6d9b6205_448881_RETINA_PORTRAIT_3_2.jpg",
+									"width": 640,
+									"height": 427,
+									"fallback": false
+								}
+							],
+							"classifications": [
+								{
+									"primary": true,
+									"segment": {
+										"id": "KZFzniwnSyZfZ7v7nE",
+										"name": "Sports",
+										"levelType": "segment"
+									},
+									"genre": {
+										"id": "KnvZfZ7vAde",
+										"name": "Basketball",
+										"levelType": "Level"
+									},
+									"subGenre": {
+										"id": "KZazBEonSMnZfZ7vFJv",
+										"name": "College",
+										"levelType": "Level"
+									},
+									"type": {
+										"id": "KZAyXgnZfZ7v7l1",
+										"name": "Group",
+										"levelType": "type"
+									},
+									"subType": {
+										"id": "KZFzBErXgnZfZ7vA7d",
+										"name": "Team",
+										"levelType": "Level"
+									},
+									"family": false
+								}
+							],
+							"upcomingEvents": {
+								"tmr": 4,
+								"ticketmaster": 4,
+								"_total": 8,
+								"_filtered": 0
+							},
+							"_links": {
+								"self": {
+									"href": "/discovery/v2/attractions/K8vZ91722vV?locale=en-us"
+								}
+							}
+						},
+						{
+							"name": "Univ of Maryland Terrapins Womens Basketball",
+							"type": "attraction",
+							"id": "K8vZ9175380",
+							"test": false,
+							"url": "https://www.ticketmaster.com/univ-of-maryland-terrapins-womens-basketball-tickets/artist/849585",
+							"locale": "en-us",
+							"images": [
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/a1f/a506d589-c2ff-4503-98a0-b2f30d6e0a1f_1256511_EVENT_DETAIL_PAGE_16_9.jpg",
+									"width": 205,
+									"height": 115,
+									"fallback": false,
+									"attribution": "TM Generic"
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/a1f/a506d589-c2ff-4503-98a0-b2f30d6e0a1f_1256511_RETINA_PORTRAIT_16_9.jpg",
+									"width": 640,
+									"height": 360,
+									"fallback": false,
+									"attribution": "TM Generic"
+								},
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/a1f/a506d589-c2ff-4503-98a0-b2f30d6e0a1f_1256511_RETINA_PORTRAIT_3_2.jpg",
+									"width": 640,
+									"height": 427,
+									"fallback": false,
+									"attribution": "TM Generic"
+								},
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/a1f/a506d589-c2ff-4503-98a0-b2f30d6e0a1f_1256511_ARTIST_PAGE_3_2.jpg",
+									"width": 305,
+									"height": 203,
+									"fallback": false,
+									"attribution": "TM Generic"
+								},
+								{
+									"ratio": "4_3",
+									"url": "https://s1.ticketm.net/dam/a/a1f/a506d589-c2ff-4503-98a0-b2f30d6e0a1f_1256511_CUSTOM.jpg",
+									"width": 305,
+									"height": 225,
+									"fallback": false,
+									"attribution": "TM Generic"
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/a1f/a506d589-c2ff-4503-98a0-b2f30d6e0a1f_SOURCE",
+									"width": 2048,
+									"height": 1152,
+									"fallback": false,
+									"attribution": "TM Generic"
+								},
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/a/a1f/a506d589-c2ff-4503-98a0-b2f30d6e0a1f_1256511_TABLET_LANDSCAPE_3_2.jpg",
+									"width": 1024,
+									"height": 683,
+									"fallback": false,
+									"attribution": "TM Generic"
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/a1f/a506d589-c2ff-4503-98a0-b2f30d6e0a1f_1256511_RECOMENDATION_16_9.jpg",
+									"width": 100,
+									"height": 56,
+									"fallback": false,
+									"attribution": "TM Generic"
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/a1f/a506d589-c2ff-4503-98a0-b2f30d6e0a1f_1256511_TABLET_LANDSCAPE_16_9.jpg",
+									"width": 1024,
+									"height": 576,
+									"fallback": false,
+									"attribution": "TM Generic"
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/a/a1f/a506d589-c2ff-4503-98a0-b2f30d6e0a1f_1256511_RETINA_LANDSCAPE_16_9.jpg",
+									"width": 1136,
+									"height": 639,
+									"fallback": false,
+									"attribution": "TM Generic"
+								}
+							],
+							"classifications": [
+								{
+									"primary": true,
+									"segment": {
+										"id": "KZFzniwnSyZfZ7v7nE",
+										"name": "Sports",
+										"levelType": "segment"
+									},
+									"genre": {
+										"id": "KnvZfZ7vAde",
+										"name": "Basketball",
+										"levelType": "Level"
+									},
+									"subGenre": {
+										"id": "KZazBEonSMnZfZ7vFJv",
+										"name": "College",
+										"levelType": "Level"
+									},
+									"type": {
+										"id": "KZAyXgnZfZ7v7l1",
+										"name": "Group",
+										"levelType": "type"
+									},
+									"subType": {
+										"id": "KZFzBErXgnZfZ7vA7d",
+										"name": "Team",
+										"levelType": "Level"
+									},
+									"family": false
+								}
+							],
+							"upcomingEvents": {
+								"tmr": 7,
+								"ticketmaster": 1,
+								"_total": 8,
+								"_filtered": 0
+							},
+							"_links": {
+								"self": {
+									"href": "/discovery/v2/attractions/K8vZ9175380?locale=en-us"
+								}
+							}
+						}
+					]
+				}
+			},
+			{
+				"name": "Dear Evan Hansen",
+				"type": "event",
+				"id": "Z7r9jZ1A7apQ6",
+				"test": false,
+				"url": "https://www.ticketmaster.com/event/Z7r9jZ1A7apQ6",
+				"locale": "en-us",
+				"images": [
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+						"width": 2048,
+						"height": 1152,
+						"fallback": true
+					},
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_RETINA_PORTRAIT_3_2.jpg",
+						"width": 640,
+						"height": 427,
+						"fallback": true
+					},
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_3_2.jpg",
+						"width": 1024,
+						"height": 683,
+						"fallback": true
+					},
+					{
+						"ratio": "4_3",
+						"url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_CUSTOM.jpg",
+						"width": 305,
+						"height": 225,
+						"fallback": true
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_RECOMENDATION_16_9.jpg",
+						"width": 100,
+						"height": 56,
+						"fallback": true
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_EVENT_DETAIL_PAGE_16_9.jpg",
+						"width": 205,
+						"height": 115,
+						"fallback": true
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_RETINA_PORTRAIT_16_9.jpg",
+						"width": 640,
+						"height": 360,
+						"fallback": true
+					},
+					{
+						"ratio": "3_2",
+						"url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_ARTIST_PAGE_3_2.jpg",
+						"width": 305,
+						"height": 203,
+						"fallback": true
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_16_9.jpg",
+						"width": 1024,
+						"height": 576,
+						"fallback": true
+					},
+					{
+						"ratio": "16_9",
+						"url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_RETINA_LANDSCAPE_16_9.jpg",
+						"width": 1136,
+						"height": 639,
+						"fallback": true
+					}
+				],
+				"sales": {
+					"public": {
+						"startDateTime": "1900-01-01T18:00:00Z",
+						"startTBD": false,
+						"startTBA": false,
+						"endDateTime": "2025-02-08T04:00:00Z"
+					}
+				},
+				"dates": {
+					"start": {
+						"localDate": "2025-02-07",
+						"localTime": "20:00:00",
+						"dateTime": "2025-02-08T04:00:00Z",
+						"dateTBD": false,
+						"dateTBA": false,
+						"timeTBA": false,
+						"noSpecificTime": false
+					},
+					"status": {
+						"code": "onsale"
+					},
+					"spanMultipleDays": false
+				},
+				"classifications": [
+					{
+						"primary": true,
+						"segment": {
+							"id": "KZFzniwnSyZfZ7v7na",
+							"name": "Arts & Theatre",
+							"levelType": "segment"
+						},
+						"genre": {
+							"id": "KnvZfZ7v7l1",
+							"name": "Theatre",
+							"levelType": "Level"
+						},
+						"subGenre": {
+							"id": "KZazBEonSMnZfZ7vAve",
+							"name": "Musical",
+							"levelType": "Level"
+						},
+						"family": false
+					}
+				],
+				"outlets": [
+					{
+						"url": "http://hultcenter.org/",
+						"type": "venueBoxOffice"
+					},
+					{
+						"url": "https://www.ticketmaster.com/dear-evan-hansen-eugene-oregon-02-07-2025/event/Z7r9jZ1A7apQ6",
+						"type": "tmMarketPlace"
+					}
+				],
+				"seatmap": {
+					"staticUrl": "https://content.resale.ticketmaster.com/graphics/TMResale/2/VenueMaps/1549-0-0-1-SilvaConcertHallBookofMormon.png",
+					"id": "seatmap"
+				},
+				"ticketing": {
+					"allInclusivePricing": {
+						"enabled": false
+					},
+					"id": "ticketing"
+				},
+				"_links": {
+					"self": {
+						"href": "/discovery/v2/events/Z7r9jZ1A7apQ6?locale=en-us"
+					},
+					"attractions": [
+						{
+							"href": "/discovery/v2/attractions/Z7r9jZaaQn?locale=en-us"
+						}
+					],
+					"venues": [
+						{
+							"href": "/discovery/v2/venues/ZFr9jZekA1?locale=en-us"
+						}
+					]
+				},
+				"_embedded": {
+					"venues": [
+						{
+							"name": "Silva Concert Hall",
+							"type": "venue",
+							"id": "ZFr9jZekA1",
+							"test": false,
+							"locale": "en-us",
+							"postalCode": "97401",
+							"timezone": "America/Los_Angeles",
+							"city": {
+								"name": "Eugene"
+							},
+							"state": {
+								"name": "Oregon",
+								"stateCode": "OR"
+							},
+							"country": {
+								"name": "United States Of America",
+								"countryCode": "US"
+							},
+							"address": {
+								"line1": "One Eugene Center"
+							},
+							"location": {
+								"longitude": "-123.082001000",
+								"latitude": "44.068501000"
+							},
+							"dmas": [
+								{
+									"id": 272
+								}
+							],
+							"upcomingEvents": {
+								"tmr": 48,
+								"_total": 48,
+								"_filtered": 0
+							},
+							"_links": {
+								"self": {
+									"href": "/discovery/v2/venues/ZFr9jZekA1?locale=en-us"
+								}
+							}
+						}
+					],
+					"attractions": [
+						{
+							"name": "Dear Evan Hansen",
+							"type": "attraction",
+							"id": "Z7r9jZaaQn",
+							"test": false,
+							"locale": "en-us",
+							"images": [
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+									"width": 2048,
+									"height": 1152,
+									"fallback": true
+								},
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_RETINA_PORTRAIT_3_2.jpg",
+									"width": 640,
+									"height": 427,
+									"fallback": true
+								},
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_3_2.jpg",
+									"width": 1024,
+									"height": 683,
+									"fallback": true
+								},
+								{
+									"ratio": "4_3",
+									"url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_CUSTOM.jpg",
+									"width": 305,
+									"height": 225,
+									"fallback": true
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_RECOMENDATION_16_9.jpg",
+									"width": 100,
+									"height": 56,
+									"fallback": true
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_EVENT_DETAIL_PAGE_16_9.jpg",
+									"width": 205,
+									"height": 115,
+									"fallback": true
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_RETINA_PORTRAIT_16_9.jpg",
+									"width": 640,
+									"height": 360,
+									"fallback": true
+								},
+								{
+									"ratio": "3_2",
+									"url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_ARTIST_PAGE_3_2.jpg",
+									"width": 305,
+									"height": 203,
+									"fallback": true
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_TABLET_LANDSCAPE_16_9.jpg",
+									"width": 1024,
+									"height": 576,
+									"fallback": true
+								},
+								{
+									"ratio": "16_9",
+									"url": "https://s1.ticketm.net/dam/c/07d/fda8c807-42eb-4b81-9f16-f3a8367e107d_106371_RETINA_LANDSCAPE_16_9.jpg",
+									"width": 1136,
+									"height": 639,
+									"fallback": true
+								}
+							],
+							"classifications": [
+								{
+									"primary": true,
+									"segment": {
+										"id": "KZFzniwnSyZfZ7v7na",
+										"name": "Arts & Theatre",
+										"levelType": "segment"
+									},
+									"genre": {
+										"id": "KnvZfZ7v7l1",
+										"name": "Theatre",
+										"levelType": "Level"
+									},
+									"subGenre": {
+										"id": "KZazBEonSMnZfZ7vAve",
+										"name": "Musical",
+										"levelType": "Level"
+									},
+									"family": false
+								}
+							],
+							"upcomingEvents": {
+								"mfx-za": 65,
+								"tmr": 40,
+								"ticketmaster": 18,
+								"_total": 123,
+								"_filtered": 0
+							},
+							"_links": {
+								"self": {
+									"href": "/discovery/v2/attractions/Z7r9jZaaQn?locale=en-us"
+								}
+							}
+						}
+					]
+				}
+			}
+		]
+	},
+	"_links": {
+		"first": {
+			"href": "/discovery/v2/events.json?city=eugene&stateCode=OR&page=0&size=20"
+		},
+		"self": {
+			"href": "/discovery/v2/events.json?city=eugene&stateCode=OR"
+		},
+		"next": {
+			"href": "/discovery/v2/events.json?city=eugene&stateCode=OR&page=1&size=20"
+		},
+		"last": {
+			"href": "/discovery/v2/events.json?city=eugene&stateCode=OR&page=14&size=20"
+		}
+	},
+	"page": {
+		"size": 20,
+		"totalElements": 295,
+		"totalPages": 15,
+		"number": 0
+	}
+}
