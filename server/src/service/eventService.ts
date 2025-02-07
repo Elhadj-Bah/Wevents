@@ -73,15 +73,16 @@ const packageData = (data: any, eventsCount: number) => {
 
         let longitude = eventPrefix._embedded.venues[0].location.longitude;
 
-        let standardDateTime = eventPrefix.dates.start.dateTime;
-        let localStartDate = eventPrefix.dates.start.localDate;
-        let localStartTime  = eventPrefix.dates.start.localTime;
-
+        // let localStartDate = eventPrefix.dates.start.localDate;
+        // let localStartTime  = eventPrefix.dates.start.localTime;
+        
+        let localTimestamp: string = eventPrefix.dates.start.localDate + " " + eventPrefix.dates.start.localTime;
 
         let firstImgData = eventPrefix.images[0];//[0] meaning the data for the first image
 
         
-        dataArr.push({eventId, name, url, latitude, longitude, standardDateTime, localStartDate, localStartTime, firstImgData});
+        //dataArr.push({eventId, name, url, latitude, longitude, standardDateTime, localStartDate, localStartTime, firstImgData});
+        dataArr.push({eventId, name, url, latitude, longitude, localTimestamp, firstImgData});
     }
 
     return dataArr;
@@ -95,7 +96,7 @@ const setDateRange = (): string[] => {
 
     dateArr.push(startDate);
 
-    const endDate = dayjs().add(16, "day").format("YYYY-MM-DDTHH:mm:ssZ ");
+    const endDate = dayjs().add(5, "day").format("YYYY-MM-DDTHH:mm:ssZ ");
    
     dateArr.push(endDate);
 

@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 import { getEvents } from '../../service/eventService.js';
 //import dayjs from 'dayjs';
 
-//import ForecastService from '../../service/ForecastService.js';
+import ForecastService from '../../service/ForecastService.js';
 
 dotenv.config();
 
@@ -19,9 +19,12 @@ router.get('/', async (req: Request, res:Response) => {
         }
         console.log(`EVENT DATA RETURNED SUCCESSFULLY!!!!`);
      
+         const forecastArr = [];
+
          eventData.forEach(async element => {
-            //const weatherData = await ForecastService.getWeatherLocation(element.latitude, element.longitude);
-            //console.log(weatherData);
+            //const localTimestamp: string = element.localStartDate + " " + element.localStartTime;
+            const weatherData = await ForecastService.getWeatherLocation(element.latitude, element.longitude, element.localTimestamp);
+            console.log(weatherData);
             // let nearestDate = "";
             // let nearestTime = "";
             // let weather = {};
@@ -29,8 +32,8 @@ router.get('/', async (req: Request, res:Response) => {
             //   const [date, time] = weatherObj.dt_txt.split(" ");
               
             // })
-            //console.log(`forecastArr.length = ${forecastArr.length}`);
-            console.log(element);
+            console.log(`forecastArr.length = ${forecastArr.length}`);
+            //console.log(element);
          });
         
 

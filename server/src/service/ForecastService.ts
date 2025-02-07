@@ -1,20 +1,21 @@
 //import dayjs, { type Dayjs } from 'dayjs';
+import dayjs from 'dayjs';
 import dotenv from 'dotenv';
 dotenv.config();
 
-// class Weather {
-//     public date: string;
-//     public temp: number;
-//     public icon: string;
-//     public iconDescription: string;
+class Weather {
+    public date: string;
+    public temp: number;
+    public icon: string;
+    public iconDescription: string;
 
-//     constructor(date: string, temp: number, icon: string, iconDescription: string)  {
-//         this.date = date;
-//         this.temp = temp;
-//         this.icon = icon;
-//         this.iconDescription = iconDescription;
-//     }
-// } 
+    constructor(date: string, temp: number, icon: string, iconDescription: string)  {
+        this.date = date;
+        this.temp = temp;
+        this.icon = icon;
+        this.iconDescription = iconDescription;
+    }
+} 
 
 class ForecastService {
     private baseURL: string;
@@ -25,6 +26,7 @@ class ForecastService {
 
     private longitude: string;
 
+
   
     constructor() {
       this.baseURL = process.env.WEATHER_API_BASE_URL || '';
@@ -34,12 +36,15 @@ class ForecastService {
       this.latitude ="";
 
       this.longitude = "";
+
     }
 
-    async getWeatherLocation(latitude: string, longitude: string){
+    async getWeatherLocation(latitude: string, longitude: string, localTimestamp: string){
         try{
             this.latitude = latitude;
             this.longitude = longitude;
+
+            console.log(`localTimestamp = ${localTimestamp}`);
 
             const response = await fetch(`${this.baseURL}?lat=${this.latitude}&lon=${this.longitude}&appid=${this.apiKey}&units=imperial`);
             console.log(`API CALL = ${`${this.baseURL}?lat=${this.latitude}&lon=${this.longitude}&appid=${this.apiKey}&units=imperial`}`);
@@ -50,8 +55,42 @@ class ForecastService {
                 throw new Error(`Could not find weather data for a location with coordinates "${this.latitude},${this.longitude}"`);
             }else{
                 const data = await response.json();
-                //console.log(`Data = ${JSON.stringify(data)}`);
-                return data;
+                const dataArr: any[] = data.list
+                let minTimeDiff = -1;
+                let weatherObj: any = "";
+                
+                
+                dataArr.forEach(forecast => {
+                    
+                    const weatherDateTime = dayjs(forecast.dt_txt);
+                    const localDateTime = dayjs(localTimestamp);
+
+                    // console.log(`WEATHER DATE: ${weatherDateTime}`);
+                    // console.log(`LOCAL TIME STAMP ${localDateTime}`);
+
+                    const difference = Math.abs(localDateTime.diff(weatherDateTime));
+                    
+
+                    if(minTimeDiff === -1){
+                        minTimeDiff = difference;
+                        weatherObj = forecast;
+                        //console.log(`SET minTimeDiff = ${minTimeDiff}`);
+                    }
+                    
+                    if(minTimeDiff > difference){
+                        minTimeDiff = difference;
+                        weatherObj = forecast;
+                        //console.log(`UPDATE minTimeDiff = ${minTimeDiff}`);
+                    }
+
+                })
+                if(minTimeDiff === -1 || minTimeDiff > 86400000000){
+                    throw new Error('Error in minimum time difference between event and forecast');
+                }
+
+                
+                //date: string, temp: number, icon: string, iconDescription: string
+                return new Weather(weatherObj.dt_txt, weatherObj.main.temp, weatherObj.weather[0].icon, weatherObj.weather[0].description);
             }
         }catch(error){
             console.error(`getWeatherLocation encountered an error: ${error}`);
