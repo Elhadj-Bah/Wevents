@@ -16,9 +16,9 @@ router.get('/', async (req: Request, res:Response) => {
           throw new Error(`unable to fetch events matching your query.`);
         }
         console.log(`EVENT DATA RETURNED SUCCESSFULLY!!!!`);
-        //  eventData.forEach(element => {
-        //     console.log(element.name);
-        //  });
+         eventData.forEach(element => {
+            console.log(element);
+         });
         res.status(200).json(eventData);
 
     }catch(error){
