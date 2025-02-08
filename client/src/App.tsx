@@ -12,7 +12,7 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <div className="container-fluid mt-4 frosted-glass">
+      <div className="container-fluid mt-4">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />

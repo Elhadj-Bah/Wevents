@@ -10,8 +10,8 @@ const Contact: React.FC = () => {
   ];
 
   return (
-    <div className="container mt-4 frosted-glass">
-      <h1 className="text-center mb-4">Contact Us!</h1>
+    <div className="container frosted-glass mt-4">
+      <h2 className="text-center mb-4">Contact Us!</h2>
       <div className="row">
         {teamMembers.map((member, index) => (
           <div className="col-md-6 mb-4" key={index}>
