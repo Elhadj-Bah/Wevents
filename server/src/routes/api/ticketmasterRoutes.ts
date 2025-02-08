@@ -2,6 +2,7 @@ import { Router, type Request, type Response } from 'express';
 import dotenv from 'dotenv';
 import { getEvents } from '../../service/eventService.js';
 
+import ForecastService from '../../service/ForecastService.js';
 
 dotenv.config();
 
@@ -11,15 +12,32 @@ router.get('/', async (req: Request, res:Response) => {
     try{
         const { city, stateCode } = req.body;
         const eventData = await getEvents(city as string, stateCode as string)
-        //if event data is null: API fetch failed more than 3 times.
+        //if event data is null: API fetch failed more than 3 times. This tends to happen a lot due to the design of the Ticketmaster Discovery API.
         if(!eventData){
-          throw new Error(`unable to fetch events matching your query.`);
+          throw new Error(`unable to fetch events matching your query in "${city} ${stateCode}".`);
+        }else{
+                       // Create an array of promises to fetch weather data
+                       const forecastPromises = eventData.map(async (event) => {
+                        const weatherData = await ForecastService.getWeatherLocation(
+                            event.latitude, 
+                            event.longitude, 
+                            event.localTimestamp,
+                            event.eventId
+                        );
+        
+                        return weatherData ? { eventId: event.id, forecast: weatherData } : null;
+                    });
+        
+                    // Wait for all weather data to be fetched
+                    const resolvedForecasts = await Promise.all(forecastPromises);
+        
+                    // Filter out null values (if any weather data couldn't be retrieved)
+                    const forecastData = resolvedForecasts.filter(data => data !== null);
+        
+                    // Send separate eventData and forecastData while keeping them linked
+                    res.status(200).json({ eventData, forecastData });
+         
         }
-        console.log(`EVENT DATA RETURNED SUCCESSFULLY!!!!`);
-         eventData.forEach(element => {
-            console.log(element);
-         });
-        res.status(200).json(eventData);
 
     }catch(error){
         if(error instanceof Error){
@@ -33,8 +51,6 @@ router.get('/', async (req: Request, res:Response) => {
     }
     
 } );
-
-
 
 
 export default router;

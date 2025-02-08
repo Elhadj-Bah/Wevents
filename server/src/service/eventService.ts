@@ -56,7 +56,7 @@ const getEvents = async (city: string, stateCode: string) =>{
     
 }
 
-//thish packages up all the relevant data into an array
+//this packages up all the relevant data into an object and stores it in an array.
 const packageData = (data: any, eventsCount: number) => {
     const dataArr = [];
   
@@ -69,27 +69,41 @@ const packageData = (data: any, eventsCount: number) => {
 
         let url = eventPrefix.url;
 
-        let localStartDate = eventPrefix.dates.start.localDate;
-        let localStartTime  = eventPrefix.dates.start.localTime;
+        let latitude = eventPrefix._embedded.venues[0].location.latitude;
+
+        let longitude = eventPrefix._embedded.venues[0].location.longitude;
+        
+        let localTimestamp: string = eventPrefix.dates.start.localDate + " " + eventPrefix.dates.start.localTime;
 
         let firstImgData = eventPrefix.images[0];//[0] meaning the data for the first image
 
-        
-        dataArr.push({eventId, name, url, localStartDate, localStartTime, firstImgData});
+    
+        dataArr.push({eventId, name, url, latitude, longitude, localTimestamp, firstImgData});
     }
 
     return dataArr;
 }
 
-//this gets the date range and formats it in a way that the API fetch can understand.
+//this gets the date range and formats it in a way that the API fetch to ticketmaster can understand.
 const setDateRange = (): string[] => {
     const dateArr: string[] = [];
 
-    const startDate = dayjs().format("YYYY-MM-DDTHH:mm:ssZ ");
+    //!!!Setting the start date to 00:00:00 one day after the request is made to better match the data returned by the OpenWeather API.
+    const startDate = dayjs()
+                        .add(1, "day")
+                        .hour(0)
+                        .minute(0)
+                        .second(0)
+                        .millisecond(0) 
+                        .format("YYYY-MM-DDTHH:mm:ssZ ");
 
     dateArr.push(startDate);
 
-    const endDate = dayjs().add(16, "day").format("YYYY-MM-DDTHH:mm:ssZ ");
+    //!!!The OpenWeather API call can only get the forecast for the next five days
+    const endDate = dayjs().add(5, "day").format("YYYY-MM-DDTHH:mm:ssZ ");
+
+    console.log(`*********START DATE*********: ${startDate}`);
+    console.log(`*********END DATE*********: ${endDate}`);
    
     dateArr.push(endDate);
 
@@ -98,11 +112,11 @@ const setDateRange = (): string[] => {
 }
 //used to select a certain number of events at random indices to pass back to the front end
 const filterData  = (dataArr: any[]): any[] => {
-    //generate 4 random numbers based on the number of events in the array
+    /*generate random numbers(representing array indicies) based on the number of events in the array
+    the default is four and the max is 20. This controls how many events are returned to the frontend.*/
     const randomIndices = getUniqueRandomIndicies(dataArr.length, 4);
     const selectedEvents = randomIndices.map(index => dataArr[index]);
-    //console.log(`"Random Indices:" ${randomIndices}`);
-    //console.log("Selected Events:", selectedEvents);
+
     return selectedEvents;
 }
 
