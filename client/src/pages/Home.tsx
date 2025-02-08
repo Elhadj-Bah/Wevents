@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState, FormEvent } from "react";
 import { LocationData } from "../interfaces/locationData";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Dropdown, DropdownButton } from "react-bootstrap";
@@ -64,10 +64,30 @@ const Home = () => {
 
   const [selectedState, setSelectedState] = useState<string>("");
 
-  const handleSearch = () => {
-    console.log(
-      `Searching for events in ${location.city}, ${location.stateCode}`
-    );
+  const handleSearch = async (e: FormEvent) => {
+    e.preventDefault();
+  
+    if (!location.city || !location.stateCode) {
+      console.error("City and state are required.");
+      return;
+    }
+  
+    try {
+      console.log(`Searching for events in ${location.city}, ${location.stateCode}`);
+  
+      const response = await fetch(
+        `http://localhost:3001/api/event?city=${encodeURIComponent(location.city)}&stateCode=${encodeURIComponent(location.stateCode)}`
+      );
+  
+      if (!response.ok) {
+        throw new Error(`HTTP error! Status: ${response.status}`);
+      }
+  
+      const data = await response.json();
+      console.log("Data =", data);
+    } catch (error) {
+      console.error("Error fetching events:", error);
+    }
   };
 
   const handleLocationChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -87,6 +107,7 @@ const Home = () => {
             <div className="col-md-8">
               <input
                 type="text"
+                name="city"
                 className="form-control"
                 placeholder="Enter city"
                 value={location.city || ""}
@@ -100,16 +121,19 @@ const Home = () => {
                 title={selectedState || "Select state"}
                 className="w-100"
               >
-                {" "}
+                {/* {" "} */}
                 {states.map((state) => (
                   <Dropdown.Item
                     key={state}
-                    onClick={() => setSelectedState(state)}
+                    onClick={() => {
+                      setSelectedState(state);
+                      setLocation((prev) => ({...prev, stateCode: state}));
+                    }}
                   >
-                    {" "}
-                    {state}{" "}
+                    {/* {" "} */}
+                    {state}
                   </Dropdown.Item>
-                ))}{" "}
+                ))}
               </DropdownButton>
             </div>
           </div>
