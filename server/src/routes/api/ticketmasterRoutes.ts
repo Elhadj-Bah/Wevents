@@ -10,7 +10,7 @@ const router = Router();
 
 router.get('/', async (req: Request, res:Response) => {
     try{
-        const { city, stateCode } = req.body;
+        const { city, stateCode } = req.query;
         const eventData = await getEvents(city as string, stateCode as string)
         //if event data is null: API fetch failed more than 3 times. This tends to happen a lot due to the design of the Ticketmaster Discovery API.
         if(!eventData){
