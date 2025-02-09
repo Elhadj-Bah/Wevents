@@ -18,7 +18,7 @@ const getEvents = async (city: string, stateCode: string) =>{
                 `${process.env.EVENT_API_BASE_URL}events.json?stateCode=${stateCode}&city=${city}&startDateTime=${startDate}&endDateTime=${endDate}
                     &apikey=${process.env.EVENT_API_KEY}`
               );
-              
+              console.log( `TICKETMASTER API URL: ${process.env.EVENT_API_BASE_URL}events.json?stateCode=${stateCode}&city=${city}&apikey=${process.env.EVENT_API_KEY}`)
     
             if(!response.ok){
                 throw new Error(`unable to find events for "${city}, ${stateCode}".`);
@@ -42,17 +42,17 @@ const getEvents = async (city: string, stateCode: string) =>{
                 attempt++;
                 if (attempt >= maxAttempts) {
                     console.error("Max retries reached. Returning null.");
-                    return null;
+                    return null
                 }
             }
             else{
                 console.error(`\n Error caught in / router.get method catch block: ${error}`);
-                return null;
+                throw error;
             }
 
         }
     }
-    return null;
+    throw new Error('attempt to call API failed');
     
 }
 
