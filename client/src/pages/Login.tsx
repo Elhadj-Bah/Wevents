@@ -1,89 +1,96 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import auth from "../utils/auth";
 
-const states = [
-  "AL",
-  "AK",
-  "AZ",
-  "AR",
-  "CA",
-  "CO",
-  "CT",
-  "DE",
-  "FL",
-  "GA",
-  "HI",
-  "ID",
-  "IL",
-  "IN",
-  "IA",
-  "KS",
-  "KY",
-  "LA",
-  "ME",
-  "MD",
-  "MA",
-  "MI",
-  "MN",
-  "MS",
-  "MO",
-  "MT",
-  "NE",
-  "NV",
-  "NH",
-  "NJ",
-  "NM",
-  "NY",
-  "NC",
-  "ND",
-  "OH",
-  "OK",
-  "OR",
-  "PA",
-  "RI",
-  "SC",
-  "SD",
-  "TN",
-  "TX",
-  "UT",
-  "VT",
-  "VA",
-  "WA",
-  "WV",
-  "WI",
-  "WY",
-];
+// const states = [
+//   "AL",
+//   "AK",
+//   "AZ",
+//   "AR",
+//   "CA",
+//   "CO",
+//   "CT",
+//   "DE",
+//   "FL",
+//   "GA",
+//   "HI",
+//   "ID",
+//   "IL",
+//   "IN",
+//   "IA",
+//   "KS",
+//   "KY",
+//   "LA",
+//   "ME",
+//   "MD",
+//   "MA",
+//   "MI",
+//   "MN",
+//   "MS",
+//   "MO",
+//   "MT",
+//   "NE",
+//   "NV",
+//   "NH",
+//   "NJ",
+//   "NM",
+//   "NY",
+//   "NC",
+//   "ND",
+//   "OH",
+//   "OK",
+//   "OR",
+//   "PA",
+//   "RI",
+//   "SC",
+//   "SD",
+//   "TN",
+//   "TX",
+//   "UT",
+//   "VT",
+//   "VA",
+//   "WA",
+//   "WV",
+//   "WI",
+//   "WY",
+// ];
 
 const Login: React.FC = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
-  const [city, setCity] = useState("");
-  const [state, setState] = useState("");
+  // const [city, setCity] = useState("");
+  // const [state, setState] = useState("");
   const [error, setError] = useState("");
 
   const handleLogin = async () => {
-    if (!username || !password || !city || !state) {
+    if (!username || !password) {
       setError("All fields are required");
       return;
     }
 
-    const user = { username, password, city, state };
+    const user = { username, password };
 
     try {
-      const response = await fetch("/api/users", {
+      const response = await fetch("/auth/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(user),
       });
 
       if (!response.ok) {
-        throw new Error("Failed to register user");
+        throw new Error("Failed to login.");
       }
 
-      console.log("User registered successfully");
+      const data = await response.json();
+      if (data.token) {
+        auth.login(data.token);
+      } else {
+        console.log("No token received");
+      }
+      console.log("User Logged successfully");
     } catch (error) {
-      console.error("Error registering user:", error);
-      setError("Failed to register user");
+      console.error("Error logging in:", error);
+      setError("Failed to login");
     }
   };
 
@@ -109,29 +116,6 @@ const Login: React.FC = () => {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
-        </div>
-        <div className="mb-3">
-          <input
-            type="text"
-            className="form-control"
-            placeholder="City"
-            value={city}
-            onChange={(e) => setCity(e.target.value)}
-          />
-        </div>
-        <div className="mb-3">
-          <select
-            className="form-control"
-            value={state}
-            onChange={(e) => setState(e.target.value)}
-          >
-            <option value="">State</option>
-            {states.map((state) => (
-              <option key={state} value={state}>
-                {state}
-              </option>
-            ))}
-          </select>
         </div>
         <div className="d-grid">
           <button className="btn btn-primary" onClick={handleLogin}>
