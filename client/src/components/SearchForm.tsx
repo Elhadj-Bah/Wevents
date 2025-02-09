@@ -81,6 +81,7 @@ const searchForm = ({setEventData}: SearchFormProps) => {
     try {
       console.log(`Searching for events in ${location.city}, ${location.stateCode}`);
       const data = await getEvents(location);
+      console.log(data);
       setEventData(data.eventData);
 
     } catch (error) {

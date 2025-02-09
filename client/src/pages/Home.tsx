@@ -4,9 +4,9 @@ import { useState } from "react";
 interface Event{
   eventId: string;
   name: string;
-  url: string;
+  url: string | undefined;
   localTimestamp: string;
-  FirstImageData: {
+  firstImgData: {
     ratio: string;
     url: string;
     width: number;
@@ -27,9 +27,18 @@ const Home = () => {
         <SearchForm setEventData={setEventData}/>
         {eventData.map((event) => {
           return(
-            <div key={event.eventId}>
+            <div className="card">
+              <div key={event.eventId}>
               <p>{event.name}</p>
+              <p>{event.localTimestamp}</p>
+              <a href={event.url || "#"} target="_blank" rel="noopener noreferrer">
+                <img src={event.firstImgData.url} alt={`event image for ${event.name}`} 
+                    className="standardized-img">
+                </img>
+              </a>
             </div>
+            </div>
+
           );
         })}
       </div>
