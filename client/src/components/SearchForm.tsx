@@ -59,10 +59,12 @@ const states = [
 ];
 
 interface SearchFormProps{
-  setEventData: (eventData: any) => void;
+  // setEventData: (eventData: any) => void;
+  // setWeatherData: (weatherData: any) => void
+  setData: (data: {events: any; weather: any}) => void;
 }
 
-const searchForm = ({setEventData}: SearchFormProps) => {
+const searchForm = ({setData}: SearchFormProps) => {
   const [location, setLocation] = useState<LocationData>({
     city: "",
     stateCode: "",
@@ -82,7 +84,11 @@ const searchForm = ({setEventData}: SearchFormProps) => {
       console.log(`Searching for events in ${location.city}, ${location.stateCode}`);
       const data = await getEvents(location);
       console.log(data);
-      setEventData(data.eventData);
+      setData({
+        events: data.eventData,
+        weather: data.forecastData
+      })
+
 
     } catch (error) {
       console.error("Error fetching events:", error);
