@@ -1,5 +1,5 @@
 import { useState, FormEvent } from "react";
-import { LocationData } from "../interfaces/LocationData";
+import { LocationData } from "../interfaces/LocationInterface";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Dropdown, DropdownButton } from "react-bootstrap";
 import getEvents from "../api/eventApi";

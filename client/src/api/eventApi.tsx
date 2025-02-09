@@ -1,6 +1,6 @@
-import { LocationData } from "../interfaces/LocationData";
+import { LocationData } from "../interfaces/LocationInterface";
 
-export const getEvents = async (location: LocationData) => {
+ const getEvents = async (location: LocationData) => {
   try{
       const {city, stateCode} = location;
       const response = await fetch(
@@ -10,8 +10,7 @@ export const getEvents = async (location: LocationData) => {
         throw new Error(`HTTP error! Status: ${response.status}`);
       }
       
-      const data = await response.json();
-      console.log("Data =", data);
+      return await response.json();
 
   }catch(error){
     console.error(`getEventRoutes encountered an error: ${error}`);

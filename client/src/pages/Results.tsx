@@ -2,27 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Card from "../components/Card";
-
-interface Event {
-  id: string;
-  name: string;
-  url: string;
-  localStartDate: string;
-  localStartTime: string;
-  FirstImageData: {
-    ratio: string;
-    url: string;
-    width: number;
-    height: number;
-    fallback: boolean;
-  };
-}
-
-interface Weather {
-  temp: number;
-  description: string;
-  icon: string;
-}
+import { CardInfo } from "../interfaces/CardInterface";
 
 const Results: React.FC = () => {
   const [events, setEvents] = useState<Event[]>([]);
