@@ -1,5 +1,6 @@
 import dotenv from 'dotenv';
 import express from 'express';
+import apiRoutes from './routes/api/index.js';
 dotenv.config();
 
 // Import the routes
@@ -13,6 +14,7 @@ const PORT = process.env.PORT || 3001;
 app.use(express.static('../client/dist'));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+app.use('/api', apiRoutes);
 app.use(routes);
 
 // Start the server on the port
