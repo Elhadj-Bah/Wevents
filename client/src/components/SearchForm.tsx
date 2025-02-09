@@ -59,8 +59,6 @@ const states = [
 ];
 
 interface SearchFormProps{
-  // setEventData: (eventData: any) => void;
-  // setWeatherData: (weatherData: any) => void
   setData: (data: {events: any; weather: any}) => void;
 }
 

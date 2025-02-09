@@ -16,19 +16,18 @@ interface Event{
   };
 };
 
-interface Weather{
+interface Forecast{
+  forecast: {
     eventId: string;
     dateTimeString: string;
     temp: string;
     icon: string;
     iconDescription: string;
+  }
 }
 
 const Home = () => {
-
-  // const [eventData, setEventData] = useState<Event[]>([]);
-  // const [weatherData, setWeatherData] = useState<Weather[]>([]);
-  const [data, setData] = useState<{events: Event[], weather: Weather[]}>({
+  const [data, setData] = useState<{events: Event[], weather: Forecast[]}>({
     events: [],
     weather: []
   })
@@ -45,16 +44,11 @@ const Home = () => {
           <div>
             <h1>Upcoming Events</h1>
 
-            {data.events.map((event) => {
-              // Log the entire weather data for debugging
-              console.log('Weather data:', data.weather); // Add this log
-              
+            {data.events.map((event) => {          
               // Ensure weather is an array and eventId is valid before using .find
-              //const weather = data.weather.find((w) => w.eventId === event.eventId);
               // Log both eventId and weather eventId for debugging
               const weather = data.weather.find((w) => {
-                console.log(`Matching eventId: ${event.eventId} with weather.eventId: ${w.eventId}`);
-                return w.eventId === event.eventId;
+                return w.forecast.eventId === event.eventId;
               });
               return (
                 <div className="card" key={event.eventId}>
@@ -76,13 +70,11 @@ const Home = () => {
                   {/* Display weather info if found */}
                   {weather ? (
                     <div className="weatherInfo">
-                      <p>
-                        Weather will be {weather.temp}°F with {weather.iconDescription}.
-                      </p>
                       <img
-                        src={`https://openweathermap.org/img/wn/${weather.icon}.png`}
-                        alt={weather.iconDescription}
+                        src={`https://openweathermap.org/img/wn/${weather.forecast.icon}.png`}
+                        alt={weather.forecast.iconDescription}
                       />
+                      <p><strong>Weather will be {weather.forecast.temp}°F with {weather.forecast.iconDescription}.</strong></p>
                     </div>
                   ) : (
                     <p>No weather data available.</p>
