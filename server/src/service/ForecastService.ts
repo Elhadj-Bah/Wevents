@@ -1,21 +1,9 @@
-//import dayjs, { type Dayjs } from 'dayjs';
+
 import dayjs from 'dayjs';
 import dotenv from 'dotenv';
 dotenv.config();
 
-// class Weather {
-//     public date: string;
-//     public temp: number;
-//     public icon: string;
-//     public iconDescription: string;
 
-//     constructor(date: string, temp: number, icon: string, iconDescription: string)  {
-//         this.date = date;
-//         this.temp = temp;
-//         this.icon = icon;
-//         this.iconDescription = iconDescription;
-//     }
-// } 
 
 class ForecastService {
     private baseURL: string;

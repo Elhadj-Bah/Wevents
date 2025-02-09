@@ -10,12 +10,15 @@ const router = Router();
 
 router.get('/', async (req: Request, res:Response) => {
     try{
-        const { city, stateCode } = req.body;
+        const { city, stateCode } = req.query;
+
         const eventData = await getEvents(city as string, stateCode as string)
         //if event data is null: API fetch failed more than 3 times. This tends to happen a lot due to the design of the Ticketmaster Discovery API.
         if(!eventData){
-          throw new Error(`unable to fetch events matching your query in "${city} ${stateCode}".`);
-        }else{
+          console.error(`\n API fetch failed for "${city} ${stateCode}". Returning 514.`);
+          return res.status(514).json({ message: 'Unable to fetch events matching your query.' });
+        }
+        if(Array.isArray(eventData)){
                        // Create an array of promises to fetch weather data
                        const forecastPromises = eventData.map(async (event) => {
                         const weatherData = await ForecastService.getWeatherLocation(
@@ -35,19 +38,13 @@ router.get('/', async (req: Request, res:Response) => {
                     const forecastData = resolvedForecasts.filter(data => data !== null);
         
                     // Send separate eventData and forecastData while keeping them linked
-                    res.status(200).json({ eventData, forecastData });
-         
+                    return res.status(200).json({ eventData, forecastData });        
         }
+        return res.status(404).json({message: 'unable to find events that match the query.'});
 
     }catch(error){
-        if(error instanceof Error){
-            console.error(`\n Error caught in / router.get method catch block: ${error.stack}`);
-          }
-          else{
-            console.error(`\n Error caught in / router.get method catch block: ${error}`);
-          }
-
-          res.status(500).json(`An unexpected error occured: ${error}`);
+        console.error(`\n Error caught in / router.get method catch block: ${error instanceof Error ? error.stack : error}`);
+        return res.status(500).json({ message: `An unexpected error occurred: ${error instanceof Error ? error.message : String(error)}` });
     }
     
 } );
