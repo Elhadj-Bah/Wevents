@@ -1,7 +1,8 @@
 import { useState, FormEvent } from "react";
-import { LocationData } from "../interfaces/LocationData";
+import { LocationData } from "../interfaces/LocationInterface";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Dropdown, DropdownButton } from "react-bootstrap";
+import getEvents from "../api/eventApi";
 import "../css/searchForm.css"
 
 const states = [
@@ -57,7 +58,11 @@ const states = [
   "WY",
 ];
 
-const searchForm = () => {
+interface SearchFormProps{
+  setData: (data: {events: any; weather: any}) => void;
+}
+
+const searchForm = ({setData}: SearchFormProps) => {
   const [location, setLocation] = useState<LocationData>({
     city: "",
     stateCode: "",
@@ -75,17 +80,14 @@ const searchForm = () => {
   
     try {
       console.log(`Searching for events in ${location.city}, ${location.stateCode}`);
-  
-      const response = await fetch(
-        `http://localhost:3001/api/event?city=${encodeURIComponent(location.city)}&stateCode=${encodeURIComponent(location.stateCode)}`
-      );
-  
-      if (!response.ok) {
-        throw new Error(`HTTP error! Status: ${response.status}`);
-      }
-  
-      const data = await response.json();
-      console.log("Data =", data);
+      const data = await getEvents(location);
+      console.log(data);
+      setData({
+        events: data.eventData,
+        weather: data.forecastData
+      })
+
+
     } catch (error) {
       console.error("Error fetching events:", error);
     }
