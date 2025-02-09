@@ -1,8 +1,22 @@
-import { LocationData } from "../interfaces/locationData";
+import { LocationData } from "../interfaces/LocationData";
 
 export const getEvents = async (location: LocationData) => {
-  const response = await fetch(
-    `http://localhost:3001/events?city=${location.city}&stateCode=${location.stateCode}`
-  );
-  return await response.json();
+  try{
+      const {city, stateCode} = location;
+      const response = await fetch(
+        `http://localhost:3001/api/event?city=${encodeURIComponent(city)}&stateCode=${encodeURIComponent(stateCode)}`
+      );
+      if (!response.ok) {
+        throw new Error(`HTTP error! Status: ${response.status}`);
+      }
+      
+      const data = await response.json();
+      console.log("Data =", data);
+
+  }catch(error){
+    console.error(`getEventRoutes encountered an error: ${error}`);
+  }
 };
+
+export default getEvents;
+

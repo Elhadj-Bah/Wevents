@@ -2,6 +2,7 @@ import { useState, FormEvent } from "react";
 import { LocationData } from "../interfaces/LocationData";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Dropdown, DropdownButton } from "react-bootstrap";
+import getEvents from "../api/eventApi";
 import "../css/searchForm.css"
 
 const states = [
@@ -75,17 +76,8 @@ const searchForm = () => {
   
     try {
       console.log(`Searching for events in ${location.city}, ${location.stateCode}`);
-  
-      const response = await fetch(
-        `http://localhost:3001/api/event?city=${encodeURIComponent(location.city)}&stateCode=${encodeURIComponent(location.stateCode)}`
-      );
-  
-      if (!response.ok) {
-        throw new Error(`HTTP error! Status: ${response.status}`);
-      }
-  
-      const data = await response.json();
-      console.log("Data =", data);
+      await getEvents(location);
+
     } catch (error) {
       console.error("Error fetching events:", error);
     }
