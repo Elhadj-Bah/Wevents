@@ -69,12 +69,18 @@ const searchForm = ({setData}: SearchFormProps) => {
   });
 
   const [selectedState, setSelectedState] = useState<string>("");
+  const [errorMessage, setErrorMessage] = useState<string>("");
+  const [attemptCount, setAttemptCount] = useState<number>(0);
 
-  const handleSearch = async (e: FormEvent) => {
-    e.preventDefault();
+  const handleSearch = async (e?: FormEvent) => {
+    if(e){
+      e.preventDefault();
+    } 
+    setErrorMessage("");
   
     if (!location.city || !location.stateCode) {
       console.error("City and state are required.");
+      setErrorMessage("City and state are required.");
       return;
     }
   
@@ -85,11 +91,14 @@ const searchForm = ({setData}: SearchFormProps) => {
       setData({
         events: data.eventData,
         weather: data.forecastData
-      })
+      });
+      setAttemptCount(0); // Reset attempt count on success
 
 
     } catch (error) {
       console.error("Error fetching events:", error);
+      setErrorMessage("Unable to fetch events. Please try again");
+      setAttemptCount((prev) => prev + 1);
     }
   };
 
@@ -102,6 +111,17 @@ const searchForm = ({setData}: SearchFormProps) => {
   };
 
   return (
+    <>
+      {errorMessage ? (
+        <>
+        <p className="text-danger">{errorMessage}</p>
+        {attemptCount < 2 && (
+          <button className="btn btn-warning" onClick={() => handleSearch()}>
+            Retry
+          </button>
+        )}
+      </>
+        ) : (
         <form className="form" onSubmit={handleSearch}>
           
           <div className="row mb-3">
@@ -144,6 +164,10 @@ const searchForm = ({setData}: SearchFormProps) => {
             </button>
           </div>
         </form>
+      )}
+        
+    </>
+        
   );
 };
 

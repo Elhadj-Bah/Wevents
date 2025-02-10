@@ -121,6 +121,7 @@ const filterData  = (dataArr: any[]): any[] => {
 }
 
 const getUniqueRandomIndicies = (arrayLength: number, numToGenerate: number) =>{
+    console.log(`NUM TO GENERATE = ${numToGenerate}`);
     if(numToGenerate > arrayLength ){
         throw new Error("Error getting random indexes. The number of indices to generate does not yet exceed the array length");
     }
