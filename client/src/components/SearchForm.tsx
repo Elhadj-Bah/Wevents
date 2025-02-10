@@ -70,7 +70,7 @@ const searchForm = ({setData}: SearchFormProps) => {
 
   const [selectedState, setSelectedState] = useState<string>("");
   const [errorMessage, setErrorMessage] = useState<string>("");
-  const [attemptCount, setAttemptCount] = useState<number>(0);
+  const [attemptFailed, setAttemptFailed] = useState<boolean>(false);
 
   const handleSearch = async (e?: FormEvent) => {
     if(e){
@@ -81,6 +81,7 @@ const searchForm = ({setData}: SearchFormProps) => {
     if (!location.city || !location.stateCode) {
       console.error("City and state are required.");
       setErrorMessage("City and state are required.");
+      clearFormData();
       return;
     }
   
@@ -92,13 +93,14 @@ const searchForm = ({setData}: SearchFormProps) => {
         events: data.eventData,
         weather: data.forecastData
       });
-      setAttemptCount(0); // Reset attempt count on success
+      setAttemptFailed(false); // Reset attempt count on success
 
 
     } catch (error) {
       console.error("Error fetching events:", error);
       setErrorMessage("Unable to fetch events. Please try again");
-      setAttemptCount((prev) => prev + 1);
+      clearFormData();
+      setAttemptFailed(true);
     }
   };
 
@@ -110,11 +112,16 @@ const searchForm = ({setData}: SearchFormProps) => {
     });
   };
 
+  const clearFormData = () =>{
+    setSelectedState("");
+    setLocation({ city: "", stateCode: "" });
+  }
+
   return (
     <>
       {errorMessage && <p className="text-danger">{errorMessage}</p>}
 
-      {attemptCount === 0 ? (
+      {!attemptFailed? (
         <form className="form" onSubmit={handleSearch}>
           <div className="row mb-3">
             <div className="col-md-8">
@@ -159,7 +166,7 @@ const searchForm = ({setData}: SearchFormProps) => {
         </form>
       ) : (
         <div className="mt-3 d-grid">
-          <button className="btn btn-warning" onClick={() => {setAttemptCount(0); setErrorMessage("");}}>
+          <button className="btn btn-warning" onClick={() => {setAttemptFailed(false); setErrorMessage("");}}>
             Retry
           </button>
         </div>
