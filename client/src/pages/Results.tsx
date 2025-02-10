@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Card from "../components/Card";
-import { CardInfo } from "../interfaces/CardInterface";
 
 const Results: React.FC = () => {
   const [events, setEvents] = useState<Event[]>([]);

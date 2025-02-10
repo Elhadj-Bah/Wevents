@@ -1,65 +1,11 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import auth from "../utils/auth";
-
-// const states = [
-//   "AL",
-//   "AK",
-//   "AZ",
-//   "AR",
-//   "CA",
-//   "CO",
-//   "CT",
-//   "DE",
-//   "FL",
-//   "GA",
-//   "HI",
-//   "ID",
-//   "IL",
-//   "IN",
-//   "IA",
-//   "KS",
-//   "KY",
-//   "LA",
-//   "ME",
-//   "MD",
-//   "MA",
-//   "MI",
-//   "MN",
-//   "MS",
-//   "MO",
-//   "MT",
-//   "NE",
-//   "NV",
-//   "NH",
-//   "NJ",
-//   "NM",
-//   "NY",
-//   "NC",
-//   "ND",
-//   "OH",
-//   "OK",
-//   "OR",
-//   "PA",
-//   "RI",
-//   "SC",
-//   "SD",
-//   "TN",
-//   "TX",
-//   "UT",
-//   "VT",
-//   "VA",
-//   "WA",
-//   "WV",
-//   "WI",
-//   "WY",
-// ];
+import { Button } from "react-bootstrap";
 
 const Login: React.FC = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
-  // const [city, setCity] = useState("");
-  // const [state, setState] = useState("");
   const [error, setError] = useState("");
 
   const handleLogin = async () => {
@@ -95,9 +41,10 @@ const Login: React.FC = () => {
   };
 
   return (
+    // THIS IS THE OLD WAY
     <div className="d-flex justify-content-center align-items-center vh-50 frosted-glass">
-      <div className="w-50">
-        <h1 className="text-center mb-4">Login</h1>
+      <div className="w-60">
+        <h1 className="mb-4">Login</h1>
         {error && <div className="alert alert-danger">{error}</div>}
         <div className="mb-3">
           <input
@@ -124,6 +71,32 @@ const Login: React.FC = () => {
         </div>
       </div>
     </div>
+
+    
+    // // THIS IS THE NEW WAY
+    // <div className="frosted-glass w-100">
+    //   <h1 className="d-flex">Login</h1>
+    //   {error && <div className="alert alert-danger">{error}</div>}
+    //   <div className="d-flex flex-column gap-1 py-2">
+    //     <input
+    //       type="text"
+    //       className="form-control"
+    //       value={username}
+    //       placeholder="Username"
+    //       onChange={(e) => setUsername(e.target.value)}
+    //     />
+    //     <input
+    //       type="password"
+    //       className="form-control"
+    //       value={password}
+    //       placeholder="Password"
+    //       onChange={(e) => setUsername(e.target.value)}
+    //     />
+    //   </div>
+    //   <div className="d-flex align-items-end flex-column p-2">
+    //     <Button>Login</Button>
+    //   </div>
+    // </div>
   );
 };
 
