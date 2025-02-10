@@ -112,18 +112,10 @@ const searchForm = ({setData}: SearchFormProps) => {
 
   return (
     <>
-      {errorMessage ? (
-        <>
-        <p className="text-danger">{errorMessage}</p>
-        {attemptCount < 2 && (
-          <button className="btn btn-warning" onClick={() => handleSearch()}>
-            Retry
-          </button>
-        )}
-      </>
-        ) : (
+      {errorMessage && <p className="text-danger">{errorMessage}</p>}
+
+      {attemptCount === 0 ? (
         <form className="form" onSubmit={handleSearch}>
-          
           <div className="row mb-3">
             <div className="col-md-8">
               <input
@@ -131,7 +123,7 @@ const searchForm = ({setData}: SearchFormProps) => {
                 name="city"
                 className="form-control"
                 placeholder="Enter city"
-                value={location.city || ""}
+                value={location.city}
                 onChange={handleLocationChange}
               />
             </div>
@@ -142,33 +134,39 @@ const searchForm = ({setData}: SearchFormProps) => {
                 title={selectedState || "Select state"}
                 className="w-100"
               >
-                <div style={{maxHeight: "300px", overflowY: "auto"}}>
-                    {states.map((state) => (
+                <div style={{ maxHeight: "300px", overflowY: "auto" }}>
+                  {states.map((state) => (
                     <Dropdown.Item
-                        key={state}
-                        onClick={() => {
+                      key={state}
+                      onClick={() => {
                         setSelectedState(state);
-                        setLocation((prev) => ({...prev, stateCode: state}));
-                        }}
+                        setLocation((prev) => ({ ...prev, stateCode: state }));
+                      }}
                     >
-                        {state}
+                      {state}
                     </Dropdown.Item>
-                    ))}
+                  ))}
                 </div>
               </DropdownButton>
             </div>
           </div>
+
           <div className="d-grid">
-            <button className="btn btn-primary" onClick={handleSearch}>
+            <button type="submit" className="btn btn-primary">
               Search
             </button>
           </div>
         </form>
+      ) : (
+        <div className="mt-3 d-grid">
+          <button className="btn btn-warning" onClick={() => {setAttemptCount(0); setErrorMessage("");}}>
+            Retry
+          </button>
+        </div>
       )}
-        
     </>
-        
   );
+
 };
 
 export default searchForm;
