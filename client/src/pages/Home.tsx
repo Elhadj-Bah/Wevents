@@ -1,6 +1,8 @@
 import SearchForm from "../components/SearchForm";
 import { useState } from "react";
 import dayjs from "dayjs";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 
 interface Event{
   eventId: string;
@@ -42,6 +44,7 @@ const Home = () => {
           </>
         ) : (
           <div>
+            <FontAwesomeIcon icon={faMagnifyingGlass} style={{ color: 'white' }} onClick={() => setData({ events: [], weather: [] })}/>
             <h1>Upcoming Events</h1>
 
             {data.events.map((event) => {          
