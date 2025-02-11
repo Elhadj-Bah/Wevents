@@ -40,6 +40,12 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+.search-icon {
+  color: white;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
