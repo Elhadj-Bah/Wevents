@@ -1,3 +1,5 @@
+import cors from 'cors';
+
 const forceDatabaseRefresh = false;
 
 import express from 'express';
@@ -5,6 +7,9 @@ import sequelize from './config/connection.js';
 import routes from './routes/index.js';
 
 const app = express();
+app.use(cors({
+  origin: 'http://localhost:3000',
+}));
 const PORT = process.env.PORT || 3001;
 
 // Serves static files in the entire client's dist folder

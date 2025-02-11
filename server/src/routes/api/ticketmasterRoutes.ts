@@ -28,7 +28,7 @@ router.get('/', async (req: Request, res:Response) => {
                             event.eventId
                         );
         
-                        return weatherData ? { eventId: event.id, forecast: weatherData } : null;
+                        return weatherData ? { eventId: event.eventId, forecast: weatherData } : null;
                     });
         
                     // Wait for all weather data to be fetched
@@ -38,6 +38,7 @@ router.get('/', async (req: Request, res:Response) => {
                     const forecastData = resolvedForecasts.filter(data => data !== null);
         
                     // Send separate eventData and forecastData while keeping them linked
+                    console.log("Returning Data: ", { eventData, forecastData });
                     return res.status(200).json({ eventData, forecastData });        
         }
         return res.status(404).json({message: 'unable to find events that match the query.'});
