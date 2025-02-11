@@ -17,7 +17,7 @@ class ForecastService {
 
   
     constructor() {
-      this.baseURL = process.env.WEATHER_API_BASE_URL || '';
+      this.baseURL = process.env.FORECAST_API_BASE_URL || '';
   
       this.apiKey = process.env.WEATHER_API_KEY || '';
 
@@ -41,7 +41,9 @@ class ForecastService {
                 throw new Error(`Could not find weather data for a location with coordinates "${this.latitude},${this.longitude}"`);
             }else{
                 const data = await response.json();
-                const dataArr: any[] = data.list
+              //  console.log("Forecast data: ", data);
+                const dataArr: any[] = data?.list
+               // console.log("Forecast list: ", dataArr);
                 let minTimeDiff = -1;
                 let weatherObj: any = "";
                 

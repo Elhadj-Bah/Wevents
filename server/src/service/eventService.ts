@@ -32,7 +32,7 @@ const getEvents = async (city: string, stateCode: string) =>{
 
            
            const finalData = filterData(packageData(data, eventsCount));
-      
+            
             return finalData;
     
     
@@ -81,6 +81,7 @@ const packageData = (data: any, eventsCount: number) => {
         dataArr.push({eventId, name, url, latitude, longitude, localTimestamp, firstImgData});
     }
 
+    console.log("Packaged Data: ", dataArr);
     return dataArr;
 }
 

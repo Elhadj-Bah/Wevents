@@ -88,7 +88,7 @@ const searchForm = ({setData}: SearchFormProps) => {
     try {
       console.log(`Searching for events in ${location.city}, ${location.stateCode}`);
       const data = await getEvents(location);
-      console.log(data);
+      console.log("Returned Data: ", data);
       setData({
         events: data.eventData,
         weather: data.forecastData
