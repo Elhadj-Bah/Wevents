@@ -17,7 +17,7 @@ class ForecastService {
 
   
     constructor() {
-      this.baseURL = process.env.FORECAST_API_BASE_URL || '';
+      this.baseURL = process.env.WEATHER_API_BASE_URL || '';
   
       this.apiKey = process.env.WEATHER_API_KEY || '';
 
