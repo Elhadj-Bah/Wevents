@@ -69,12 +69,19 @@ const searchForm = ({setData}: SearchFormProps) => {
   });
 
   const [selectedState, setSelectedState] = useState<string>("");
+  const [errorMessage, setErrorMessage] = useState<string>("");
+  const [attemptFailed, setAttemptFailed] = useState<boolean>(false);
 
-  const handleSearch = async (e: FormEvent) => {
-    e.preventDefault();
+  const handleSearch = async (e?: FormEvent) => {
+    if(e){
+      e.preventDefault();
+    } 
+    setErrorMessage("");
   
     if (!location.city || !location.stateCode) {
       console.error("City and state are required.");
+      setErrorMessage("City and state are required.");
+      clearFormData();
       return;
     }
   
@@ -85,11 +92,15 @@ const searchForm = ({setData}: SearchFormProps) => {
       setData({
         events: data.eventData,
         weather: data.forecastData
-      })
+      });
+      setAttemptFailed(false); // Reset attempt count on success
 
 
     } catch (error) {
       console.error("Error fetching events:", error);
+      setErrorMessage("Unable to fetch events. Please try again");
+      clearFormData();
+      setAttemptFailed(true);
     }
   };
 
@@ -101,9 +112,17 @@ const searchForm = ({setData}: SearchFormProps) => {
     });
   };
 
+  const clearFormData = () =>{
+    setSelectedState("");
+    setLocation({ city: "", stateCode: "" });
+  }
+
   return (
+    <>
+      {errorMessage && <p className="text-danger">{errorMessage}</p>}
+
+      {!attemptFailed? (
         <form className="form" onSubmit={handleSearch}>
-          
           <div className="row mb-3">
             <div className="col-md-8">
               <input
@@ -111,7 +130,7 @@ const searchForm = ({setData}: SearchFormProps) => {
                 name="city"
                 className="form-control"
                 placeholder="Enter city"
-                value={location.city || ""}
+                value={location.city}
                 onChange={handleLocationChange}
               />
             </div>
@@ -122,29 +141,39 @@ const searchForm = ({setData}: SearchFormProps) => {
                 title={selectedState || "Select state"}
                 className="w-100"
               >
-                <div style={{maxHeight: "300px", overflowY: "auto"}}>
-                    {states.map((state) => (
+                <div style={{ maxHeight: "300px", overflowY: "auto" }}>
+                  {states.map((state) => (
                     <Dropdown.Item
-                        key={state}
-                        onClick={() => {
+                      key={state}
+                      onClick={() => {
                         setSelectedState(state);
-                        setLocation((prev) => ({...prev, stateCode: state}));
-                        }}
+                        setLocation((prev) => ({ ...prev, stateCode: state }));
+                      }}
                     >
-                        {state}
+                      {state}
                     </Dropdown.Item>
-                    ))}
+                  ))}
                 </div>
               </DropdownButton>
             </div>
           </div>
+
           <div className="d-grid">
-            <button className="btn btn-primary" onClick={handleSearch}>
+            <button type="submit" className="btn btn-primary">
               Search
             </button>
           </div>
         </form>
+      ) : (
+        <div className="mt-3 d-grid">
+          <button className="btn btn-warning" onClick={() => {setAttemptFailed(false); setErrorMessage("");}}>
+            Retry
+          </button>
+        </div>
+      )}
+    </>
   );
+
 };
 
 export default searchForm;
