@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import auth from "../utils/auth";
-import { Button } from "react-bootstrap";
 
 const Login: React.FC = () => {
   const [username, setUsername] = useState("");
