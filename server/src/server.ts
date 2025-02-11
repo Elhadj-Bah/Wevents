@@ -8,7 +8,7 @@ import routes from './routes/index.js';
 
 const app = express();
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: ['http://localhost:3000', 'https://wevents.onrender.com'],
 }));
 const PORT = process.env.PORT || 3001;
 
