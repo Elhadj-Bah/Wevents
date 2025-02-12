@@ -4,7 +4,7 @@ import { LocationData } from "../interfaces/LocationInterface";
   try{
       const {city, stateCode} = location;
       const response = await fetch(
-        `http://localhost:3001/api/event?city=${encodeURIComponent(city)}&stateCode=${encodeURIComponent(stateCode)}`
+        `/api/event?city=${encodeURIComponent(city)}&stateCode=${encodeURIComponent(stateCode)}`
       );
       
       console.log(` \n API call returned with status: ${response.status}: ${response.statusText}`);
