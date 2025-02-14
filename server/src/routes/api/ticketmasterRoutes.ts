@@ -15,7 +15,7 @@ router.get('/', async (req: Request, res:Response) => {
         const eventData = await getEvents(city as string, stateCode as string)
         //if event data is null: API fetch failed more than 3 times. This tends to happen a lot due to the design of the Ticketmaster Discovery API.
         if(!eventData){
-          console.error(`\n API fetch failed for "${city} ${stateCode}". Returning 514.`);
+          console.error(`\n API fetch failed for "${city} ${stateCode}". Returning 514 (Unable to fetch events matching your query.)`);
           return res.status(514).json({ message: 'Unable to fetch events matching your query.' });
         }
         if(Array.isArray(eventData)){
@@ -38,7 +38,7 @@ router.get('/', async (req: Request, res:Response) => {
                     const forecastData = resolvedForecasts.filter(data => data !== null);
         
                     // Send separate eventData and forecastData while keeping them linked
-                    console.log("Returning Data: ", { eventData, forecastData });
+                    //console.log("Returning Data: ", { eventData, forecastData });
                     return res.status(200).json({ eventData, forecastData });        
         }
         return res.status(404).json({message: 'unable to find events that match the query.'});

@@ -9,16 +9,17 @@ const getEvents = async (city: string, stateCode: string) =>{
 
     const dateArr = setDateRange();
     const [startDate, endDate] = dateArr;
+    console.log( `TICKETMASTER API URL PRE CATCH: ${process.env.EVENT_API_BASE_URL}events.json?stateCode=${stateCode}&city=${city}&apikey=${process.env.EVENT_API_KEY}`)
 
     while(attempt < maxAttempts){
         try{
             console.log(`ATTEMPTS: ${attempt}`);
-
+            console.log( `TICKETMASTER API URL: ${process.env.EVENT_API_BASE_URL}events.json?stateCode=${stateCode}&city=${city}&apikey=${process.env.EVENT_API_KEY}`)
             const response = await fetch(
                 `${process.env.EVENT_API_BASE_URL}events.json?stateCode=${stateCode}&city=${city}&startDateTime=${startDate}&endDateTime=${endDate}
                     &apikey=${process.env.EVENT_API_KEY}`
               );
-              console.log( `TICKETMASTER API URL: ${process.env.EVENT_API_BASE_URL}events.json?stateCode=${stateCode}&city=${city}&apikey=${process.env.EVENT_API_KEY}`)
+              
     
             if(!response.ok){
                 throw new Error(`unable to find events for "${city}, ${stateCode}".`);
@@ -81,7 +82,7 @@ const packageData = (data: any, eventsCount: number) => {
         dataArr.push({eventId, name, url, latitude, longitude, localTimestamp, firstImgData});
     }
 
-    console.log("Packaged Data: ", dataArr);
+    //console.log("Packaged Data: ", dataArr);
     return dataArr;
 }
 
