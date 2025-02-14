@@ -14,8 +14,7 @@ const getEvents = async (city: string, stateCode: string) =>{
     while(attempt < maxAttempts){
         try{
             console.log(`ATTEMPTS: ${attempt}`);
-            console.log(  `${process.env.EVENT_API_BASE_URL}events.json?stateCode=${stateCode}&city=${city}&startDateTime=${startDate}&endDateTime=${endDate}
-                &apikey=${process.env.EVENT_API_KEY}`)
+            console.log(  `${process.env.EVENT_API_BASE_URL}events.json?stateCode=${stateCode}&city=${city}&startDateTime=${startDate}&endDateTime=${endDate}&apikey=${process.env.EVENT_API_KEY}`)
             const response = await fetch(
                 `${process.env.EVENT_API_BASE_URL}events.json?stateCode=${stateCode}&city=${city}&startDateTime=${startDate}&endDateTime=${endDate}
                     &apikey=${process.env.EVENT_API_KEY}`
@@ -101,12 +100,12 @@ const setDateRange = (): string[] => {
                         .minute(0)
                         .second(0)
                         .millisecond(0) 
-                        .format("YYYY-MM-DDTHH:mm:ssZ ");
+                        .format("YYYY-MM-DDTHH:mm:ssZ");
 
     dateArr.push(startDate);
 
     //!!!The OpenWeather API call can only get the forecast for the next five days
-    const endDate = dayjs().add(5, "day").format("YYYY-MM-DDTHH:mm:ssZ ");
+    const endDate = dayjs().add(5, "day").format("YYYY-MM-DDTHH:mm:ssZ");
 
     console.log(`*********START DATE*********: ${startDate}`);
     console.log(`*********END DATE*********: ${endDate}`);
