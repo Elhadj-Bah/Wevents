@@ -23,6 +23,7 @@ const getEvents = async (city: string, stateCode: string) =>{
             console.log(` \n API call returned with status: ${response.status}: ${response.statusText}`);
     
             if(!response.ok){
+                
                 throw new Error(`unable to find events for "${city}, ${stateCode}".`);
             }
         
@@ -39,6 +40,7 @@ const getEvents = async (city: string, stateCode: string) =>{
     
     
         }catch(error){
+            console.error(error);
             if(error instanceof TypeError){
                 console.error(`\n Network error occurred. Retrying... (${attempt + 1}/${maxAttempts})`);
                 attempt++;
