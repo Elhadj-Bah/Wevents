@@ -14,7 +14,8 @@ const getEvents = async (city: string, stateCode: string) =>{
     while(attempt < maxAttempts){
         try{
             console.log(`ATTEMPTS: ${attempt}`);
-            console.log( `TICKETMASTER API URL: ${process.env.EVENT_API_BASE_URL}events.json?stateCode=${stateCode}&city=${city}&apikey=${process.env.EVENT_API_KEY}`)
+            console.log(  `${process.env.EVENT_API_BASE_URL}events.json?stateCode=${stateCode}&city=${city}&startDateTime=${startDate}&endDateTime=${endDate}
+                &apikey=${process.env.EVENT_API_KEY}`)
             const response = await fetch(
                 `${process.env.EVENT_API_BASE_URL}events.json?stateCode=${stateCode}&city=${city}&startDateTime=${startDate}&endDateTime=${endDate}
                     &apikey=${process.env.EVENT_API_KEY}`
@@ -40,7 +41,7 @@ const getEvents = async (city: string, stateCode: string) =>{
     
     
         }catch(error){
-            console.error(error);
+            console.log("ERROR: ", error);
             if(error instanceof TypeError){
                 console.error(`\n Network error occurred. Retrying... (${attempt + 1}/${maxAttempts})`);
                 attempt++;
