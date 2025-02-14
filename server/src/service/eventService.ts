@@ -22,10 +22,10 @@ const getEvents = async (city: string, stateCode: string) =>{
               
             console.log(` \n API call returned with status: ${response.status}: ${response.statusText}`);
     
-            if(!response.ok){
+            // if(!response.ok){
                 
-                throw new Error(`unable to find events for "${city}, ${stateCode}".`);
-            }
+            //     throw new Error(`unable to find events for "${city}, ${stateCode}".`);
+            // }
         
     
             const data = await response.json();
@@ -50,7 +50,7 @@ const getEvents = async (city: string, stateCode: string) =>{
                 }
             }
             else{
-                console.error(`\n Error caught in / router.get method catch block: ${error}`);
+                console.error(`\n Error caught in get events method catch block: ${error}`);
                 throw error;
             }
 
