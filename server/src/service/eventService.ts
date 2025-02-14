@@ -20,6 +20,7 @@ const getEvents = async (city: string, stateCode: string) =>{
                     &apikey=${process.env.EVENT_API_KEY}`
               );
               
+            console.log(` \n API call returned with status: ${response.status}: ${response.statusText}`);
     
             if(!response.ok){
                 throw new Error(`unable to find events for "${city}, ${stateCode}".`);
