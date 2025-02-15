@@ -9,7 +9,6 @@ const getEvents = async (city: string, stateCode: string) =>{
 
     const dateArr = setDateRange();
     const [startDate, endDate] = dateArr;
-    console.log( `TICKETMASTER API URL PRE CATCH: ${process.env.EVENT_API_BASE_URL}events.json?stateCode=${stateCode}&city=${city}&apikey=${process.env.EVENT_API_KEY}`)
 
     while(attempt < maxAttempts){
         try{
@@ -22,13 +21,13 @@ const getEvents = async (city: string, stateCode: string) =>{
               
             console.log(` \n API call returned with status: ${response.status}: ${response.statusText}`);
     
-            // if(!response.ok){
-                
-            //     throw new Error(`unable to find events for "${city}, ${stateCode}".`);
-            // }
+            if(!response.ok){
+                throw new Error(`unable to find events for "${city}, ${stateCode}".`);
+            }
         
     
             const data = await response.json();
+            console.log("DATA: ", data);
             const events = data._embedded.events || [];
             const eventsCount: number = events.length;
 
@@ -38,7 +37,7 @@ const getEvents = async (city: string, stateCode: string) =>{
             
             return finalData;
     
-    
+     
         }catch(error){
             console.log("ERROR: ", error);
             if(error instanceof TypeError){
@@ -94,23 +93,26 @@ const setDateRange = (): string[] => {
     const dateArr: string[] = [];
 
     //!!!Setting the start date to 00:00:00 one day after the request is made to better match the data returned by the OpenWeather API.
-    const startDate = dayjs()
+    const startDateDay = dayjs()
                         .add(1, "day")
                         .hour(0)
                         .minute(0)
                         .second(0)
                         .millisecond(0) 
-                        .format("YYYY-MM-DDTHH:mm:ssZ");
+                        .format("YYYY-MM-DDTHH:mm:ss");
+    const startDate = startDateDay + "Z";
 
     dateArr.push(startDate);
 
     //!!!The OpenWeather API call can only get the forecast for the next five days
-    const endDate = dayjs().add(5, "day").format("YYYY-MM-DDTHH:mm:ssZ");
+    const endDateDay = dayjs().add(5, "day").format("YYYY-MM-DDTHH:mm:ss");
+    const endDate = endDateDay + "Z";
+
+
+    dateArr.push(endDate);
 
     console.log(`*********START DATE*********: ${startDate}`);
     console.log(`*********END DATE*********: ${endDate}`);
-   
-    dateArr.push(endDate);
 
     return dateArr;
     
